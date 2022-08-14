@@ -1,0 +1,8 @@
+baseURL: "http://clfx.cc/mm"
+languageCode: en-us
+title: "My New Hugo Site"
+theme: dimension
+Params:
+  home: /mm
+  author: Michael Pilosov
+  url: https://github.com/mathematicalmichael

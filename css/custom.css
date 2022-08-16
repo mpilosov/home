@@ -29,3 +29,7 @@ border-left: solid 1px #fff;
 #header nav ul {
 border: solid 1px #fff;
 }
+
+h2.major {
+font-size: 1.75em;
+}

@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dev.mathematicalmichael.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Who I am</title>
+      <title>who I am</title>
       <link>http://dev.mathematicalmichael.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@ CV (WEBSITE)</description>
     <item>
       <title>let&#39;s connect</title>
       <link>http://dev.mathematicalmichael.com/contact/</link>
-      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>http://dev.mathematicalmichael.com/contact/</guid>
       <description>I am available for consulting on Python, MLOps, and several other discplines related to the research-to-production process and applied computational mathematics.

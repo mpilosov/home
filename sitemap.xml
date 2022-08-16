@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://clfx.cc/mm/about/</loc>
+    <loc>http://clfx.cc/about/</loc>
   </url><url>
-    <loc>http://clfx.cc/mm/projects/</loc>
+    <loc>http://clfx.cc/projects/</loc>
     <lastmod>2022-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/contact/</loc>
+    <loc>http://clfx.cc/contact/</loc>
     <lastmod>2022-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/projects/moving-pictures/</loc>
+    <loc>http://clfx.cc/projects/moving-pictures/</loc>
     <lastmod>2013-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/projects/probably-art/</loc>
+    <loc>http://clfx.cc/projects/probably-art/</loc>
     <lastmod>2013-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/projects/stochastic-poker/</loc>
+    <loc>http://clfx.cc/projects/stochastic-poker/</loc>
     <lastmod>2018-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/projects/the-oracle/</loc>
+    <loc>http://clfx.cc/projects/the-oracle/</loc>
     <lastmod>2018-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/</loc>
+    <loc>http://clfx.cc/</loc>
     <lastmod>2022-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://clfx.cc/mm/categories/</loc>
+    <loc>http://clfx.cc/categories/</loc>
   </url><url>
-    <loc>http://clfx.cc/mm/tags/</loc>
+    <loc>http://clfx.cc/tags/</loc>
   </url>
 </urlset>

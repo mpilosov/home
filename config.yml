@@ -1,7 +1,7 @@
 #baseURL: http://clfx.cc/mm/
-baseURL: "http://dev.mathematicalmichael.com/"
+baseURL: http://dev.mathematicalmichael.com
 languageCode: en-us
-title: "My New Hugo Site"
+title: "Mathematical Michael"
 theme: dimension
 Params:
   author: Michael Pilosov

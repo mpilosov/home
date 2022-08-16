@@ -8,7 +8,7 @@
     <link rel="canonical" href="{{ .Permalink }}">
     <noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | absURL }}"/></noscript>
     <style>
-        :root{--site-background : url("{{ .Params.background | default "images/bg.jpg" | absURL }}")};
+        :root{--site-background : url("{{ .Params.background | default "images/bg.jpg" | relURL }}")};
     </style>
  
     <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}"/>

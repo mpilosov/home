@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+                <header id="header">
+                    <div class="logo">
+                        <a href="{{ "/" | relURL }}">
+                            <span class="icon">
+                                <img src="{{ .Site.Params.logo | absURL }}">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="inner">
+                            <h1>Woops!</h1>
+                            <p>
+                                you have reached a page in error.
+				please <a href="{{ "/" | relURL }}#lets-connect">contact me</a>.
+                            </p>
+                            <h2><a href="{{ "/" | relURL }}">go back</a></h2>
+                        </div>
+                    </div>
+                </header>
+
+                {{ partial "design.html" .}}
+
+        </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+</body>
+
+{{ partial "footer.html" . }}

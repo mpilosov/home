@@ -8,7 +8,7 @@
             <!-- Header -->
                 <header id="header">
                     <div class="logo">
-                        <a href="{{ .Site.Params.home | default "/"}}">
+                        <a href="{{ "/" | relURL }}">
                             <span class="icon">
                                 <img src="{{ .Params.logo | absURL }}">
                             </span>
@@ -49,7 +49,9 @@
                             {{if .Content }}
                                 <article id="{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
                                     <h2 class="major">{{ .Title }}</h2>
+                                    {{ if .Params.image }}
                                     <span class="image main"><img src="{{ .Params.image }}" alt="" /></span>
+                                    {{ end }}
                                     {{if and .Params.timestamp .Params.date }}
                                         <h4 class="minor">{{ .Params.date | time.Format "January 2006" }}</h4>
                                     {{ end }}

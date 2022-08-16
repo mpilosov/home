@@ -1,8 +1,13 @@
 ---
-title: contact
+title: let's connect
+weight: 3
 date: 2022-08-13
 social: true
 ---
+
+
+I am available for consulting on [Python](https://mindthemath.com/python), [MLOps](), and several other [discplines]() related to the research-to-production process and applied computational mathematics.
+
 
 {{< rawhtml >}}
 <form
@@ -21,3 +26,4 @@ social: true
   <button type="submit">Send</button>
 </form>
 {{< /rawhtml >}}
+

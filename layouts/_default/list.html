@@ -26,7 +26,7 @@
                     </div>
                     <nav>
                         <ul>
-                            {{ range .Pages.ByDate }}
+                            {{ range .Pages.ByWeight }}
                                 {{if .Title }}
                                     {{if .Content}}
                                         <li>
@@ -50,10 +50,8 @@
                                 <article id="{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
                                     <h2 class="major">{{ .Title }}</h2>
                                     <span class="image main"><img src="{{ .Params.image }}" alt="" /></span>
-                                    {{if .Params.date }}
-                                    {{if not (eq .Title "contact")}}
+                                    {{if and .Params.timestamp .Params.date }}
                                         {{ .Params.date | time.Format "2006 January 2" }}
-                                    {{ end }}
                                     {{ end }}
                                     {{ .Content }}
                                     {{if .Params.social }}

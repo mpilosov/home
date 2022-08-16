@@ -1,7 +1,7 @@
 ---
 title: Mathematical Michael
-description: A TAGLINE
-background: bg/portfolio.png
-logo: bg/portfolio.png
+description: Mind the Math
+# background: bg/portfolio.png
+logo: icons/main.svg
 ---
 

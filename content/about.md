@@ -1,7 +1,7 @@
 ---
-title: "Who I am"
-weight: 1
-image: ../bg/portfolio.png
+title: "who I am"
+weight: 10
+image:
 ---
 
 > I help make your discoveries accessible, fast, and reproducible.

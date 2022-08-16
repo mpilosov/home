@@ -1,0 +1,31 @@
+.social-icons {
+ padding:12px 0;
+ text-align: center;
+}
+.social-icons a:not(:last-of-type) {
+ margin-inline-end:12px
+}
+.social-icons a svg {
+ height:50px;
+ width:50px;
+}
+/* vertical bar */
+#header ::before {
+background-color: #e83e8c;
+color: #e83e8c;
+}
+/* horiz bar */
+#header .content {
+border-color: #e83e8c;
+}
+/* circle */
+#header .logo {
+border: solid 1px #fff;
+}
+/* menu */
+#header nav ul li {
+border-left: solid 1px #fff;
+}
+#header nav ul {
+border: solid 1px #fff;
+}

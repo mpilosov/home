@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What I do on My New Hugo Site</title>
+    <link>http://clfx.cc/mm/projects/</link>
+    <description>Recent content in What I do on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://clfx.cc/mm/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>moving pictures</title>
+      <link>http://clfx.cc/mm/projects/moving-pictures/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://clfx.cc/mm/projects/moving-pictures/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>probably art</title>
+      <link>http://clfx.cc/mm/projects/probably-art/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://clfx.cc/mm/projects/probably-art/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>stochastic poker</title>
+      <link>http://clfx.cc/mm/projects/stochastic-poker/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://clfx.cc/mm/projects/stochastic-poker/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>the oracle</title>
+      <link>http://clfx.cc/mm/projects/the-oracle/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://clfx.cc/mm/projects/the-oracle/</guid>
+      <description>(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) </description>
+    </item>
+    
+  </channel>
+</rss>

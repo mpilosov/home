@@ -1,5 +1,5 @@
 ---
-title: let's connect
+title: let's talk
 weight: 150
 date: 2022-08-14
 social: true

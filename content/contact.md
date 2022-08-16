@@ -1,5 +1,5 @@
 ---
-title: let's talk
+title: let's chat
 weight: 150
 date: 2022-08-14
 social: true

@@ -63,7 +63,10 @@ CV (WEBSITE)</description>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>http://clfx.cc/mm/projects/the-oracle/</guid>
-      <description>(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) </description>
+      <description>TK: show screenshot
+(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
+It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
     </item>
     
   </channel>

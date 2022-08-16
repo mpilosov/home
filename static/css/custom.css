@@ -12,6 +12,7 @@
 /* vertical bar */
 #header ::before {
 background-color: #e83e8c;
+color: #e83e8c;
 }
 /* horiz bar */
 #header .content {

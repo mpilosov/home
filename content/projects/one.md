@@ -1,8 +1,6 @@
 ---
-title: project-one
-date: 2022-08-13
+title: probably art
+date: 2020-09-12
 image: ../bg/portfolio.png
-subtitle: swomethin
+timestamp: true
 ---
-
-Can I put a tiling thing here? or just a list?

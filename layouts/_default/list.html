@@ -51,7 +51,7 @@
                                     <h2 class="major">{{ .Title }}</h2>
                                     <span class="image main"><img src="{{ .Params.image }}" alt="" /></span>
                                     {{if and .Params.timestamp .Params.date }}
-                                        {{ .Params.date | time.Format "2006 January 2" }}
+                                        <h4 class="minor">{{ .Params.date | time.Format "January 2006" }}</h4>
                                     {{ end }}
                                     {{ .Content }}
                                     {{if .Params.social }}

@@ -1,3 +1,4 @@
 public/
 *.sw[opqr]
 *.lock
+.DS_Store

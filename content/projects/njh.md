@@ -1,5 +1,5 @@
 ---
-title: exterior design
+title: definitely art
 date: 2020-07-21
 weight: 202003
 timestamp: false

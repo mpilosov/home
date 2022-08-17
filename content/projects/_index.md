@@ -4,6 +4,6 @@ title: "what I do"
 description: math | computation | art
 weight: 20
 date: 2022-01-08
-# background: bg/portfolio.png
+background: bg/notes-blur.jpg
 logo: icons/mult.svg
 ---

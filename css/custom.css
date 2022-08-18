@@ -33,3 +33,23 @@ border: solid 1px #fff;
 /* h2.major {
 font-size: 1.75em;
 } */
+
+/* spacing of page list */
+#header nav ul li a {
+line-height: 1.3;
+padding: 1.25rem;
+}
+/* spacing, just deleted `height` and copied the rest. */
+/* correct spacing in mobile */
+@media screen and (max-width: 480px) {
+#header nav ul li a {
+	display: block;
+	min-width: 7.5rem;
+	line-height: 2.75rem;
+	padding: 0 1.25rem 0 1.45rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+	border-bottom: 0;
+}
+}

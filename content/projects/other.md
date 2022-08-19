@@ -5,12 +5,12 @@ timestamp: false
 share: true
 ---
 
-TK: show screenshot
+## Academic Research
+I worked to develop new ways of quantifying and reducing uncertainty.
 
-### (AKA the Monte-Carlo Calculator)
-### (AKA the Fermi Problem Machine)
+{{< button href="https://gohugo.io/" >}}Words lots of words her and moree{{< /button >}}
 
-[The Oracle][site] is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+[][site]
 
 Often we find "back-of-the-napkin" calculations to be useful... randall munroe what if ... fermi problems wiki ... TK TK TK
 

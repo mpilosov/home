@@ -1033,7 +1033,7 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 0.8rem;
 		font-weight: 300;
-		height: 2.75rem;
+		height: 3rem;
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
 		outline: 0;
@@ -1042,6 +1042,9 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+                width: 100%;
+                margin-top: 0.25rem;
+                margin-bottom: 0.25rem;
 	}
 
 		input[type="submit"]:hover,

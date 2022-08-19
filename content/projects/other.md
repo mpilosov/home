@@ -1,5 +1,5 @@
 ---
-title: Archive
+title: More
 weight: 202108
 timestamp: false
 share: true
@@ -8,7 +8,8 @@ share: true
 ## Academic Research
 I worked to develop new ways of quantifying and reducing uncertainty.
 
-{{< button href="https://gohugo.io/" >}}Words lots of words her and moree{{< /button >}}
+{{< button href="https://oracle.math.computer" >}}Academic Research{{< /button >}}
+{{< button href="https://oracle.math.computer" >}}Academic Research{{< /button >}}
 
 [][site]
 

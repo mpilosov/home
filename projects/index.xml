@@ -46,6 +46,18 @@ TK: link to dedicated project page</description>
     </item>
     
     <item>
+      <title>starter packs</title>
+      <link>http://dev.mathematicalmichael.com/projects/starter-packs/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev.mathematicalmichael.com/projects/starter-packs/</guid>
+      <description>TK: show screenshot
+(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
+It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+    </item>
+    
+    <item>
       <title>the oracle</title>
       <link>http://dev.mathematicalmichael.com/projects/the-oracle/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
@@ -53,6 +65,18 @@ TK: link to dedicated project page</description>
       <guid>http://dev.mathematicalmichael.com/projects/the-oracle/</guid>
       <description>TK: show screenshot
 (AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
+It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+    </item>
+    
+    <item>
+      <title>More</title>
+      <link>http://dev.mathematicalmichael.com/projects/other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev.mathematicalmichael.com/projects/other/</guid>
+      <description>Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
+ Academic Research Academic Research 
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
 It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
     </item>

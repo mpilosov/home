@@ -1,7 +1,7 @@
 ---
 title: the oracle
 date: 2018-07-21
-weight: 202106
+weight: 10
 timestamp: false
 share: true
 ---

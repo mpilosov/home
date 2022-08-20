@@ -11,13 +11,25 @@ I worked to develop new ways of quantifying and reducing uncertainty.
 {{< button href="https://oracle.math.computer" >}}Academic Research{{< /button >}}
 {{< button href="https://oracle.math.computer" >}}Academic Research{{< /button >}}
 
-[][site]
+## Mind the Grow
+here I [embed][site] a link in a sentence to give context
 
-Often we find "back-of-the-napkin" calculations to be useful... randall munroe what if ... fermi problems wiki ... TK TK TK
-
-
-It is deployed with `#kubernetes` on `#google-cloud-platform` and is built with `#python` using `#flask`.
-
+{{< button href="https://mindthegrow.com" >}}Repository{{< /button >}}
+<br>
 
 
+## Math Club
+{{< button href="https://mindthegrow.com" >}}Repository{{< /button >}}
+{{< button href="https://mindthegrow.com" >}}Archive{{< /button >}}
+
+
+## Twitterbots
+{{< button href="https://mindthegrow.com" >}}Repository{{< /button >}}
+<br>
+
+## Consulting
+Resources etc are there.
+{{< button href="https://mindthegrow.com" >}}Visit Website{{< /button >}}
+
+[site-2]: https://oracle.math.computer
 [site]: https://oracle.math.computer

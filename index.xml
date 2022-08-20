@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dev.mathematicalmichael.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>the oracle</title>
+      <link>http://dev.mathematicalmichael.com/projects/the-oracle/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev.mathematicalmichael.com/projects/the-oracle/</guid>
+      <description>TK: show screenshot
+(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
+It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+    </item>
+    
+    <item>
       <title>who I am</title>
       <link>http://dev.mathematicalmichael.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -18,54 +30,6 @@
 (the links below are placeholders for buttons)
 RESUME
 CV (WEBSITE)</description>
-    </item>
-    
-    <item>
-      <title>let&#39;s chat</title>
-      <link>http://dev.mathematicalmichael.com/contact/</link>
-      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://dev.mathematicalmichael.com/contact/</guid>
-      <description>I am available for consulting on Python, MLOps, and several other discplines related to the research-to-production process and applied computational mathematics.
- Your email:   Your message:   Send  </description>
-    </item>
-    
-    <item>
-      <title>moving pictures</title>
-      <link>http://dev.mathematicalmichael.com/projects/moving-pictures/</link>
-      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://dev.mathematicalmichael.com/projects/moving-pictures/</guid>
-      <description>content</description>
-    </item>
-    
-    <item>
-      <title>probably art</title>
-      <link>http://dev.mathematicalmichael.com/projects/probably-art/</link>
-      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://dev.mathematicalmichael.com/projects/probably-art/</guid>
-      <description>content</description>
-    </item>
-    
-    <item>
-      <title>stochastic poker</title>
-      <link>http://dev.mathematicalmichael.com/projects/stochastic-poker/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://dev.mathematicalmichael.com/projects/stochastic-poker/</guid>
-      <description>content</description>
-    </item>
-    
-    <item>
-      <title>definitely art</title>
-      <link>http://dev.mathematicalmichael.com/projects/njh/</link>
-      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://dev.mathematicalmichael.com/projects/njh/</guid>
-      <description>Generative Architecture National Jewish Health: Center for
-TK: show images
-TK: link to dedicated project page</description>
     </item>
     
     <item>
@@ -81,15 +45,36 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
     </item>
     
     <item>
-      <title>the oracle</title>
-      <link>http://dev.mathematicalmichael.com/projects/the-oracle/</link>
+      <title>let&#39;s chat</title>
+      <link>http://dev.mathematicalmichael.com/contact/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev.mathematicalmichael.com/contact/</guid>
+      <description>I am available for consulting on Python, MLOps, and several other discplines related to the research-to-production process and applied computational mathematics.
+ Your email:   Your message:   Send  </description>
+    </item>
+    
+    <item>
+      <title>stochastic poker</title>
+      <link>http://dev.mathematicalmichael.com/projects/poker/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/projects/the-oracle/</guid>
-      <description>TK: show screenshot
-(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
-Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
-It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+      <guid>http://dev.mathematicalmichael.com/projects/poker/</guid>
+      <description>content</description>
+    </item>
+    
+    <item>
+      <title>probably art</title>
+      <link>http://dev.mathematicalmichael.com/projects/probably-art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev.mathematicalmichael.com/projects/probably-art/</guid>
+      <description>Description What was this
+History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization. early software.
+Future plans to marry the two, clean up the repos, use for education.
+Generative Architecture National Jewish Health: Center for
+TK: show images
+TK: link to dedicated project page</description>
     </item>
     
     <item>
@@ -99,9 +84,8 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
       
       <guid>http://dev.mathematicalmichael.com/projects/other/</guid>
       <description>Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
- Academic Research Academic Research 
-Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
-It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+ Academic Research Academic Research Mind the Grow here I embed a link in a sentence to give context
+ Repository Math Club  Repository Archive Twitterbots  Repository Consulting Resources etc are there. Visit Website </description>
     </item>
     
   </channel>

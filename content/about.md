@@ -4,7 +4,8 @@ weight: 10
 image:
 ---
 
-Michael Pilosov, PhD, Machine Learning Architect & Engineer
+**Michael Pilosov, PhD**  
+Machine Learning Architect & Engineer
 
 > I bridge the gap between mathematics, computation, and your vision of the future.
 

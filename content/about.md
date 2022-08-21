@@ -4,7 +4,13 @@ weight: 10
 image:
 ---
 
-> I help make your discoveries accessible, fast, and reproducible.
+Michael Pilosov, PhD, Machine Learning Architect & Engineer
+
+> I bridge the gap between mathematics, computation, and your vision of the future.
+
+I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
+
+
 
 In studying to become an applied mathematician, I discovered a love for using computers as my research laboratory.
 

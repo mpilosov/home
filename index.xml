@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mathematical Michael</title>
-    <link>http://dev.mathematicalmichael.com/</link>
+    <link>https://mpilosov.com/</link>
     <description>Recent content on Mathematical Michael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dev.mathematicalmichael.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mpilosov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>the oracle</title>
-      <link>http://dev.mathematicalmichael.com/projects/the-oracle/</link>
+      <link>https://mpilosov.com/projects/the-oracle/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/projects/the-oracle/</guid>
+      <guid>https://mpilosov.com/projects/the-oracle/</guid>
       <description>TK: show screenshot
 (AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
@@ -21,10 +21,10 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
     
     <item>
       <title>who I am</title>
-      <link>http://dev.mathematicalmichael.com/about/</link>
+      <link>https://mpilosov.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/about/</guid>
+      <guid>https://mpilosov.com/about/</guid>
       <description>Michael Pilosov, PhD, Machine Learning Architect &amp;amp; Engineer
  I bridge the gap between mathematics, computation, and your vision of the future.
  I enable experts to make better decisions by building them new software tools and sharpening their existing ones. For my degree, I studied how to quantify and reduce uncertainty by developing a novel statistical technique based on measure theory to solve stochastic inverse problems. In my ensuing career, I help people make better decisions under uncertainty and to automate time-consuming processes.</description>
@@ -32,10 +32,10 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
     
     <item>
       <title>starter packs</title>
-      <link>http://dev.mathematicalmichael.com/projects/starter-packs/</link>
+      <link>https://mpilosov.com/projects/starter-packs/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/projects/starter-packs/</guid>
+      <guid>https://mpilosov.com/projects/starter-packs/</guid>
       <description>TK: show screenshot
 (AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
@@ -44,29 +44,29 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
     
     <item>
       <title>let&#39;s chat</title>
-      <link>http://dev.mathematicalmichael.com/contact/</link>
+      <link>https://mpilosov.com/contact/</link>
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/contact/</guid>
+      <guid>https://mpilosov.com/contact/</guid>
       <description>I am available for consulting on Python, MLOps, and several other discplines related to the research-to-production process and applied computational mathematics.
  Your email:   Your message:   Send  </description>
     </item>
     
     <item>
       <title>stochastic poker</title>
-      <link>http://dev.mathematicalmichael.com/projects/poker/</link>
+      <link>https://mpilosov.com/projects/poker/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/projects/poker/</guid>
+      <guid>https://mpilosov.com/projects/poker/</guid>
       <description>content</description>
     </item>
     
     <item>
       <title>probably art</title>
-      <link>http://dev.mathematicalmichael.com/projects/probably-art/</link>
+      <link>https://mpilosov.com/projects/probably-art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/projects/probably-art/</guid>
+      <guid>https://mpilosov.com/projects/probably-art/</guid>
       <description>Description What was this
 History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization. early software.
 Future plans to marry the two, clean up the repos, use for education.
@@ -77,10 +77,10 @@ TK: link to dedicated project page</description>
     
     <item>
       <title>More</title>
-      <link>http://dev.mathematicalmichael.com/projects/other/</link>
+      <link>https://mpilosov.com/projects/other/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.mathematicalmichael.com/projects/other/</guid>
+      <guid>https://mpilosov.com/projects/other/</guid>
       <description>Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
  Academic Research Academic Research Mind the Grow here I embed a link in a sentence to give context
  Repository Math Club  Repository Archive Twitterbots  Repository Consulting Resources etc are there. Visit Website </description>

@@ -9,12 +9,11 @@
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mpilosov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>the oracle</title>
-      <link>https://mpilosov.com/projects/the-oracle/</link>
+      <link>https://mpilosov.com/projects/oracle/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mpilosov.com/projects/the-oracle/</guid>
-      <description>TK: show screenshot
-(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+      <guid>https://mpilosov.com/projects/oracle/</guid>
+      <description>(AKA the Monte-Carlo Calculator) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
 It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
     </item>
@@ -37,10 +36,8 @@ Machine Learning Architect &amp;amp; Engineer
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/starter-packs/</guid>
-      <description>TK: show screenshot
-(AKA the Monte-Carlo Calculator) (AKA the Fermi Problem Machine) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
-Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
-It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+      <description>ml-starter-packs is a Github organization I created to house relatively polished projects for public consumption.
+These are the tools I find myself coming back to over and over, whether for educational or development purposes.</description>
     </item>
     
     <item>
@@ -56,10 +53,10 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
     <item>
       <title>stochastic poker</title>
       <link>https://mpilosov.com/projects/poker/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/poker/</guid>
-      <description>content</description>
+      <description>Your Hand:  current  min  max   Start New Game   var canvas = document.getElementById(&#39;plotCanvas&#39;); var ctx = canvas.getContext(&#39;2d&#39;); var num, maxnum, minnum; var interval = 5; var B = [0] var brakes = 200; var ht = canvas.height; var n = canvas.width; var alpha = 5; initPlot(); drawWalk(); function reset() { B = [0]; var id = window.setTimeout(function() {}, 0); while (id--) { window.clearTimeout(id); } document.</description>
     </item>
     
     <item>

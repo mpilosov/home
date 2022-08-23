@@ -12,6 +12,17 @@
     </style>
  
     <link rel="stylesheet" href="/css/custom.css"/>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
+
+
 </head>
 
 
@@ -95,10 +106,11 @@
                                 <article id="the-oracle">
                                     <h2 class="major">the oracle</h2>
                                     
+                                    <span class="image main"><img src="../projects/oracle/car-scatter.jpg" alt="" /></span>
                                     
-                                    <p>TK: show screenshot</p>
-<h3 id="aka-the-monte-carlo-calculator">(AKA the Monte-Carlo Calculator)</h3>
-<h3 id="aka-the-fermi-problem-machine">(AKA the Fermi Problem Machine)</h3>
+                                    
+                                    <h3 id="aka-the-monte-carlo-calculator">(AKA the Monte-Carlo Calculator)</h3>
+<p><img src="../projects/oracle/car-filter.jpg" alt="plot"></p>
 <p><a href="https://oracle.math.computer">The Oracle</a> is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).</p>
 <p>Often we find &ldquo;back-of-the-napkin&rdquo; calculations to be useful&hellip; randall munroe what if &hellip; fermi problems wiki &hellip; TK TK TK</p>
 <p>It is deployed with <code>#kubernetes</code> on <code>#google-cloud-platform</code> and is built with <code>#python</code> using <code>#flask</code>.</p>
@@ -114,12 +126,8 @@
                                     <h2 class="major">starter packs</h2>
                                     
                                     
-                                    <p>TK: show screenshot</p>
-<h3 id="aka-the-monte-carlo-calculator">(AKA the Monte-Carlo Calculator)</h3>
-<h3 id="aka-the-fermi-problem-machine">(AKA the Fermi Problem Machine)</h3>
-<p><a href="https://oracle.math.computer">The Oracle</a> is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).</p>
-<p>Often we find &ldquo;back-of-the-napkin&rdquo; calculations to be useful&hellip; randall munroe what if &hellip; fermi problems wiki &hellip; TK TK TK</p>
-<p>It is deployed with <code>#kubernetes</code> on <code>#google-cloud-platform</code> and is built with <code>#python</code> using <code>#flask</code>.</p>
+                                    <p><a href="https://github.com/ml-starter-packs">ml-starter-packs</a> is a Github organization I created to house relatively polished projects for public consumption.</p>
+<p>These are the tools I find myself coming back to over and over, whether for educational or development purposes.</p>
 
                                     
                                 </article>
@@ -131,12 +139,169 @@
                                 <article id="stochastic-poker">
                                     <h2 class="major">stochastic poker</h2>
                                     
-                                    <span class="image main"><img src="../bg/notes.jpg" alt="" /></span>
                                     
+                                        <h4 class="minor">March 2016</h4>
                                     
-                                        <h4 class="minor">July 2018</h4>
-                                    
-                                    <p>content</p>
+                                    <h2 id="your-hand">Your Hand:</h2>
+
+<div class="plot-container">
+  <canvas id="plotCanvas" class="plot-canvas" width="250px" height="250px"></canvas>
+  
+  <div class="printout">
+
+    <div class="value_group">
+      <label>current</label>
+      <input type="text" id="mytext">
+    </div>
+    <div class="value_group">
+      <label>min</label>
+      <input type="text" id="mytext2">
+    </div>
+    <div class="value_group">
+      <label>max</label>
+      <input type="text" id="mytext3">
+    </div>
+  </div>
+  <button type="button" class="reset-btn" onclick="reset()" color="grey"><u>Start New Game</u></button>
+</div>
+<br>
+<br>
+
+<script> 
+var canvas = document.getElementById('plotCanvas');
+var ctx = canvas.getContext('2d');
+
+var num, maxnum, minnum;
+
+var interval = 5;
+
+var B = [0]
+var brakes = 200; 
+var ht = canvas.height;
+var n = canvas.width;
+var alpha = 5;
+
+initPlot();
+drawWalk();
+
+function reset() {
+  B = [0];
+  var id = window.setTimeout(function() {}, 0);
+  while (id--) {
+    window.clearTimeout(id); 
+  }
+  document.getElementById("mytext2").value = 0;
+  document.getElementById("mytext3").value = 0;
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  initPlot()
+  drawWalk();
+}
+
+function initPlot() {
+  ctx.font = "16px sans-serif";
+  ctx.filStyle = "light";
+  
+  ctx.font = "36px serif";
+  
+
+  ctx.beginPath();
+  ctx.moveTo(0, canvas.height / 2)
+  ctx.lineTo(canvas.width, canvas.height / 2)
+  ctx.stroke();
+
+  var tick_length = 7;
+  var tick_its = 8;
+
+  for (var i = 1; i < tick_its; i++) {
+    
+    ctx.moveTo(i * canvas.width / tick_its, canvas.height / 2 - tick_length)
+    ctx.lineTo(i * canvas.width / tick_its, canvas.height / 2 + tick_length)
+    ctx.stroke();
+    
+    
+    
+    
+  }
+}
+
+function drawWalk() {
+  function plot(delay) {
+
+    window.setTimeout(function() {
+      
+      if (Math.random() < 0.5) {
+        B.push(B[delay] - alpha / n);
+      } else {
+        B.push(B[delay] + alpha / n);
+      }
+      
+      ctx.lineTo(delay, B[delay] * 100 + ht / 2);
+      ctx.stroke();
+
+      num = (-ht / 8 * B[delay]).toFixed(); 
+      maxnum = (-ht / 8 * Math.min.apply(null, B)).toFixed(); 
+      minnum = (-ht / 8 * Math.max.apply(null, B)).toFixed(); 
+      document.getElementById("mytext").value = num;
+      var txtbox = document.getElementById("mytext");
+      txtbox.style["width"] = "60px";
+      txtbox.style["height"] = "40px";
+      txtbox.style.fontSize = "large";
+
+      document.getElementById("mytext2").value = minnum;
+      var txtbox2 = document.getElementById("mytext2");
+      txtbox2.style["width"] = "60px";
+      txtbox2.style["height"] = "30px";
+      txtbox2.style.fontSize = "small";
+
+      document.getElementById("mytext3").value = maxnum;
+      var txtbox3 = document.getElementById("mytext3");
+      txtbox3.style["width"] = "60px";
+      txtbox3.style["height"] = "30px";
+      txtbox3.style.fontSize = "small";
+
+    }, delay * brakes);
+  }
+
+  ctx.beginPath();
+
+  for (var i = 0; i < n; i++) {
+    plot(i);
+  }
+}
+
+
+
+
+
+</script>
+
+<h2>Premise</h2>
+Flip a coin, heads you earn a point, tails you lose one. 
+<br>
+<br>
+Now repeat this–better yet let the computer do it–and keep your running score hidden to yourself. 
+<i>Consider this webpage to be your hand.</i>
+<br>
+<br>
+Your opponents each have one of their own and bet on their hands.
+<br>
+<br>
+Game concept by Dr. Burt Simon. Copyright 2016 E. Regan & M. Pilosov.
+<br>
+<br>
+
+<h2 id="rules">Rules</h2>
+<p>Gambling would occur on pre-determined intervals (timer), or whenever someone wants to (if you enjoy a bit of chaos).
+Proceeding clockwise, everyone must either call or fold on the bet, with only a second to decide.</p>
+<blockquote>
+<p><em>It&rsquo;s fast-paced fun!</em></p>
+</blockquote>
+<h2 id="variants">Variants</h2>
+<p>How exactly to enforce the time someone has to stay in the game before being kicked out of the round is unclear, we&rsquo;ve successfully relied on the honor policy but your mileage may vary depending on the crowd with which you play.</p>
+<h2 id="history">History</h2>
+<p>One of the activities I organized as part of Math Club was an event where we incorporated this game as one of the “stations” at our Poker &amp; Games night.</p>
+<p>In a sense this was my first successful attempt at writing something that could be used without any technical background whatsoever.</p>
 
                                     
                                 </article>

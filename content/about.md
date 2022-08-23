@@ -2,6 +2,7 @@
 title: "who I am"
 weight: 10
 image:
+share: false
 ---
 
 **Michael Pilosov, PhD**  

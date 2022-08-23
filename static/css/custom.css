@@ -90,15 +90,18 @@ img {
  **************************************************/
 
 .share-box {
-  float: right;
+  text-align: center;
 }
 
 ul.share {
-  display: flex;
+  display: block;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }
 

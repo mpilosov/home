@@ -32,6 +32,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: mpilosov.com
           # external_repository: mpilosov/homepage
           publish_branch: gh-pages
 

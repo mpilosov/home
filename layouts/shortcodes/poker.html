@@ -1,0 +1,147 @@
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes -->
+<div class="plot-container">
+  <canvas id="plotCanvas" class="plot-canvas" width="250px" height="250px"></canvas>
+  
+  <div class="printout">
+
+    <div class="value_group">
+      <label>current</label>
+      <input type="text" id="mytext">
+    </div>
+    <div class="value_group">
+      <label>min</label>
+      <input type="text" id="mytext2">
+    </div>
+    <div class="value_group">
+      <label>max</label>
+      <input type="text" id="mytext3">
+    </div>
+  </div>
+  <button type="button" class="reset-btn" onclick="reset()" color="grey"><u>Start New Game</u></button>
+</div>
+<br>
+<br>
+
+<script> 
+var canvas = document.getElementById('plotCanvas');
+var ctx = canvas.getContext('2d');
+
+var num, maxnum, minnum;
+
+var interval = 5;
+
+var B = [0]
+var brakes = 200; // higher = slower, 100 ~ 50s
+var ht = canvas.height;
+var n = canvas.width;
+var alpha = 5;
+
+initPlot();
+drawWalk();
+
+function reset() {
+  B = [0];
+  var id = window.setTimeout(function() {}, 0);
+  while (id--) {
+    window.clearTimeout(id); // will do nothing if no timeout with id is present
+  }
+  document.getElementById("mytext2").value = 0;
+  document.getElementById("mytext3").value = 0;
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  initPlot()
+  drawWalk();
+}
+
+function initPlot() {
+  ctx.font = "16px sans-serif";
+  ctx.filStyle = "light";
+  // ctx.fillText("Game concept by Dr. Burt Simon. Copyright 2016 E. Regan & M. Pilosov", 4, canvas.height - 4);
+  ctx.font = "36px serif";
+  // ctx.fillText("Brownian Poker", 1.003*canvas.width / 3 , 0.8*canvas.width);
+
+  ctx.beginPath();
+  ctx.moveTo(0, canvas.height / 2)
+  ctx.lineTo(canvas.width, canvas.height / 2)
+  ctx.stroke();
+
+  var tick_length = 7;
+  var tick_its = 8;
+
+  for (var i = 1; i < tick_its; i++) {
+    // create horizontal tick marks
+    ctx.moveTo(i * canvas.width / tick_its, canvas.height / 2 - tick_length)
+    ctx.lineTo(i * canvas.width / tick_its, canvas.height / 2 + tick_length)
+    ctx.stroke();
+    // create vertical tick marks
+    // ctx.moveTo(0, i*canvas.height/tick_its)
+    // ctx.lineTo(canvas.width, i*canvas.height/tick_its)
+    // ctx.stroke();
+  }
+}
+
+function drawWalk() {
+  function plot(delay) {
+
+    window.setTimeout(function() {
+      // console.log("i", delay)
+      if (Math.random() < 0.5) {
+        B.push(B[delay] - alpha / n);
+      } else {
+        B.push(B[delay] + alpha / n);
+      }
+      // console.log(delay, B[delay] * 100 + 100);
+      ctx.lineTo(delay, B[delay] * 100 + ht / 2);
+      ctx.stroke();
+
+      num = (-ht / 8 * B[delay]).toFixed(); // display current value
+      maxnum = (-ht / 8 * Math.min.apply(null, B)).toFixed(); // display max value
+      minnum = (-ht / 8 * Math.max.apply(null, B)).toFixed(); // display max value
+      document.getElementById("mytext").value = num;
+      var txtbox = document.getElementById("mytext");
+      txtbox.style["width"] = "60px";
+      txtbox.style["height"] = "40px";
+      txtbox.style.fontSize = "large";
+
+      document.getElementById("mytext2").value = minnum;
+      var txtbox2 = document.getElementById("mytext2");
+      txtbox2.style["width"] = "60px";
+      txtbox2.style["height"] = "30px";
+      txtbox2.style.fontSize = "small";
+
+      document.getElementById("mytext3").value = maxnum;
+      var txtbox3 = document.getElementById("mytext3");
+      txtbox3.style["width"] = "60px";
+      txtbox3.style["height"] = "30px";
+      txtbox3.style.fontSize = "small";
+
+    }, delay * brakes);
+  }
+
+  ctx.beginPath();
+
+  for (var i = 0; i < n; i++) {
+    plot(i);
+  }
+}
+
+// window.setInterval(function(){
+//   reset();
+//   console.log("test")
+// }, interval*1000);
+</script>
+
+<h2>Premise</h2>
+Flip a coin, heads you earn a point, tails you lose one. 
+<br>
+<br>
+Now repeat this–better yet let the computer do it–and keep your running score hidden to yourself. 
+<i>Consider this webpage to be your hand.</i>
+<br>
+<br>
+Your opponents each have one of their own and bet on their hands.
+<br>
+<br>
+Game concept by Dr. Burt Simon. Copyright 2016 E. Regan & M. Pilosov.
+<br>
+<br>

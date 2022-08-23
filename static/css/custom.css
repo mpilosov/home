@@ -76,3 +76,11 @@ a.markdown-btn {
     color: #e83e8c;
   }
 }
+
+/* markdown-embedded image block */
+img {
+  width: 100%;
+  text-align: center;
+  margin: 1rem auto 1rem auto;
+  display: block;
+}

@@ -3,13 +3,13 @@ title: the oracle
 date: 2018-07-21
 weight: 10
 timestamp: false
+image: ../projects/oracle/car-scatter.jpg
 share: true
 ---
 
-TK: show screenshot
-
 ### (AKA the Monte-Carlo Calculator)
-### (AKA the Fermi Problem Machine)
+
+![plot](../projects/oracle/car-filter.jpg)
 
 [The Oracle][site] is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 

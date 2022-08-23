@@ -2,7 +2,7 @@
 title: More
 weight: 202108
 timestamp: false
-share: true
+share: false
 ---
 
 ## Academic Research

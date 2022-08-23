@@ -2,6 +2,7 @@
 title: stochastic poker
 date: 2016-03-21
 weight: 30
+share: true
 timestamp: true
 ---
 

@@ -6,18 +6,10 @@ timestamp: false
 share: true
 ---
 
-TK: show screenshot
+[ml-starter-packs][org] is a Github organization I created to house relatively polished projects for public consumption.
 
-### (AKA the Monte-Carlo Calculator)
-### (AKA the Fermi Problem Machine)
-
-[The Oracle][site] is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
-
-Often we find "back-of-the-napkin" calculations to be useful... randall munroe what if ... fermi problems wiki ... TK TK TK
-
-
-It is deployed with `#kubernetes` on `#google-cloud-platform` and is built with `#python` using `#flask`.
+These are the tools I find myself coming back to over and over, whether for educational or development purposes.
 
 
 
-[site]: https://oracle.math.computer
+[org]: https://github.com/ml-starter-packs

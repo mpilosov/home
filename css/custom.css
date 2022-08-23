@@ -137,3 +137,8 @@ ul.share li a {
 ul.share li:hover i {
   transform: scale(1.4)
 }
+
+/* poker */
+.poker-label {
+  margin: 0.5rem 0 0 0.25rem;
+}

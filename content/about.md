@@ -43,9 +43,7 @@ My goal is to cultivate a network of enduring consulting relationships built aro
 {{< button href="/#lets-chat">}}let's begin{{< /button >}}
 <br>
 
-see also:
+-----
 
 {{< button href="/resume.pdf">}}Resume{{< /button >}}
-
-{{< button href="https://michaelpilosov.com">}}Academic Archive{{< /button >}}
-
+<br>

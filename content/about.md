@@ -10,10 +10,9 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 > I combine arts, maths, and machines to build wonderful things.
 
 ### I am **Michael Pilosov, PhD**  
-#### Explainer of Data
-#### Cloud Architect for Machine Learning
-#### Software Engineer
-#### Technical Leader
+#### Leader of Technical Teams
+#### Machine Learning Architect
+#### Scientific Software Engineer
 #### Third Generation Artist
 
 I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.

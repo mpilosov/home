@@ -7,7 +7,7 @@ share: false
 
 I am a curious seeker of opportune moments where novel ideas spark connections to prior knowledge.
 
-> I combine arts, math, and machines to build wonderful things.
+> I combine art, math, and machines to build wonderful things.
 
 ### I am **Michael Pilosov, PhD**  
 - Leader of Technical Teams

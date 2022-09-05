@@ -9,9 +9,9 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 
 > I combine art, math, and machines to build wonderful things.
 
-### I am **Michael Pilosov, PhD**  
-- Technical Team Leader
+### I am **Michael Pilosov, PhD**
 - Machine Learning Architect
+- Technical Team Leader
 - Scientific Software Engineer
 - Third Generation Artist
 

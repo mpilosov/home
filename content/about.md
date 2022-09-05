@@ -9,7 +9,7 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 
 > I combine arts, maths, and machines to build wonderful things.
 
-## I am **Michael Pilosov, PhD**  
+### I am **Michael Pilosov, PhD**  
 - Leader of Technical Teams
 - Machine Learning Architect
 - Scientific Software Engineer
@@ -40,7 +40,7 @@ My goal is to cultivate a network of enduring consulting relationships built aro
 {{< button href="/#lets-chat">}}let's begin{{< /button >}}
 <br>
 
-... and if you want to read more:
+see also:
 
 {{< button href="/resume.pdf">}}Resume{{< /button >}}
 

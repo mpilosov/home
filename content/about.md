@@ -16,6 +16,8 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 #### Third Generation Artist
 
 <br>
+-----
+
 
 I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
 

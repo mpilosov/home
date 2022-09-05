@@ -15,6 +15,8 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 #### Scientific Software Engineer
 #### Third Generation Artist
 
+<br>
+
 I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
 
 I am a bridge.

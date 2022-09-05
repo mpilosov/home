@@ -25,8 +25,6 @@ My long-term goal is to cultivate a small network of enduring consulting relatio
 I find great fulfilment in mentoring and teaching of subjects related to computational mathematics, machine learning, and software engineering.
 
 
-(the links below are placeholders for buttons)
-
 {{< button href="/resume.pdf">}}Resume{{< /button >}}
 
 {{< button href="https://michaelpilosov.com">}}Academic Archive{{< /button >}}

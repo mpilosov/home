@@ -3,6 +3,7 @@ title: let's chat
 weight: 30
 date: 2022-08-14
 social: true
+share: false
 ---
 
 

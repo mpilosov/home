@@ -11,7 +11,6 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 
 ### I am **Michael Pilosov, PhD**
 - Machine Learning Architect
-- Technical Team Leader
 - Scientific Software Engineer
 - Third Generation Artist
 
@@ -23,7 +22,7 @@ I am a bridge.
 
 > I make technical realms more accessible to those seeking new possibilities.
 
-I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
+I quantify and reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
 
 
 ## Write code for people, not machines.
@@ -34,7 +33,7 @@ I enable experts to make better decisions by building them new software tools an
 -----
 
 
-I developed my expertise in quantifying and reducing uncertainty by developing a new statistical technique based on measure theory to solve stochastic inverse problems.
+As an applied mathematician, I developed expertise in stochastic inverse problems by creating a new statistical technique based on measure theory and made it acessible as open-source software.
 
 I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 

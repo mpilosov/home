@@ -13,6 +13,7 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 Machine Learning Architect & Engineer
 
 I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
+
 I am a bridge.
 
 > I make technical realms more accessible to those seeking new possibilities.
@@ -27,10 +28,12 @@ I developed my expertise in quantifying and reducing uncertainty by developing a
 I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 
 
-My long-term goal is to cultivate a small network of enduring consulting relationships built around challenging problems with potential for monumental impact.
+My goal is to cultivate a network of enduring consulting relationships built around challenging problems with potential for monumental impact.
 
-I find great fulfilment in mentoring and teaching of subjects related to computational mathematics, machine learning, and software engineering.
+{{< button href="/#lets-chat">}}let's begin{{< /button >}}
 
+
+... and if you want to read more:
 
 {{< button href="/resume.pdf">}}Resume{{< /button >}}
 

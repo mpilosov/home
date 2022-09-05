@@ -12,7 +12,7 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 ## I am **Michael Pilosov, PhD**  
 Machine Learning Architect & Engineer
 
-_What I do is_ reduce uncertainty through applying mathematical theory and (perhaps more importantly), with narrative and metaphor when explaining complicated concepts.
+I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
 I am a bridge.
 
 > I make technical realms more accessible to those seeking new possibilities.

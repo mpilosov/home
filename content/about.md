@@ -28,7 +28,7 @@ I reduce uncertainty by applying mathematical theory and leveraging the power of
 
 ## Write code for people, not machines.
 
-I believe that art should inspire, and practice that in my design of products---both software and educational.
+I approach education and software engineering as art---with attention to beautiful design, usability, and display of technical mastery.
 I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
 
 -----

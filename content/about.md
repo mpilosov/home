@@ -19,11 +19,12 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 -----
 
 
-I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
-
 I am a bridge.
 
 > I make technical realms more accessible to those seeking new possibilities.
+
+I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
+
 
 ## Write code for people, not machines.
 

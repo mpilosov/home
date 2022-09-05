@@ -28,7 +28,7 @@ I quantify and reduce uncertainty by applying mathematical theory and leveraging
 ## Write code for people, not machines.
 
 I approach education and software engineering as art---with attention to beautiful design, usability, and display of technical mastery.
-I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
+I enable experts to make better decisions by building them new tools for innovation and sharpening their existing ones.
 
 -----
 

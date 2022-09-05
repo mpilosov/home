@@ -21,7 +21,7 @@ I believe that art and design should inspire, and apply these principles in my a
 I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
 
 For my degree, I studied how to quantify and reduce uncertainty by developing a statistical technique based on measure theory to solve stochastic inverse problems.
-In my ensuing career, I help people make better decisions under uncertainty and to automate time-consuming processes.
+For my career, I now help individuals and organizations use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 
 
 My long-term goal is to cultivate a small network of enduring consulting relationships on technically challenging applications with potential for monumental impact.

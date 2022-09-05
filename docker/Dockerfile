@@ -1,7 +1,7 @@
-FROM alpine:3.16.2
+FROM docker.io/alpine:3.16.2
 #FROM arm64v8/alpine:3.16.2
 
-LABEL maintainer="Michael Pilosov <consistentbayes@gmail.com>"
+LABEL AUTHOR="Michael Pilosov <consistentbayes@gmail.com>"
 
 # Install pygments (for syntax highlighting) and bash
 RUN apk update && \
@@ -33,6 +33,7 @@ CMD hugo version
 
 ARG APP_USER="hugo"
 ARG APP_UID="1000"
+
 # Create a group and user
 RUN addgroup -S appgroup && \
     adduser --disabled-password \

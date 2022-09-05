@@ -15,7 +15,7 @@ Machine Learning Architect & Engineer
 _What I do is_ reduce uncertainty through applying mathematical theory and (perhaps more importantly), with narrative and metaphor when explaining complicated concepts.
 I am a bridge.
 
-> I make technical realms more accessible to those in seek of new possibilities.
+> I make technical realms more accessible to those seeking new possibilities.
 
 ## Write code for people, not machines.
 

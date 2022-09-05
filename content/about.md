@@ -7,7 +7,7 @@ share: false
 
 I am a curious seeker of opportune moments where novel ideas spark connections to prior knowledge.
 
-> I combine arts, maths, and machines to build wonderful things.
+> I combine arts, math, and machines to build wonderful things.
 
 ### I am **Michael Pilosov, PhD**  
 - Leader of Technical Teams
@@ -31,6 +31,7 @@ I believe that art should inspire, and practice that in my design of products---
 I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
 
 -----
+
 
 I developed my expertise in quantifying and reducing uncertainty by developing a new statistical technique based on measure theory to solve stochastic inverse problems.
 

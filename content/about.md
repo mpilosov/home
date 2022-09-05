@@ -22,11 +22,13 @@ I am a bridge.
 I believe that art should inspire, and practice that in my design of products---both software and educational.
 I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
 
-I studied how to quantify and reduce uncertainty by developing a new statistical technique based on measure theory to solve stochastic inverse problems.
-I now help individuals and organizations use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
+I developed my expertise in quantifying and reducing uncertainty by developing a new statistical technique based on measure theory to solve stochastic inverse problems.
+
+I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 
 
-My long-term goal is to cultivate a small network of enduring consulting relationships on technically challenging applications with potential for monumental impact.
+My long-term goal is to cultivate a small network of enduring consulting relationships built around challenging problems with potential for monumental impact.
+
 I find great fulfilment in mentoring and teaching of subjects related to computational mathematics, machine learning, and software engineering.
 
 

@@ -23,7 +23,7 @@ I am a bridge.
 
 > I make technical realms more accessible to those seeking new possibilities.
 
-I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling.
+I reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
 
 
 ## Write code for people, not machines.

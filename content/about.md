@@ -30,6 +30,8 @@ I am a bridge.
 I believe that art should inspire, and practice that in my design of products---both software and educational.
 I enable experts to make better decisions by building them new software tools and sharpening their existing ones.
 
+-----
+
 I developed my expertise in quantifying and reducing uncertainty by developing a new statistical technique based on measure theory to solve stochastic inverse problems.
 
 I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.

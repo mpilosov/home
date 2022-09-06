@@ -40,7 +40,7 @@ I now use machine learning to make data-driven decisions, predict useful informa
 
 My goal is to cultivate a network of enduring consulting relationships built around challenging problems with potential for monumental impact.
 
-{{< button href="/#lets-chat">}}let's begin{{< /button >}}
+{{< button href="/#get-in-touch">}}let's begin{{< /button >}}
 <br>
 
 -----

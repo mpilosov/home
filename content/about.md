@@ -10,7 +10,7 @@ I quantify and reduce uncertainty by applying mathematical theory and leveraging
 
 ## I am **Michael Pilosov, PhD**
 
-`Third Generation Artist` x `Machine Learning Architect` x `Scientific Software Engineer`
+Third Generation Artist, Machine Learning Architect, & Scientific Software Engineer
 
 
 I combine art, math, and machines to build wonderful things.

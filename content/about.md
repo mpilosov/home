@@ -45,5 +45,5 @@ My goal is to cultivate a network of enduring consulting relationships built aro
 
 -----
 
-{{< button href="/resume.pdf">}}Resume{{< /button >}}
+{{< button href="/resume.pdf">}}view resume{{< /button >}}
 <br>

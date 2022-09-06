@@ -19,7 +19,7 @@ I combine art, math, and machines to build wonderful things.
 
 -----
 
-## Write code for people, not machines.
+## I write code for people, not machines.
 
 I am a bridge.
 I approach education and software engineering as art.

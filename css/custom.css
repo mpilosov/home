@@ -27,6 +27,7 @@ border: solid 1px #fff;
 border: solid 1px #fff;
 }
 
+/* SPACING FIXES */
 p {
   letter-spacing: 0.05rem;
 }
@@ -35,6 +36,9 @@ li {
   letter-spacing: 0.1rem;
 }
 
+blockquote p:last-of-type {
+  margin-bottom: 0.5rem;
+}
 
 /* h2.major {
 font-size: 1.75em;

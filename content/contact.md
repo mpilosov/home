@@ -1,5 +1,5 @@
 ---
-title: get in touch
+title: let's chat
 weight: 30
 date: 2022-08-14
 social: true

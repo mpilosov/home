@@ -28,12 +28,13 @@ border: solid 1px #fff;
 }
 
 p {
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05rem;
 }
 
 li {
-  letter-spacing: 0.5px;
+  letter-spacing: 0.1rem;
 }
+
 
 /* h2.major {
 font-size: 1.75em;

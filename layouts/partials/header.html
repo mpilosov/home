@@ -8,7 +8,16 @@
     <link rel="canonical" href="{{ .Permalink }}">
     <noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | relURL }}"/></noscript>
     <style>
-        :root{--site-background : url("{{ .Params.background | default "images/bg.jpg" | relURL }}")};
+        :root{
+            --site-background : url("{{ .Params.background | default "images/bg.jpg" | relURL }}");
+            --custom-font-color: {{site.Params.custom_font_color}} ;
+            --headings-color: {{site.Params.headings_color}};
+            --body-bg: {{site.Params.body_bg}};
+            --article-bg: {{site.Params.article_bg}};
+            --border-color: {{site.Params.border_color}};
+            --bg-grad-from: {{site.Params.bg_grad_from | safeCSS}};
+            --bg-grad-to: {{site.Params.bg_grad_to | safeCSS}};
+        };
     </style>
  
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"/>

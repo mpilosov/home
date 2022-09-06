@@ -5,12 +5,11 @@ image:
 share: false
 ---
 
-I am a bridge. 
-
 I quantify and reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
 
 
-> I am **Michael Pilosov, PhD**
+## I am **Michael Pilosov, PhD**
+
 `Third Generation Artist` x `Machine Learning Architect` x `Scientific Software Engineer`
 
 
@@ -22,7 +21,8 @@ I combine art, math, and machines to build wonderful things.
 
 ## Write code for people, not machines.
 
-I approach education and software engineering as art---with attention to beautiful design, usability, and display of technical mastery.
+I am a bridge.
+I approach education and software engineering as art.
 
 I enable experts to make better decisions by building them new tools for innovation and sharpening their existing ones.
 

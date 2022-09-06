@@ -27,6 +27,10 @@ border: solid 1px #fff;
 border: solid 1px #fff;
 }
 
+p {
+  letter-spacing: 1px;
+}
+
 /* h2.major {
 font-size: 1.75em;
 } */

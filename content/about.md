@@ -15,6 +15,8 @@ I am a curious seeker of opportune moments where novel ideas spark connections t
 - Third Generation Artist
 
 
+{{< button href="/resume.pdf">}}view resume{{< /button >}}
+
 -----
 
 
@@ -40,10 +42,6 @@ I now use machine learning to make data-driven decisions, predict useful informa
 
 My goal is to cultivate a network of enduring consulting relationships built around challenging problems with potential for monumental impact.
 
-{{< button href="/#get-in-touch">}}let's begin{{< /button >}}
+{{< button href="/#get-in-touch">}}get in touch{{< /button >}}
 <br>
 
------
-
-{{< button href="/resume.pdf">}}view resume{{< /button >}}
-<br>

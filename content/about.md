@@ -5,31 +5,25 @@ image:
 share: false
 ---
 
-I am a curious seeker of opportune moments where novel ideas spark connections to prior knowledge.
+I am a bridge. 
 
-> I combine art, math, and machines to build wonderful things.
+I quantify and reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
 
-### I am **Michael Pilosov, PhD**
-- Machine Learning Architect
-- Scientific Software Engineer
-- Third Generation Artist
 
+> I am **Michael Pilosov, PhD**
+> `Third Generation Artist` x `Machine Learning Architect` x `Scientific Software Engineer`
+
+
+I combine art, math, and machines to build wonderful things.
 
 {{< button href="/resume.pdf">}}view resume{{< /button >}}
 
 -----
 
-
-I am a bridge.
-
-> I make technical realms more accessible to those seeking new possibilities.
-
-I quantify and reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
-
-
 ## Write code for people, not machines.
 
 I approach education and software engineering as art---with attention to beautiful design, usability, and display of technical mastery.
+
 I enable experts to make better decisions by building them new tools for innovation and sharpening their existing ones.
 
 -----

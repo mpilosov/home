@@ -91,7 +91,7 @@ a.markdown-btn {
 }
 
 /* markdown-embedded image block */
-img {
+p img {
   width: 100%;
   text-align: center;
   margin: 1rem auto 1rem auto;

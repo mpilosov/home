@@ -1365,7 +1365,7 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px var(--border-color);
+				border-left: solid 1px var(--border-menus);
 			}
 
 				#header nav ul li:first-child {
@@ -1392,7 +1392,7 @@ input, select, textarea {
 					}
 
 		#header nav.use-middle:after {
-			content: '';
+			/* content: ''; */
 			display: block;
 			position: absolute;
 			top: 0;
@@ -1496,7 +1496,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px var(--border-menus);
 					}
 
 						#header nav ul li:first-child {

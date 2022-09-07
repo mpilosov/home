@@ -39,11 +39,11 @@ border-color: var(--border-color);
 }
 /* circle */
 #header .logo {
-border: solid 1px var(--border-color);
+border: solid 1px var(--border-logo);
 }
 /* menu */
 #header nav ul {
-border: solid 1px var(--border-color);
+border: solid 1px var(--border-menus);
 }
 
 /* h2.major {
@@ -66,8 +66,10 @@ blockquote p:last-of-type {
 /* spacing of page list */
 #header nav ul li{
   display: flex;
+  border-right: 1px solid var(--border-menus);
 }
 #header nav ul li a {
+width: 190px;
 margin: auto;
 line-height: 1.3;
 padding: 1.25rem;
@@ -75,7 +77,7 @@ padding: 1.25rem;
 /* spacing, just deleted `height` and copied the rest. */
 /* correct spacing in mobile */
 @media screen and (max-width: 480px) {
-#header nav ul li a {
+  #header nav ul li a {
 	display: block;
 	min-width: 7.5rem;
 	line-height: 2.75rem;
@@ -85,6 +87,12 @@ padding: 1.25rem;
 	font-size: 0.8rem;
 	border-bottom: 0;
 }
+}
+/* even menu-links width works up until 1000px (and lower) where it overflows offscreen; */
+@media screen and (max-width: 1000px) {
+  #header nav ul li a {
+    width: unset;
+  }
 }
 
 /* button */

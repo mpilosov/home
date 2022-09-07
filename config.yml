@@ -11,7 +11,7 @@ Params:
   headings_color: '#fff'
   border_color: '#e83e8c'
   border_logo: '#fff'
-  border_menus: '#fff'
+  border_menus: 'green'
   body_bg: '#1b1f22'
   article_bg: '#1b1f22'
   bg_grad_from: 'rgba(19, 21, 25, 0.5)'

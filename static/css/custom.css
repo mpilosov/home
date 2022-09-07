@@ -2,11 +2,12 @@
 .icon img {
   transform: translateY(-2px);
 }
-@media screen and (max-width: 737px) {
+/* below seems to be fixed by changing img class*/
+/*@media screen and (max-width: 737px) {
     .icon img {
       transform: translateY(-6px);
     }
-}
+}*/
 
 
 

@@ -77,10 +77,9 @@ padding: 1.25rem;
 /* spacing, just deleted `height` and copied the rest. */
 /* correct spacing in mobile */
 @media screen and (max-width: 480px) {
-#header nav ul li a {
+  #header nav ul li a {
 	display: block;
 	min-width: 7.5rem;
-  width: unset;
 	line-height: 2.75rem;
 	padding: 0 1.25rem 0 1.45rem;
 	text-transform: uppercase;
@@ -88,6 +87,12 @@ padding: 1.25rem;
 	font-size: 0.8rem;
 	border-bottom: 0;
 }
+}
+/* even menu-links width works up until 1000px (and lower) where it overflows offscreen; */
+@media screen and (max-width: 1000px) {
+  #header nav ul li a {
+    width: unset;
+  }
 }
 
 /* button */

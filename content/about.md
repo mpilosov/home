@@ -28,7 +28,7 @@ I enable experts to make better decisions by building them new tools for innovat
 
 -----
 
-As an applied mathematician, I created new statistical technique to reduce uncertainty---and made it accessible as open-source software.
+As an applied mathematician, I created a new statistical technique to reduce uncertainty---and made it accessible as open-source software.
 
 I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 

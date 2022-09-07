@@ -7,3 +7,10 @@ Params:
   url: https://github.com/mathematicalmichael
   logo: icons/mult.svg
   sharing: true
+  custom_font_color: '#fff'
+  headings_color: '#fff'
+  border_color: '#e83e8c'
+  body_bg: '#1b1f22'
+  article_bg: '#1b1f22'
+  bg_grad_from: 'rgba(19, 21, 25, 0.5)'
+  bg_grad_to: 'rgba(19, 21, 25, 0.5)'

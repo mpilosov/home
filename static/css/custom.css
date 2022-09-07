@@ -39,11 +39,11 @@ border-color: var(--border-color);
 }
 /* circle */
 #header .logo {
-border: solid 1px var(--border-color);
+border: solid 1px var(--border-logo);
 }
 /* menu */
 #header nav ul {
-border: solid 1px var(--border-color);
+border: solid 1px var(--border-menus);
 }
 
 /* h2.major {

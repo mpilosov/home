@@ -1365,7 +1365,7 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px var(--border-color);
+				border-left: solid 1px var(--border-menus);
 			}
 
 				#header nav ul li:first-child {

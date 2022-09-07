@@ -227,3 +227,26 @@ input[type="submit"],
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+/* stochastic override */
+.printout{
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.plot-container{
+  display: flex;
+  flex-direction: column;
+}
+.plot-canvas{
+  filter: invert();
+  margin: auto;
+}
+.poker-label{
+  margin-bottom: 1rem;
+}
+
+#mytext, #mytext2, #mytext3{
+  height: 60px !important;
+  font-size: large !important;
+}

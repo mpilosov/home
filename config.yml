@@ -20,6 +20,6 @@ Params:
   bg_fade_in: '0.8s'
   header_delay: '0.05s'
   header_fade_in: '0.2s'
-  header_transition: '1s'
+  header_transition: '0.5s'
   article_transition: '0.2s' # these two dont seem to work
   text_transition: '0.2s'

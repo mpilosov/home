@@ -16,3 +16,10 @@ Params:
   article_bg: '#1b1f22'
   bg_grad_from: 'rgba(19, 21, 25, 0.5)'
   bg_grad_to: 'rgba(19, 21, 25, 0.5)'
+  bg_delay: '0s'
+  bg_fade_in: '0.8s'
+  header_delay: '0.05s'
+  header_fade_in: '0.2s'
+  header_transition: '1s'
+  article_transition: '0.2s' # these two dont seem to work
+  text_transition: '0.2s'

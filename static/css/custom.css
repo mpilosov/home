@@ -66,10 +66,16 @@ blockquote p:last-of-type {
 /* spacing of page list */
 #header nav ul li{
   display: flex;
-  border-right: 1px solid var(--border-menus);
+  /* border-right: 1px solid var(--border-menus); */
+}
+@media (min-width:1185px) {
+  #header nav ul li:nth-child(2){
+    border-right: 1px solid var(--border-menus);
+  }
+  
 }
 #header nav ul li a {
-width: 190px;
+width: 280px;
 margin: auto;
 line-height: 1.3;
 padding: 1.25rem;
@@ -89,11 +95,14 @@ padding: 1.25rem;
 }
 }
 /* even menu-links width works up until 1000px (and lower) where it overflows offscreen; */
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1185px) {
   #header nav ul li a {
     width: unset;
   }
-}
+  #header nav ul  {
+   flex-direction: column;
+  }
+} */
 
 /* button */
 a.markdown-btn {

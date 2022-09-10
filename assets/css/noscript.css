@@ -12,11 +12,7 @@
 
 /* Header */
 
-	body.is-preload #header {
-		-moz-filter: none;
-		-webkit-filter: none;
-		-ms-filter: none;
-		filter: none;
+	body.is-preload #header {		filter: none;
 	}
 
 		body.is-preload #header > * {

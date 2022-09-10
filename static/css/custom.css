@@ -140,62 +140,6 @@ p img {
   display: block;
 }
 
-/*************************************************
- *  Sharing
- **************************************************/
-
-.share-box {
-  text-align: center;
-}
-
-ul.share {
-  display: block;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
-ul.share li {
-  display: inline-flex;
-  margin-right: 5px;
-}
-
-ul.share li:last-of-type {
-  margin-right: 0;
-}
-
-ul.share li i {
-  display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 16px;
-  text-align: center;
-  transition: all 150ms ease-in-out;
-  color: #fff;
-}
-
-.dark ul.share li i {
-  color: rgb(68, 71, 90);
-}
-
-ul.share li a {
-  background-color: #b5c6ce;
-  display: block;
-  border-radius: 50%;
-  text-decoration: none !important;
-  margin: 0;
-}
-
-ul.share li:hover i {
-  transform: scale(1.4)
-}
-
 /* poker */
 .poker-label {
   margin: 0.5rem 0 0 0.25rem;
@@ -209,11 +153,7 @@ input[type="submit"],
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		appearance: none;		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #e83e8c;
 		border-radius: 4px;
 		border: 0;

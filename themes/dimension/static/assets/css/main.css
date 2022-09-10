@@ -1,12 +1,3 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -102,11 +93,7 @@ input, select, textarea {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
+			animation: none !important;			transition: none !important;
 		}
 
 /* Type */
@@ -147,11 +134,7 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
-	a {
-		-moz-transition: color var(--article-transition) ease-in-out, background-color var(--article-transition) ease-in-out, border-bottom-color var(--article-transition) ease-in-out;
-		-webkit-transition: color var(--article-transition) ease-in-out, background-color var(--article-transition) ease-in-out, border-bottom-color var(--article_transition) ease-in-out;
-		-ms-transition: color var(--article-transition) ease-in-out, background-color var(--article-transition) ease-in-out, border-bottom-color var(--article-transition) ease-in-out;
-		transition: color var(--article-transition) ease-in-out, background-color var(--article-transition) ease-in-out, border-bottom-color var(--article-transition) ease-in-out;
+	a {		transition: color var(--article-transition) ease-in-out, background-color var(--article-transition) ease-in-out, border-bottom-color var(--article-transition) ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
@@ -328,24 +311,12 @@ input, select, textarea {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display: flex;
-			-moz-flex-wrap: wrap;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
+			display: flex;			flex-wrap: wrap;
 			width: calc(100% + 3rem);
 			margin: -1.5rem 0 2rem -1.5rem;
 		}
 
-			form > .fields > .field {
-				-moz-flex-grow: 0;
-				-webkit-flex-grow: 0;
-				-ms-flex-grow: 0;
-				flex-grow: 0;
-				-moz-flex-shrink: 0;
-				-webkit-flex-shrink: 0;
-				-ms-flex-shrink: 0;
-				flex-shrink: 0;
+			form > .fields > .field {				flex-grow: 0;				flex-shrink: 0;
 				padding: 1.5rem 0 0 1.5rem;
 				width: calc(100% - 1.5rem);
 			}
@@ -408,11 +379,7 @@ input, select, textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
-		-webkit-transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
-		-ms-transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
-		transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
+		appearance: none;		transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #ffffff;
@@ -525,11 +492,7 @@ input, select, textarea {
 			}
 
 			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				-moz-transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
-				-webkit-transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
-				-ms-transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
-				transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
+			input[type="radio"] + label:before {				transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
 				border-radius: 4px;
 				border: solid 1px #ffffff;
 				content: '';
@@ -812,11 +775,7 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
-		ul.actions.special {
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
+		ul.actions.special {			justify-content: center;
 			width: 100%;
 			margin-left: 0;
 		}
@@ -825,11 +784,7 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-		ul.actions.stacked {
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
+		ul.actions.stacked {			flex-direction: column;
 			margin-left: 0;
 		}
 
@@ -845,15 +800,7 @@ input, select, textarea {
 			width: calc(100% + 1rem);
 		}
 
-			ul.actions.fit li {
-				-moz-flex-grow: 1;
-				-webkit-flex-grow: 1;
-				-ms-flex-grow: 1;
-				flex-grow: 1;
-				-moz-flex-shrink: 1;
-				-webkit-flex-shrink: 1;
-				-ms-flex-shrink: 1;
-				flex-shrink: 1;
+			ul.actions.fit li {				flex-grow: 1;				flex-shrink: 1;
 				width: 100%;
 			}
 
@@ -868,23 +815,12 @@ input, select, textarea {
 		@media screen and (max-width: 588px) {
 
 			ul.actions:not(.fixed) {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
 				flex-direction: column;
 				margin-left: 0;
 				width: 100% !important;
 			}
 
-				ul.actions:not(.fixed) li {
-					-moz-flex-grow: 1;
-					-webkit-flex-grow: 1;
-					-ms-flex-grow: 1;
-					flex-grow: 1;
-					-moz-flex-shrink: 1;
-					-webkit-flex-shrink: 1;
-					-ms-flex-shrink: 1;
-					flex-shrink: 1;
+				ul.actions:not(.fixed) li {					flex-grow: 1;					flex-shrink: 1;
 					padding: 1rem 0 0 0;
 					text-align: center;
 					width: 100%;
@@ -1029,11 +965,7 @@ input, select, textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
-		-webkit-transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
-		-ms-transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
-		transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
+		appearance: none;		transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
@@ -1132,11 +1064,7 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {
-		-moz-transform: scale(1.0);
-		-webkit-transform: scale(1.0);
-		-ms-transform: scale(1.0);
-		transform: scale(1.0);
+	#bg {		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
@@ -1156,15 +1084,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg:before {
-			-moz-transition: background-color var(--bg-fade-in) ease-in-out;
-			-webkit-transition: background-color var(--bg-fade-in) ease-in-out;
-			-ms-transition: background-color var(--bg-fade-in) ease-in-out;
-			transition: background-color var(--bg-fade-in) ease-in-out;
-			-moz-transition-delay: var(--bg-delay);
-			-webkit-transition-delay: var(--bg-delay);
-			-ms-transition-delay: var(--bg-delay);
-			transition-delay: var(--bg-delay);
+		#bg:before {			transition: background-color var(--bg-fade-in) ease-in-out;			transition-delay: var(--bg-delay);
 			background-image: linear-gradient(to top, var(--bg-grad-from), var(--bg-grad-to)), url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
@@ -1175,15 +1095,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
-			-moz-transition: -moz-transform var(--header-fade-in) ease-in-out, -moz-filter var(--header-fade-in) ease-in-out;
-			-webkit-transition: -webkit-transform var(--header-fade-in) ease-in-out, -webkit-filter var(--header-fade-in) ease-in-out;
-			-ms-transition: -ms-transform var(--header-fade-in) ease-in-out, -ms-filter var(--header-fade-in) ease-in-out;
-			transition: transform var(--header-fade-in) ease-in-out, filter var(--header-fade-in) ease-in-out;
+		#bg:after {			transform: scale(1.125);			transition: transform var(--header-fade-in) ease-in-out, filter var(--header-fade-in) ease-in-out;
 			background-image: var(--site-background);
 			background-position: center;
 			background-size: cover;
@@ -1191,15 +1103,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
-			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
-			-moz-filter: blur(0.2rem);
-			-webkit-filter: blur(0.2rem);
-			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
+		body.is-article-visible #bg:after {			transform: scale(1.0825);			filter: blur(0.2rem);
 		}
 
 		body.is-preload #bg:before {
@@ -1212,19 +1116,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		display: flex;		flex-direction: column;		align-items: center;		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
@@ -1264,30 +1156,15 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
 		flex-direction: column;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
 		align-items: center;
-		-moz-transition: -moz-transform var(--header-fade-in) ease-in-out, -moz-filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
-		-webkit-transition: -webkit-transform var(--header-fade-in) ease-in-out, -webkit-filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
-		-ms-transition: -ms-transform var(--header-fade-in) ease-in-out, -ms-filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
 		transition: transform var(--header-fade-in) ease-in-out, filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
 		max-width: 100%;
 		text-align: center;
 	}
 
 		#header > * {
-			-moz-transition: opacity var(--header-fade-in) ease-in-out;
-			-webkit-transition: opacity var(--header-fade-in) ease-in-out;
-			-ms-transition: opacity var(--header-fade-in) ease-in-out;
 			transition: opacity var(--header-fade-in) ease-in-out;
 			position: relative;
 			margin-top: 3.5rem;
@@ -1333,13 +1210,7 @@ input, select, textarea {
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height var(--header-transition) ease, padding var(--header-transition) ease, opacity var(--header-fade-in) ease-in-out;
-				-webkit-transition: max-height var(--header-transition) ease, padding var(--header-transition) ease, opacity var(--header-fade-in) ease-in-out;
-				-ms-transition: max-height var(--header-transition) ease, padding var(--header-transition) ease, opacity var(--header-fade-in) ease-in-out;
 				transition: max-height var(--header-transition) ease, padding var(--header-transition) ease, opacity var(--header-fade-in) ease-in-out;
-				-moz-transition-delay: var(--header-delay);
-				-webkit-transition-delay: var(--header-delay);
-				-ms-transition-delay: var(--header-delay);
 				transition-delay: var(--header-delay);
 				padding: 3rem 2rem;
 				max-height: 40rem;
@@ -1397,37 +1268,13 @@ input, select, textarea {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#header nav.use-middle:after {
-			/* content: ''; */
-			display: block;
-			position: absolute;
-			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
-			height: 100%;
-			background: #ffffff;
-		}
-
-		#header nav.use-middle ul li.is-middle {
-			/* border-left: 0; */
-		}
-
 		body.is-article-visible #header {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
 			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
 			opacity: 0;
 		}
 
 		body.is-preload #header {
-			-moz-filter: blur(0.125rem);
-			-webkit-filter: blur(0.125rem);
-			-ms-filter: blur(0.125rem);
 			filter: blur(0.125rem);
 		}
 
@@ -1491,11 +1338,7 @@ input, select, textarea {
 					padding: 2.5rem 0;
 				}
 
-				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
+				#header nav ul {					flex-direction: column;
 					min-width: 10rem;
 					max-width: 100%;
 				}
@@ -1523,45 +1366,17 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
-		-moz-flex-grow: 1;
-		-webkit-flex-grow: 1;
-		-ms-flex-grow: 1;
-		flex-grow: 1;
-		-moz-flex-shrink: 1;
-		-webkit-flex-shrink: 1;
-		-ms-flex-shrink: 1;
-		flex-shrink: 1;
+	#main {		flex-grow: 1;		flex-shrink: 1;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
+		display: flex;		align-items: center;		justify-content: center;		flex-direction: column;
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
 	}
 
-		#main article {
-			-moz-transform: translateY(0.25rem);
-			-webkit-transform: translateY(0.25rem);
-			-ms-transform: translateY(0.25rem);
-			transform: translateY(0.25rem);
-			-moz-transition: opacity var(--header-fade-in) ease-in-out, -moz-transform var(--header-fade-in) ease-in-out;
-			-webkit-transition: opacity var(--header-fade-in) ease-in-out, -webkit-transform var(--header-fade-in) ease-in-out;
-			-ms-transition: opacity var(--header-fade-in) ease-in-out, -ms-transform var(--header-fade-in) ease-in-out;
-			transition: opacity var(--header-fade-in) ease-in-out, transform var(--header-fade-in) ease-in-out;
+		#main article {			transform: translateY(0.25rem);			transition: opacity var(--header-fade-in) ease-in-out, transform var(--header-fade-in) ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
@@ -1572,9 +1387,6 @@ input, select, textarea {
 		}
 
 			#main article.active {
-				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
 			}
@@ -1592,11 +1404,7 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
-				#main article .close:before {
-					-moz-transition: background-color var(--article-transition) ease-in-out;
-					-webkit-transition: background-color var(--article-transition) ease-in-out;
-					-ms-transition: background-color var(--article-transition) ease-in-out;
-					transition: background-color var(--article-transition) ease-in-out;
+				#main article .close:before {					transition: background-color var(--article-transition) ease-in-out;
 					content: '';
 					display: block;
 					position: absolute;
@@ -1645,11 +1453,7 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
-		-moz-transition: -moz-transform var(--header-fade-in) ease-in-out, -moz-filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
-		-webkit-transition: -webkit-transform var(--header-fade-in) ease-in-out, -webkit-filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
-		-ms-transition: -ms-transform var(--header-fade-in) ease-in-out, -ms-filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
-		transition: transform var(--header-fade-in) ease-in-out, filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
+	#footer {		transition: transform var(--header-fade-in) ease-in-out, filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
 		width: 100%;
 		max-width: 100%;
 		margin-top: 2rem;
@@ -1664,15 +1468,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-		body.is-article-visible #footer {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
+		body.is-article-visible #footer {			transform: scale(0.95);			filter: blur(0.1rem);
 			opacity: 0;
 		}
 

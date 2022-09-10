@@ -1,7 +1,7 @@
 ---
 title: Mathematical Michael
 description: 
-background: bg/fall-blur.jpg
+background:
 logo: icons/main.svg
 ---
 

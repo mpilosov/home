@@ -17,10 +17,10 @@ Params:
   bg_grad_from: 'rgba(19, 21, 25, 0.5)'
   bg_grad_to: 'rgba(19, 21, 25, 0.5)'
   bg_delay: '0s'
-  bg_fade_in: '1.5s'
+  bg_fade_in: '2.1s'
   header_delay: '0s'
-  header_fade_in: '1s'
-  header_transition: '1.5s'
+  header_fade_in: '0.5s'
+  header_transition: '0.9s'
   article_transition: '0.5s' # these two dont seem to work
   text_transition: '0.5s'
   version: 1

@@ -64,9 +64,6 @@ input::-moz-focus-inner {
 input,
 select,
 textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
 	appearance: none;
 }
 
@@ -413,11 +410,8 @@ form>.fields>.field.quarter {
 	input[type="tel"],
 	select,
 	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-	appearance: none;
-	transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
+		appearance: none;
+		transition: border-color var(--text-transition) ease-in-out, box-shadow var(--text-transition) ease-in-out, background-color var(--text-transition) ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #ffffff;
@@ -485,9 +479,6 @@ form>.fields>.field.quarter {
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
 		appearance: none;
 		display: block;
 		float: left;
@@ -984,11 +975,8 @@ ul.actions.fit li>* {
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-	appearance: none;
-	transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
+		appearance: none;
+		transition: background-color var(--text-transition) ease-in-out, color var(--text-transition) ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;

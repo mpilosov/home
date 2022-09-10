@@ -8,14 +8,20 @@
             <!-- Header -->
                 <header id="header">
                     <div class="logo">
-                        <span class="icon fa-gem"></span>
+                        <a href="{{ "/" | relURL }}">
+                            <span class="icon">
+                                <img src="{{ .Site.Params.logo | relURL }}">
+                            </span>
+                        </a>
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <h1><a href="{{ "/" | relURL }}">Go Home</a></h1>
+                            <h1>Woops!</h1>
                             <p>
-                                Nothing to see here
+                                you have reached a page in error.
+				please <a href="{{ "/" | relURL }}#lets-connect">contact me</a>.
                             </p>
+                            <h2><a href="{{ "/" | relURL }}">go back</a></h2>
                         </div>
                     </div>
                 </header>

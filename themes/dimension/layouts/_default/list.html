@@ -8,9 +8,9 @@
             <!-- Header -->
                 <header id="header">
                     <div class="logo">
-                        <a href="/">
+                        <a href="{{ "/" | relURL }}">
                             <span class="icon">
-                                <img src="{{ .Params.logo }}">
+                                <img src="{{ .Params.logo | relURL }}">
                             </span>
                         </a>
                     </div>
@@ -26,14 +26,14 @@
                     </div>
                     <nav>
                         <ul>
-                            {{ range .Pages.ByDate }}
+                            {{ range .Pages.ByWeight }}
                                 {{if .Title }}
                                     {{if .Content}}
                                         <li>
                                             <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">{{ .Title }}</a>
                                         </li>
                                     {{ else }}
-                                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
@@ -48,9 +48,18 @@
                         {{if .Title }}
                             {{if .Content }}
                                 <article id="{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
-                                    <h2 class="major">{{ .Title }}</h2>
+                                    <h1 class="major">{{ .Title }}</h1>
+                                    {{ if .Params.image }}
                                     <span class="image main"><img src="{{ .Params.image }}" alt="" /></span>
+                                    {{ end }}
+                                    {{if and .Params.timestamp .Params.date }}
+                                        <h4 class="minor">{{ .Params.date | time.Format "January 2006" }}</h4>
+                                    {{ end }}
                                     {{ .Content }}
+                                    {{if .Params.social }}
+                                    {{ partial "social.html" . }}
+                                    {{ end }}
+                                    {{ partial "share.html" . }}
                                 </article>
                             {{ end }}
                         {{ end }}

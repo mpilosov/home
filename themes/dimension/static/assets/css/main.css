@@ -1064,8 +1064,8 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
+	#bg {
+		transform: scale(1.0);
 		position: fixed;
 		top: 0;
 		left: 0;

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="preload" onload="this.rel='stylesheet'" as="style"> 
-    <link href="{{ "assets/css/main.css" | relURL }}"  rel="preload" onload="this.rel='stylesheet'" as="style" />
+    <link href="{{ "assets/css/main.css?v=" | relURL }}{{ .Site.Params.version }}"  rel="preload" onload="this.rel='stylesheet'" as="style" />
     <link rel="canonical" href="{{ .Permalink }}">
     <noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | relURL }}"/></noscript>
     <style>
@@ -35,7 +35,7 @@
 
     {{ partial "critical-styles.html" . }}
 
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"/>
+    <link rel="stylesheet" href="{{ "css/custom.css?v=" | relURL }}{{ .Site.Params.version }}"/>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -52,6 +52,6 @@
     <script defer src={{ "assets/js/browser.min.js" | relURL }}></script>
     <script defer src={{ "assets/js/breakpoints.min.js" | relURL }}></script>
     <script defer src={{ "assets/js/util.js" | relURL }}></script>
-    <script defer src={{ "assets/js/main.js" | relURL }}></script>
-    <script defer src={{ "assets/js/custom.js" | absURL }}></script>
+    <script defer src="{{ "assets/js/main.js" | relURL }}?v={{ .Site.Params.version }}"></script>
+    <script defer src="{{ "assets/js/custom.js" | absURL }}?v={{ .Site.Params.version }}"></script>
 </head>

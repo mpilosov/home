@@ -157,6 +157,14 @@ input[type="submit"],
   display: flex;
   margin-bottom: 2rem;
 }
+
+.vg-right{
+display: flex;
+}
+
+.vg-right .value_group:first-child{
+  margin-right: 1rem;
+}
 .plot-container{
   display: flex;
   flex-direction: column;
@@ -169,7 +177,7 @@ input[type="submit"],
   margin-bottom: 1rem;
 }
 
-#mytext, #mytext2, #mytext3{
+#mytext{
   height: 60px !important;
   font-size: large !important;
 }

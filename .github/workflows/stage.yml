@@ -9,7 +9,6 @@ on:
       - "README.md"
       - "Makefile"
       - "docker/*"
-      - ".github/workflows/*"
 
   pull_request:
     branches:

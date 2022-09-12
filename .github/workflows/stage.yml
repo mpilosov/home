@@ -26,27 +26,17 @@ jobs:
           #submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
+      - name: setup
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.96.0'
           extended: false
 
-      - name: Build
+      - name: build
         run: hugo --baseURL=http://clfx.cc/"$GITHUB_SHA"
 
-      - name: Copy
+      - name: deploy
         run: |
           mkdir -p ~/out/"$GITHUB_SHA"
           cp -R public/* ~/out/"$GITHUB_SHA"/
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: mpilosov.com
-          # external_repository: mpilosov/homepage
-          publish_branch: gh-pages
 

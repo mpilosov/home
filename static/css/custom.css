@@ -16,8 +16,13 @@
  margin: 1rem 0 1rem 0;
 }
 .social-icons a:not(:last-of-type) {
- margin-inline-end:12px
+ margin-inline-end:12px;
+ border-bottom: none; /* get rid of underline with social icons */
 }
+.social-icons a:last-of-type {
+  border-bottom: none; /* get rid of underline with social icons */
+ }
+
 .social-icons a svg {
  height:31px;
  width:31px;

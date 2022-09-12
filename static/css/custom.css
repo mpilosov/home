@@ -114,10 +114,10 @@ p img {
   display: block;
 }
 
-/* poker */
+/* poker
 .poker-label {
-  margin: 0.5rem 0 0 0.25rem;
-}
+  margin: 0;
+} */
 
 input[type="submit"],
 	input[type="reset"],
@@ -162,8 +162,10 @@ input[type="submit"],
 display: flex;
 }
 
-.vg-right .value_group:first-child{
-  margin-right: 1rem;
+
+.vg-right .value_group{
+  margin-left: 0.5rem;
+  justify-content: space-evenly;
 }
 .plot-container{
   display: flex;
@@ -171,13 +173,17 @@ display: flex;
 }
 .plot-canvas{
   filter: invert();
-  margin: auto;
+  margin-inline: 3rem;
+  padding-inline: 1rem;
 }
 .poker-label{
-  margin-bottom: 1rem;
+  margin-bottom: 0.21rem;
+}
+.printout{
+  margin-bottom: -0.25rem;
 }
 
-#mytext{
+/* #curValue{
   height: 60px !important;
   font-size: large !important;
-}
+} */

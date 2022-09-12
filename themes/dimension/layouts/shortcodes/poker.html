@@ -1,21 +1,26 @@
 <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes -->
 <div class="plot-container">
-  <canvas id="plotCanvas" class="plot-canvas" width="250px" height="250px"></canvas>
-  
+  <canvas id="plotCanvas" class="plot-canvas" width="auto" height="auto"></canvas>
+
   <div class="printout">
 
-    <div class="value_group">
+    <div class="score">
       <label class="poker-label">current</label>
-      <input type="text" id="mytext">
+      <input type="text" id="curValue" readonly>
     </div>
+
     <div class="vg-right">
       <div class="value_group">
         <label class="poker-label">min</label>
-        <input type="text" id="mytext2">
+        <input type="text" id="minValue" readonly>
       </div>
       <div class="value_group">
         <label class="poker-label">max</label>
-        <input type="text" id="mytext3">
+        <input type="text" id="maxValue" readonly>
+      </div>
+      <div class="value_group">
+        <label class="poker-label">action</label>
+        <input type="text" id="status" readonly>
       </div>
     </div>
   </div>
@@ -24,126 +29,148 @@
 <br>
 <br>
 
-<script> 
-var canvas = document.getElementById('plotCanvas');
-var ctx = canvas.getContext('2d');
+<script>
+  var canvas = document.getElementById('plotCanvas');
+  var ctx = canvas.getContext('2d');
 
-var num, maxnum, minnum;
+  var num, maxnum, minnum;
 
-var interval = 5;
+  var interval = 5;
 
-var B = [0]
-var brakes = 200; // higher = slower, 100 ~ 50s
-var ht = canvas.height;
-var n = canvas.width;
-var alpha = 5;
+  var B = [0]
+  var brakes = 120; // higher = slower, 100 ~ 50s
+  var ht = canvas.height;
+  var n = canvas.width;
+  var alpha = 5;
 
-initPlot();
-drawWalk();
-
-function reset() {
-  B = [0];
-  var id = window.setTimeout(function() {}, 0);
-  while (id--) {
-    window.clearTimeout(id); // will do nothing if no timeout with id is present
-  }
-  document.getElementById("mytext2").value = 0;
-  document.getElementById("mytext3").value = 0;
-
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  initPlot()
+  initPlot();
   drawWalk();
-}
 
-function initPlot() {
-  ctx.font = "16px sans-serif";
-  ctx.filStyle = "light";
-  // ctx.fillText("Game concept by Dr. Burt Simon. Copyright 2016 E. Regan & M. Pilosov", 4, canvas.height - 4);
-  ctx.font = "36px serif";
-  // ctx.fillText("Brownian Poker", 1.003*canvas.width / 3 , 0.8*canvas.width);
+  function reset() {
+    B = [0];
+    var id = window.setTimeout(function () {}, 0);
+    while (id--) {
+      window.clearTimeout(id); // will do nothing if no timeout with id is present
+    }
+    document.getElementById("minValue").value = 0;
+    document.getElementById("maxValue").value = 0;
 
-  ctx.beginPath();
-  ctx.moveTo(0, canvas.height / 2)
-  ctx.lineTo(canvas.width, canvas.height / 2)
-  ctx.stroke();
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    initPlot()
+    drawWalk();
+  }
 
-  var tick_length = 7;
-  var tick_its = 8;
+  function initPlot() {
+    ctx.font = "16px sans-serif";
+    ctx.filStyle = "light";
+    // ctx.fillText("Game concept by Dr. Burt Simon. Copyright 2016 E. Regan & M. Pilosov", 4, canvas.height - 4);
+    ctx.font = "36px serif";
+    // ctx.fillText("Brownian Poker", 1.003*canvas.width / 3 , 0.8*canvas.width);
 
-  for (var i = 1; i < tick_its; i++) {
-    // create horizontal tick marks
-    ctx.moveTo(i * canvas.width / tick_its, canvas.height / 2 - tick_length)
-    ctx.lineTo(i * canvas.width / tick_its, canvas.height / 2 + tick_length)
+    ctx.beginPath();
+    ctx.moveTo(0, canvas.height / 2)
+    ctx.lineTo(canvas.width, canvas.height / 2)
     ctx.stroke();
-    // create vertical tick marks
-    // ctx.moveTo(0, i*canvas.height/tick_its)
-    // ctx.lineTo(canvas.width, i*canvas.height/tick_its)
-    // ctx.stroke();
-  }
-}
 
-function drawWalk() {
-  function plot(delay) {
+    var tick_length = 7;
+    var tick_its = 6;
 
-    window.setTimeout(function() {
-      // console.log("i", delay)
-      if (Math.random() < 0.5) {
-        B.push(B[delay] - alpha / n);
-      } else {
-        B.push(B[delay] + alpha / n);
-      }
-      // console.log(delay, B[delay] * 100 + 100);
-      ctx.lineTo(delay, B[delay] * 100 + ht / 2);
+    var curBox = document.getElementById("curValue");
+    curBox.style["width"] = "80px";
+    curBox.style["height"] = "40px";
+    curBox.style.fontSize = "xx-large";
+
+    var minBox = document.getElementById("minValue");
+    minBox.style["width"] = "60px";
+    minBox.style["height"] = "30px";
+    minBox.style.fontSize = "small";
+
+    var maxBox = document.getElementById("maxValue");
+    maxBox.style["width"] = "60px";
+    maxBox.style["height"] = "30px";
+    maxBox.style.fontSize = "small";
+
+    var statusBox = document.getElementById("status");
+    statusBox.style["width"] = "80px";
+    statusBox.style["height"] = "30px";
+    statusBox.style.fontSize = "large";
+    statusBox.style.fontStyle = "bold";
+
+    for (var i = 1; i < tick_its; i++) {
+      // create horizontal tick marks
+      ctx.moveTo(i * canvas.width / tick_its, canvas.height / 2 - tick_length)
+      ctx.lineTo(i * canvas.width / tick_its, canvas.height / 2 + tick_length)
       ctx.stroke();
-
-      num = (-ht / 8 * B[delay]).toFixed(); // display current value
-      maxnum = (-ht / 8 * Math.min.apply(null, B)).toFixed(); // display max value
-      minnum = (-ht / 8 * Math.max.apply(null, B)).toFixed(); // display max value
-      document.getElementById("mytext").value = num;
-      var txtbox = document.getElementById("mytext");
-      txtbox.style["width"] = "60px";
-      txtbox.style["height"] = "40px";
-      txtbox.style.fontSize = "large";
-
-      document.getElementById("mytext2").value = minnum;
-      var txtbox2 = document.getElementById("mytext2");
-      txtbox2.style["width"] = "60px";
-      txtbox2.style["height"] = "30px";
-      txtbox2.style.fontSize = "small";
-
-      document.getElementById("mytext3").value = maxnum;
-      var txtbox3 = document.getElementById("mytext3");
-      txtbox3.style["width"] = "60px";
-      txtbox3.style["height"] = "30px";
-      txtbox3.style.fontSize = "small";
-
-    }, delay * brakes);
+      // create vertical tick marks
+      // ctx.moveTo(0, i*canvas.height/tick_its)
+      // ctx.lineTo(canvas.width, i*canvas.height/tick_its)
+      // ctx.stroke();
+    }
   }
 
-  ctx.beginPath();
+  function drawWalk() {
+    function plot(timestep) {
 
-  for (var i = 0; i < n; i++) {
-    plot(i);
+      window.setTimeout(function () {
+        // console.log("i", timestep)
+        if (Math.random() < 0.5) {
+          B.push(B[timestep] - alpha / n);
+        } else {
+          B.push(B[timestep] + alpha / n);
+        }
+        var tick_its = 6;
+        var status = "WAIT";
+        if (1 + timestep % (canvas.width / tick_its) < 15) {
+          status = "BET";
+        }
+        if (timestep == (canvas.width - 1)) {
+          status = "SHOW";
+        }
+
+        // console.log(timestep, B[timestep] * 100 + 100);
+        ctx.lineTo(timestep, B[timestep] * 100 + ht / 2);
+        ctx.stroke();
+
+        num = (-ht / 8 * B[timestep]).toFixed(); // display current value
+        maxnum = (-ht / 8 * Math.min.apply(null, B)).toFixed(); // display max value
+        minnum = (-ht / 8 * Math.max.apply(null, B)).toFixed(); // display max value
+        document.getElementById("curValue").value = num;
+        document.getElementById("minValue").value = minnum;
+        document.getElementById("maxValue").value = maxnum;
+        document.getElementById("status").value = status;
+      }, timestep * brakes);
+    }
+
+    ctx.beginPath();
+
+    for (var i = 0; i < n; i++) {
+      plot(i);
+    }
   }
-}
 
-// window.setInterval(function(){
-//   reset();
-//   console.log("test")
-// }, interval*1000);
+  // window.setInterval(function(){
+  //   reset();
+  //   console.log("test")
+  // }, interval*1000);
 </script>
 
-<h2>Premise</h2>
-Flip a coin, heads you earn a point, tails you lose one. 
-<br>
-<br>
-Now repeat this–better yet let the computer do it–and keep your running score hidden to yourself. 
-<i>Consider this webpage to be your hand.</i>
-<br>
-<br>
-Your opponents each have one of their own and bet on their hands.
-<br>
-<br>
-Game concept by Dr. Burt Simon. Copyright 2016 E. Regan & M. Pilosov.
-<br>
+<h2>What's Going on?</h2>
+<p>A coin is being flipped automatically.<br>
+  Heads +1, Tails -1.
+  Keep a running sum.</p>
+<i>This webpage is your "hand".</i>
+<p>
+  Find some friends and show them how to get a hand of their own. Choose a unit of value with which to gamble (candy,
+  dimes, chips, etc.).
+</p>
+
+<p>
+  There are six rounds of betting, corresponding to each tick mark in the chart.
+  During each round each player must bet a predetermined minimum, fold (resign), or raise--which everyone else must call (match) to remain in the game.
+  At the end of each game, the player remaining with the highest current score is the winner.
+</p>
+
+<p>
+  Game concept by <a href="http://math.ucdenver.edu/~bsimon" target="_blank">Dr. Burt Simon</a>.<br>Design and Software Copyright 2016 <a href="https://elliottregan.com" target="_blank">E. Regan</a> & M. Pilosov
+</p>
 <br>

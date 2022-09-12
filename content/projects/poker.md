@@ -6,7 +6,6 @@ share: true
 timestamp: true
 ---
 
-## Your Hand:
 {{< poker >}}
 
 

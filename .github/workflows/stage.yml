@@ -37,10 +37,10 @@ jobs:
           hugo-version: '0.96.0'
           extended: false
 
-      - name: define hash
+      - name: vars
         run: |
          echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
-         
+
       - name: build hash
         run: hugo --baseURL=http://clfx.cc/mm/${{ steps.vars.outputs.sha_short }}
 
@@ -57,4 +57,3 @@ jobs:
           rm -rf ~/out/mm/stage
           mkdir -p ~/out/mm/stage
           cp -R public/* ~/out/mm/stage
-          

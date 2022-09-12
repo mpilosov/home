@@ -8,12 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mpilosov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>the oracle</title>
+      <title>art</title>
+      <link>https://mpilosov.com/projects/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mpilosov.com/projects/art/</guid>
+      <description>Probably Art Start with today. Show biggest achievement.
+How did we get here? Probability-Dependent Generative Artwork. It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
+I want to find more projects like this.
+Description Describe your relationship to art.
+History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization.</description>
+    </item>
+    
+    <item>
+      <title>estimation</title>
       <link>https://mpilosov.com/projects/oracle/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/oracle/</guid>
-      <description>(AKA the Monte-Carlo Calculator) The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+      <description>(AKA the Monte-Carlo Calculator) talk about research, wanting to make something useful, something to share. The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
 It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
     </item>
@@ -32,17 +45,18 @@ I enable experts to make better decisions by building them new tools for innovat
     </item>
     
     <item>
-      <title>starter packs</title>
-      <link>https://mpilosov.com/projects/starter-packs/</link>
+      <title>open-source software</title>
+      <link>https://mpilosov.com/projects/education/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mpilosov.com/projects/starter-packs/</guid>
-      <description>ml-starter-packs is a Github organization I created to house relatively polished projects for public consumption.
-These are the tools I find myself coming back to over and over, whether for educational or development purposes.</description>
+      <guid>https://mpilosov.com/projects/education/</guid>
+      <description>Sofware Contributions ML Starter-Packs ml-starter-packs is a Github organization I created to house relatively polished projects for public consumption.
+These are the tools I find myself coming back to over and over, whether for educational or development purposes.
+MUD </description>
     </item>
     
     <item>
-      <title>let&#39;s chat</title>
+      <title>connect</title>
       <link>https://mpilosov.com/contact/</link>
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -52,37 +66,24 @@ These are the tools I find myself coming back to over and over, whether for educ
     </item>
     
     <item>
-      <title>stochastic poker</title>
+      <title>make games</title>
       <link>https://mpilosov.com/projects/poker/</link>
       <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/poker/</guid>
-      <description>Your Hand:  current  min  max    Start New Game   var canvas = document.getElementById(&#39;plotCanvas&#39;); var ctx = canvas.getContext(&#39;2d&#39;); var num, maxnum, minnum; var interval = 5; var B = [0] var brakes = 200; var ht = canvas.height; var n = canvas.width; var alpha = 5; initPlot(); drawWalk(); function reset() { B = [0]; var id = window.setTimeout(function() {}, 0); while (id--) { window.clearTimeout(id); } document.</description>
+      <description>Stochastic Poker  current  min  max  action    Start New Game   var canvas = document.getElementById(&#39;plotCanvas&#39;); var ctx = canvas.getContext(&#39;2d&#39;); var num, maxnum, minnum; var interval = 5; var B = [0] var brakes = 200; var ht = canvas.height; var n = canvas.width; var alpha = 5; initPlot(); drawWalk(); function reset() { B = [0]; var id = window.setTimeout(function () {}, 0); while (id--) { window.</description>
     </item>
     
     <item>
-      <title>probably art</title>
-      <link>https://mpilosov.com/projects/probably-art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/probably-art/</guid>
-      <description>Description What was this
-History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization. early software.
-Future plans to marry the two, clean up the repos, use for education.
-Generative Architecture National Jewish Health: Center for
-TK: show images
-TK: link to dedicated project page</description>
-    </item>
-    
-    <item>
-      <title>More</title>
+      <title>etc</title>
       <link>https://mpilosov.com/projects/other/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/other/</guid>
-      <description>Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
+      <description>More Projects Consider this a dumping ground for links to things I want to show people I&amp;rsquo;ve done.
+Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
  Academic Research Academic Research Mind the Grow here I embed a link in a sentence to give context
- Repository Math Club  Repository Archive Twitterbots  Repository Consulting Resources etc are there. Visit Website </description>
+ Code Math Club  Repository Archive Twitterbots Prior Oracle  Twitter Account Consulting Visit Website </description>
     </item>
     
   </channel>

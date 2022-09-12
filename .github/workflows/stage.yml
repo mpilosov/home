@@ -38,8 +38,13 @@ jobs:
 
       - name: get hash
         id: vars
+        shell: bash
         run: |
-         echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
+          if [ ${{github.event_name}} -eq 'pull_request' ]; then
+            echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
+          else
+            echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+          fi
 
       - name: build hash
         run: hugo --baseURL=http://clfx.cc/mm/${{ steps.vars.outputs.sha_short }}

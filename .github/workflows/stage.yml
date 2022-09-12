@@ -38,12 +38,12 @@ jobs:
           extended: false
 
       - name: build hash
-        run: hugo --baseURL=http://clfx.cc/mm/"$GITHUB_SHA"
+        run: hugo --baseURL=http://clfx.cc/mm/${{ github.sha }}
 
       - name: deploy hash
         run: |
-          mkdir -p ~/out/mm/"$GITHUB_SHA"
-          cp -R public/* ~/out/mm/"$GITHUB_SHA"/
+          mkdir -p ~/out/mm/${{ github.sha }}
+          cp -R public/* ~/out/mm/${{ github.sha }}/
 
       - name: build stage
         run: hugo --baseURL=http://clfx.cc/mm/stage

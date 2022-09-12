@@ -7,7 +7,7 @@ share: false
 ---
 
 
-I am available for consulting on [Python](https://mindthemath.com/python), [MLOps](), and several other [discplines]() related to the research-to-production process and applied computational mathematics.
+I am available for consulting and workshops on [Python](https://mindthemath.com/python), [MLOps](), and several other [disciplines]() related to the research-to-production process and applied computational mathematics.
 
 
 {{< rawhtml >}}
@@ -27,4 +27,3 @@ I am available for consulting on [Python](https://mindthemath.com/python), [MLOp
   <button type="submit">Send</button>
 </form>
 {{< /rawhtml >}}
-

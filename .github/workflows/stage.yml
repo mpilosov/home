@@ -26,7 +26,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           #submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -37,13 +37,17 @@ jobs:
           hugo-version: '0.96.0'
           extended: false
 
+      - name: define hash
+        run: |
+         echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
+         
       - name: build hash
-        run: hugo --baseURL=http://clfx.cc/mm/${{ github.sha }}
+        run: hugo --baseURL=http://clfx.cc/mm/${{ steps.vars.outputs.sha_short }}
 
       - name: deploy hash
         run: |
-          mkdir -p ~/out/mm/${{ github.sha }}
-          cp -R public/* ~/out/mm/${{ github.sha }}/
+          mkdir -p ~/out/mm/${{ steps.vars.outputs.sha_short }}
+          cp -R public/* ~/out/mm/${{ steps.vars.outputs.sha_short }}/
 
       - name: build stage
         run: hugo --baseURL=http://clfx.cc/mm/stage

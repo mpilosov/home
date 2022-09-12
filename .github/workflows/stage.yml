@@ -37,7 +37,8 @@ jobs:
           hugo-version: '0.96.0'
           extended: false
 
-      - name: vars
+      - name: get hash
+        id: vars
         run: |
          echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
 

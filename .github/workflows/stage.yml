@@ -9,7 +9,6 @@ on:
       - "README.md"
       - "Makefile"
       - "docker/*"
-      - ".github/workflows/*"
 
   pull_request:
     branches:
@@ -61,6 +60,7 @@ jobs:
 
       - name: find comment
         uses: peter-evans/find-comment@v2
+        if: github.event_name == 'pull_request'
         id: fc
         with:
           issue-number: ${{ github.event.pull_request.number }}
@@ -69,6 +69,7 @@ jobs:
 
       - name: update comment
         uses: peter-evans/create-or-update-comment@v2
+        if: github.event_name == 'pull_request'
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}

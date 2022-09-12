@@ -1,5 +1,5 @@
 ---
-title: let's chat
+title: connect
 weight: 30
 date: 2022-08-14
 social: true

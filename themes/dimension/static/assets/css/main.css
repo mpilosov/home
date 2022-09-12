@@ -14,7 +14,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1077,9 +1078,6 @@ input[type="submit"]:disabled,
 /* Wrapper */
 
 	#wrapper {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

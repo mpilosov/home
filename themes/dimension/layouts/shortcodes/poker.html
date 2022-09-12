@@ -38,7 +38,7 @@
   var interval = 5;
 
   var B = [0]
-  var brakes = 120; // higher = slower, 100 ~ 50s
+  var brakes = 200; // higher = slower, 100 ~ 50s
   var ht = canvas.height;
   var n = canvas.width;
   var alpha = 5;
@@ -120,7 +120,7 @@
         }
         var tick_its = 6;
         var status = "WAIT";
-        if (1 + timestep % (canvas.width / tick_its) < 15) {
+        if (timestep % (canvas.width / tick_its) < 10) {
           status = "BET";
         }
         if (timestep == (canvas.width - 1)) {

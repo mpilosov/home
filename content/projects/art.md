@@ -1,23 +1,34 @@
 ---
-title: probably art
-weight: 201309
+title: art
+weight: 01
 # date: 2013-09-21
-image: ../bg/notes.jpg
+# image: ../bg/notes.jpg
 timestamp: true
 ---
 
+# Probably Art
+
+Start with today.
+Show biggest achievement.
+
+How did we get here?
+Probability-Dependent Generative Artwork.
+It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
+
+I want to find more projects like this.
+
 ## Description
-What was this
+Describe your relationship to art.
 
 ## History
-### Moving Pictures
-#### summer 2013
+## Moving Pictures
+### summer 2013
 
 History... early
 {{< button href="https://mindthegrow.com" >}}Gallery{{< /button >}}
 {{< button href="https://mindthegrow.com" >}}Project{{< /button >}}
 
-### Probably Art
+## Probably Art
 context
 {{< button href="https://mindthegrow.com" >}}Project{{< /button >}}
 

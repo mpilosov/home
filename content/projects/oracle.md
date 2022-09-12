@@ -1,13 +1,16 @@
 ---
-title: the oracle
+title: estimation
 date: 2018-07-21
 weight: 10
 timestamp: false
-image: ../projects/oracle/car-scatter.jpg
 share: true
+math: true
 ---
 
 ### (AKA the Monte-Carlo Calculator)
+
+talk about research, wanting to make something useful, something to share.
+![plot](../projects/oracle//car-scatter.jpg)
 
 ![plot](../projects/oracle/car-filter.jpg)
 

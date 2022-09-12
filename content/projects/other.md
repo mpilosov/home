@@ -1,9 +1,12 @@
 ---
-title: More
+title: etc
 weight: 202108
 timestamp: false
 share: false
 ---
+
+# More Projects
+Consider this a dumping ground for links to things I want to show people I've done.
 
 ## Academic Research
 I worked to develop new ways of quantifying and reducing uncertainty.
@@ -14,7 +17,7 @@ I worked to develop new ways of quantifying and reducing uncertainty.
 ## Mind the Grow
 here I [embed][site] a link in a sentence to give context
 
-{{< button href="https://mindthegrow.com" >}}Repository{{< /button >}}
+{{< button href="https://mindthegrow.com" >}}Code{{< /button >}}
 <br>
 
 
@@ -24,12 +27,12 @@ here I [embed][site] a link in a sentence to give context
 
 
 ## Twitterbots
-{{< button href="https://mindthegrow.com" >}}Repository{{< /button >}}
+### Prior Oracle
+{{< button href="https://twitter.com/priororacle/" >}}Twitter Account{{< /button >}}
 <br>
 
 ## Consulting
-Resources etc are there.
-{{< button href="https://mindthegrow.com" >}}Visit Website{{< /button >}}
+{{< button href="https://mindthemath.com/resources" >}}Visit Website{{< /button >}}
 
 [site-2]: https://oracle.math.computer
 [site]: https://oracle.math.computer

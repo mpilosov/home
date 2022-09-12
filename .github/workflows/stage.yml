@@ -65,7 +65,7 @@ jobs:
           mkdir -p ~/out/mm/${{ steps.vars.outputs.branch }}
           cp -R public/* ~/out/mm/${{ steps.vars.outputs.branch }}
 
-- name: find staging comment
+      - name: find staging comment
         uses: peter-evans/find-comment@v2
         if: github.event_name == 'pull_request'
         id: oc

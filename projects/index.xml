@@ -34,7 +34,7 @@ These are the tools I find myself coming back to over and over, whether for educ
       <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/poker/</guid>
-      <description>Your Hand:  current  min  max   Start New Game   var canvas = document.getElementById(&#39;plotCanvas&#39;); var ctx = canvas.getContext(&#39;2d&#39;); var num, maxnum, minnum; var interval = 5; var B = [0] var brakes = 200; var ht = canvas.height; var n = canvas.width; var alpha = 5; initPlot(); drawWalk(); function reset() { B = [0]; var id = window.setTimeout(function() {}, 0); while (id--) { window.clearTimeout(id); } document.</description>
+      <description>Your Hand:  current  min  max    Start New Game   var canvas = document.getElementById(&#39;plotCanvas&#39;); var ctx = canvas.getContext(&#39;2d&#39;); var num, maxnum, minnum; var interval = 5; var B = [0] var brakes = 200; var ht = canvas.height; var n = canvas.width; var alpha = 5; initPlot(); drawWalk(); function reset() { B = [0]; var id = window.setTimeout(function() {}, 0); while (id--) { window.clearTimeout(id); } document.</description>
     </item>
     
     <item>

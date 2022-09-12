@@ -37,11 +37,20 @@ jobs:
           hugo-version: '0.96.0'
           extended: false
 
-      - name: build
-        run: hugo --baseURL=http://clfx.cc/"$GITHUB_SHA"
+      - name: build hash
+        run: hugo --baseURL=http://clfx.cc/mm/"$GITHUB_SHA"
 
-      - name: deploy
+      - name: deploy hash
         run: |
-          mkdir -p ~/out/"$GITHUB_SHA"
-          cp -R public/* ~/out/"$GITHUB_SHA"/
+          mkdir -p ~/out/mm/"$GITHUB_SHA"
+          cp -R public/* ~/out/mm/"$GITHUB_SHA"/
 
+      - name: build stage
+        run: hugo --baseURL=http://clfx.cc/mm/stage
+
+      - name: deploy stage
+        run: |
+          rm -rf ~/out/mm/stage
+          mkdir -p ~/out/mm/stage
+          cp -R public/* ~/out/mm/stage
+          

@@ -100,9 +100,6 @@ textarea {
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
 	animation: none !important;
 	transition: none !important;
 		}
@@ -110,7 +107,7 @@ body.is-preload *:after {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 14pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1208,6 +1205,7 @@ input[type="submit"]:disabled,
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px var(--border-menus);
+				margin-left: -0.5px; /* HOTFIX: centering with even numbers */
 			}
 
 				#header nav ul li:first-child {
@@ -1293,7 +1291,7 @@ body.is-preload #header>* {
 
 		}
 
-		@media screen and (max-width: 1185px) {
+		@media screen and (max-width: 1480px) {
 
 			#header {
 				padding: 1.5rem 0;
@@ -1319,7 +1317,7 @@ body.is-preload #header>* {
 						}
 
 						#header nav ul li a {
-							line-height: 3rem;
+							line-height: 2.75rem;
 							min-width: 0;
 							width: 100%;
 						}

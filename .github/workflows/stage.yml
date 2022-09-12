@@ -73,5 +73,5 @@ jobs:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            Preview of ${{ steps.vars.outputs.sha_short }}: http://clfx.cc/mm/${{ steps.vars.outputs.sha_short }}
+            Preview of ${{ steps.vars.outputs.sha_short }}: https://clfx.cc/mm/${{ steps.vars.outputs.sha_short }}
           edit-mode: append

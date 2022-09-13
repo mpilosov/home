@@ -2,8 +2,8 @@ serve:
 	hugo server --disableFastRender --baseURL=localhost:1313
 
 stage:
-	hugo --baseURL=http://clfx.cc/mm && \
-	rsync -e 'ssh -p 10044' -azP --delete public/ mm@io.pvt:/data/media/www/mm/
+	hugo --baseURL=/mm/stage && \
+	rsync -e 'ssh -p 10044' -azP --delete public/ mm@io.pvt:/data/media/www/mm/stage/
 
 hugo: docker/Dockerfile
 	[ ! -z "$v" ] &&\

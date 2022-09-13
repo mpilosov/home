@@ -43,10 +43,12 @@ jobs:
           if [ ${{github.event_name}} == 'pull_request' ]; then
             echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
             BRANCH=${{ github.event.pull_request.head.ref }}
+            BRANCH=$(git rev-parse --abbrev-ref HEAD^2)
             echo "::set-output name=branch::${BRANCH:=stage}"
           else
             echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
             BRANCH=${{ github.ref_name }}
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
             echo "::set-output name=branch::${BRANCH:=stage}"
           fi
 

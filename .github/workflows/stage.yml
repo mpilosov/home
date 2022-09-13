@@ -40,10 +40,14 @@ jobs:
         id: vars
         shell: bash
         run: |
-          if [ ${{github.event_name}} -eq 'pull_request' ]; then
+          if [ ${{github.event_name}} == 'pull_request' ]; then
             echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
+            BRANCH=${{ github.event.pull_request.head.ref }}
+            echo "::set-output name=branch::${BRANCH:='stage'}"
           else
             echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+            BRANCH=${{ github.head.ref }}
+            echo "::set-output name=branch::${BRANCH:='stage'}"
           fi
 
       - name: build hash
@@ -55,15 +59,34 @@ jobs:
           cp -R public/* ~/out/mm/${{ steps.vars.outputs.sha_short }}/
 
       - name: build stage
-        run: hugo --baseURL=http://clfx.cc/mm/stage
+        run: hugo --baseURL=http://clfx.cc/mm/${{ steps.vars.outputs.branch }}
 
       - name: deploy stage
         run: |
-          rm -rf ~/out/mm/stage
-          mkdir -p ~/out/mm/stage
-          cp -R public/* ~/out/mm/stage
+          rm -rf ~/out/mm/${{ steps.vars.outputs.branch }}
+          mkdir -p ~/out/mm/${{ steps.vars.outputs.branch }}
+          cp -R public/* ~/out/mm/${{ steps.vars.outputs.branch }}
 
-      - name: find comment
+      - name: find staging comment
+        uses: peter-evans/find-comment@v2
+        if: github.event_name == 'pull_request'
+        id: oc
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: Staging
+
+      - name: update staging comment
+        uses: peter-evans/create-or-update-comment@v2
+        if: github.event_name == 'pull_request'
+        with:
+          comment-id: ${{ steps.oc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Staging: ${{ steps.vars.outputs.sha_short }}: https://clfx.cc/mm/${{ steps.vars.outputs.branch }}
+          edit-mode: replace
+
+      - name: find revision comment
         uses: peter-evans/find-comment@v2
         if: github.event_name == 'pull_request'
         id: fc
@@ -72,7 +95,7 @@ jobs:
           comment-author: 'github-actions[bot]'
           body-includes: Preview
 
-      - name: update comment
+      - name: update revision comment
         uses: peter-evans/create-or-update-comment@v2
         if: github.event_name == 'pull_request'
         with:

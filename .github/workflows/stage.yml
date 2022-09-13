@@ -40,7 +40,7 @@ jobs:
         id: vars
         shell: bash
         run: |
-          if [ ${{github.event_name}} -eq 'pull_request' ]; then
+          if [ ${{github.event_name}} == 'pull_request' ]; then
             echo "::set-output name=sha_short::$(git rev-parse --short HEAD^3)"
             BRANCH=${{ github.event.pull_request.head.ref }}
             echo "::set-output name=branch::${BRANCH:='stage'}"

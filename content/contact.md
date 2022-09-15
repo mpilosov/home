@@ -6,16 +6,17 @@ social: true
 share: false
 ---
 
- # contact
-I would love to connect with you to discuss how we can work together, be that a workshop, consulting, or building a software product.
+ # get in touch
+I would love to discuss how we can work together---be that a workshop, consulting, building a software product, or something else.
 
-Some areas of my expertise include:
-- making the most from limited data, figuring out what to collect on a budget
-- implementing software best practices (testing, CI/CD, documentation) for research code, taking proof-of-concepts and making them production-grade
+Some of the things I want to work on include:
+- leveraging limited data, optimizing data collection, experimental design
+- implementing software best practices (testing, CI/CD, documentation)
+- helping take research results or proof-of-concepts and making them production-grade, ready to share
 - reproducibility of computational results, making them available online
-- how to achieve some visual result that involves math, physics, or just general data of some kind, making plots beautiful and easy to read
+- visualizing data, creating plots beautiful and easy to read
+- making art using math, physics, data of any kind.. particularly if it's something real-time and interactive
 
-You can get in touch with me using the form or at any of my social media accounts below. 
 
 {{< rawhtml >}}
 <form
@@ -34,3 +35,6 @@ You can get in touch with me using the form or at any of my social media account
   <button type="submit">Send</button>
 </form>
 {{< /rawhtml >}}
+
+
+You can get in touch with me using the form above or at any of my socials:

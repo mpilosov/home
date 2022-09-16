@@ -11,7 +11,7 @@ Let’s work together!
 
 Here are a few of my favorite things:
 
-- optimizing limited-resource experiments
+- optimizing experiments constrained by limited resources
 - teaching best practices for developing and sharing software
 - making computational results reproducible and easily accessible
 - creating beautiful and informative data visualizations

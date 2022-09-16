@@ -15,7 +15,7 @@ Here are a few of my favorite things:
 - teaching best practices for developing and sharing software
 - making computational results reproducible and easily accessible
 - creating beautiful and informative data visualizations
-- using data to make dynamic and interactive art
+- using math, physics, or data to make dynamic and interactive art
 
 Need me to teach a workshop, consult on projects, build a software products or something else?
 

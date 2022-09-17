@@ -12,7 +12,7 @@ Let’s work together!
 Here are a few of my favorite things:
 
 - optimizing experiments constrained by limited resources
-- teaching best practices for developing and sharing software
+- training others in developing and sharing software
 - making computational results reproducible and easily accessible
 - creating beautiful and informative data visualizations
 - using math, physics, or data to make dynamic and interactive art

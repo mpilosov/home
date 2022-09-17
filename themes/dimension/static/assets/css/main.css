@@ -635,7 +635,7 @@ input[type="radio"]+label:before {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url('{{ "overlay.png" | relURL }}');
+			background-image: none;
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';

@@ -7,7 +7,12 @@ share: true
 math: true
 ---
 
-### (AKA the Monte-Carlo Calculator)
+# Research
+
+## MUD
+
+## The Oracle
+(AKA the Monte-Carlo Calculator)
 
 talk about research, wanting to make something useful, something to share.
 ![plot](../projects/oracle//car-scatter.jpg)

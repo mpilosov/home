@@ -8,6 +8,8 @@ timestamp: true
 
 # Probably Art
 
+> I combine art, math, and machines to build wonderful things.
+
 Start with today.
 Show biggest achievement.
 

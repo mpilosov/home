@@ -15,11 +15,10 @@ RUN apk update && \
 
 # HUGO
 ARG VER
+ARG VAR
 ARG ARCH
 ENV HUGO_VERSION ${VER}
-#ENV HUGO_BINARY hugo_exte
-# Below is for M1. Above is for x86. No extended version for arm64.
-ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-${ARCH}
+ENV HUGO_BINARY hugo_${VAR}${HUGO_VERSION}_linux-${ARCH}
 
 # Download and Install hugo
 RUN mkdir /usr/local/hugo

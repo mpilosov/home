@@ -24,23 +24,28 @@
                             {{ end }}
                         </div>
                     </div>
-                    <nav>
-                        <ul>
+
+                    <nav class="navigation">
+                        <ul class="nav-links">
                             {{ range .Pages.ByWeight }}
                                 {{if .Title }}
                                     {{if .Content}}
                                         <li>
-                                            <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">{{ .Title }}</a>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}"
+                                            >{{ .Title }}</a>
                                         </li>
                                     {{ else }}
-                                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                                        <li>
+                                            <a class="nav-links__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                        </li>
                                     {{ end }}
                                 {{ end }}
                             {{ end }}
                         </ul>
                     </nav>
                 </header>
-
             <!-- Main -->
                 <div id="main">
 

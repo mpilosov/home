@@ -1,8 +1,15 @@
 serve:
 	hugo server --disableFastRender --baseURL=localhost:1313
 
+serve-from-docker:
+	./docker/hugo.sh server --disableFastRender --baseURL=localhost:1313
+
 stage:
 	hugo --baseURL=/mm/stage && \
+	rsync -e 'ssh -p 10044' -azP --delete public/ mm@io.pvt:/data/media/www/mm/stage/
+
+stage-from-docker:
+	./docker/hugo.sh --baseURL=/mm/stage && \
 	rsync -e 'ssh -p 10044' -azP --delete public/ mm@io.pvt:/data/media/www/mm/stage/
 
 hugo: docker/Dockerfile

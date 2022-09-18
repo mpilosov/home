@@ -26,4 +26,6 @@ As an applied mathematician, I created a new statistical technique to reduce unc
 
 I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 
+I am also available for [consulting](./#connect) of various kinds.
+
 {{< button href="/resume.pdf">}}view resume{{< /button >}}

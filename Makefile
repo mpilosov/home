@@ -4,9 +4,6 @@ serve:
 serve-from-docker:
 	./docker/hugo.sh server --disableFastRender --baseURL=/ --port 1313 --bind 0.0.0.0
 
-serve-from-docker:
-	./docker/hugo.sh server --disableFastRender --baseURL=0.0.0.0
-
 stage:
 	hugo --baseURL=/mm/stage && \
 	rsync -e 'ssh -p 10044' -azP --delete public/ mm@io.pvt:/data/media/www/mm/stage/

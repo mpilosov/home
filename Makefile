@@ -2,7 +2,7 @@ serve:
 	hugo server --disableFastRender --baseURL=localhost:1313
 
 serve-from-docker:
-	./docker/hugo.sh server --disableFastRender --baseURL=localhost:1313
+	./docker/hugo.sh server --disableFastRender --baseURL=0.0.0.0
 
 stage:
 	hugo --baseURL=/mm/stage && \

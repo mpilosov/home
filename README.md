@@ -17,5 +17,10 @@ The one caveat to be aware of is that the `cname` property in the [workflow](./.
 
 # Docker
 
-You can run `make hugo v=0.96.0` to create the image `hugo-image` defined in [`docker/Dockerfile`](./docker/Dockerfile) and then substitute the `hugo` command in the Makefile with `./docker/hugo.sh` to run hugo within the docker container.
+You can run `make hugo v=0.96.0` to create the image `hugo-image` defined in [`docker/Dockerfile`](./docker/Dockerfile) and use the following command to run a local server instead:
 
+```
+make serve-from-docker
+``` 
+
+and similarly `make stage-from-docker` to push to the local staging server (must be on VPN / in-studio).

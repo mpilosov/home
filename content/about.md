@@ -12,7 +12,7 @@ Third Generation Artist **x** Machine Learning Architect **x** Software Engineer
 
 My goal is to cultivate a network of people who are working together to solve interesting and important problems.
 
-## I write code for people, not machines.
+## write code for people, not machines
 
 Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets.
 Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.

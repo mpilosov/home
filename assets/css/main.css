@@ -726,7 +726,7 @@ input[type="radio"]+label:before {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1em;
+		padding-left: 2em;
 	}
 
 		ul li {

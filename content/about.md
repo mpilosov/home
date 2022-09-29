@@ -24,6 +24,13 @@ As much as I enjoy [software engineering](./projects/#architect-engineer), I als
 
 I am also available for [consulting](./#connect) of various kinds.
 
-In particular, I find that my background in the following topics have been of particular use to others:
+In particular, my background in the following has proven useful to others so far:
+- optimizing experiments constrained by limited resources
+- training others in developing and sharing software
+- migrating development teams to a cloud-native workflow
+- creating and distributing Python packages (with CI/CD practices)
+- making computational results reproducible and easily accessible
+- creating beautiful and informative data visualizations
+- using math, physics, or data to make dynamic and interactive art
 
 {{< button href="/resume.pdf">}}view resume{{< /button >}}

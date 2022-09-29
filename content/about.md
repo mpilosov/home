@@ -24,7 +24,7 @@ As much as I enjoy [software engineering](./projects/#architect-engineer), I als
 
 I am also available for [consulting](./#connect) of various kinds.
 
-In particular, my background in the following has proven useful to others so far:
+My background in the following has proven useful to others:
 - optimizing experiments constrained by limited resources
 - training others in developing and sharing software
 - migrating development teams to a cloud-native workflow

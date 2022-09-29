@@ -5,12 +5,13 @@ image:
 share: false
 ---
 
-# Michael Pilosov, PhD
-Third Generation Artist **x** Machine Learning Architect **x** Software Engineer
+I am a Third Generation Artist, Machine Learning Architect, and Scientific Software Engineer.
+
+# I am Michael Pilosov, PhD
 
 ![portrait](./profile.jpg)
 
-My goal is to cultivate a network of people who are working together to solve interesting and important problems.
+I enable people to answer their toughest questions by using mathematics to quanitfy and reduce uncertainty.
 
 ## write code for people, not machines
 

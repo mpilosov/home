@@ -13,11 +13,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/art/</guid>
-      <description>Probably Art Start with today. Show biggest achievement.
+      <description>Probably Art  I combine art, math, and machines to build wonderful things.
+ Start with today. Show biggest achievement.
 How did we get here? Probability-Dependent Generative Artwork. It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
 I want to find more projects like this.
-Description Describe your relationship to art.
-History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization.</description>
+Description Describe your relationship to art.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@ History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Pr
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/research/</guid>
-      <description>(AKA the Monte-Carlo Calculator) talk about research, wanting to make something useful, something to share. The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+      <description>Research MUD The Oracle (AKA the Monte-Carlo Calculator)
+talk about research, wanting to make something useful, something to share. The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
 It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
     </item>
@@ -37,11 +38,9 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/about/</guid>
-      <description>I quantify and reduce uncertainty by applying mathematical theory and leveraging the power of storytelling to explain complicated concepts.
-I am Michael Pilosov, PhD Third Generation Artist, Machine Learning Architect, &amp;amp; Scientific Software Engineer
-I combine art, math, and machines to build wonderful things.
-view resume  I write code for people, not machines. I am a bridge. I approach education and software engineering as art.
-I enable experts to make better decisions by building them new tools for innovation and sharpening their existing ones.</description>
+      <description>Michael Pilosov, PhD Third Generation Artist x Machine Learning Architect x Software Engineer
+My goal is to cultivate a network of people who are working together to solve interesting and important problems.
+write code for people, not machines Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets. Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.</description>
     </item>
     
     <item>
@@ -62,8 +61,12 @@ ML Starter-Packs ml-starter-packs is a Github organization I created to house re
       
       <guid>https://mpilosov.com/contact/</guid>
       <description>get in touch Let’s work together!
-Here are a few of my favorite things:
- optimizing experiments constrained by limited resources teaching best practices for developing and sharing software making computational results reproducible and easily accessible creating beautiful and informative data visualizations using math, physics, or data to make dynamic and interactive art  Need me to teach a workshop, consult on projects, build a software products or something else?</description>
+Need me to teach a workshop?
+Help improve your developer experience (both cloud and workstation)?
+Modernize your Python packaging process?
+Build a software products?
+Something else?
+ Your email:   Your message:   Send  </description>
     </item>
     
     <item>

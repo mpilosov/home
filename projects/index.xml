@@ -13,11 +13,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/art/</guid>
-      <description>Probably Art Start with today. Show biggest achievement.
+      <description>Probably Art  I combine art, math, and machines to build wonderful things.
+ Start with today. Show biggest achievement.
 How did we get here? Probability-Dependent Generative Artwork. It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
 I want to find more projects like this.
-Description Describe your relationship to art.
-History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization.</description>
+Description Describe your relationship to art.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@ History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Pr
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/research/</guid>
-      <description>(AKA the Monte-Carlo Calculator) talk about research, wanting to make something useful, something to share. The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
+      <description>Research MUD The Oracle (AKA the Monte-Carlo Calculator)
+talk about research, wanting to make something useful, something to share. The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
 It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
     </item>

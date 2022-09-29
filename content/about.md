@@ -33,7 +33,11 @@ As much as I enjoy [software engineering](./projects/#architect-engineer), I als
 
 I am also available for [consulting](./#connect) of various kinds.
 
+{{< rawhtml >}}
+<p style="margin-bottom:0.5rem">
 My background in the following has proven useful to others:
+</p>
+{{< /rawhtml >}}
 - optimizing experiments constrained by limited resources
 - training others in developing and sharing software
 - migrating development teams to a cloud-native workflow

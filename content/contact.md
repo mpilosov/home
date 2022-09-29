@@ -9,15 +9,12 @@ share: false
  # get in touch
 Let’s work together! 
 
-Here are a few of my favorite things:
+Need me to teach a workshop?  
+Help improve your developer experience (both cloud and workstation)?  
+Modernize your Python packaging process?  
+Build a software products?  
+_Something else?_  
 
-- optimizing experiments constrained by limited resources
-- training others in developing and sharing software
-- making computational results reproducible and easily accessible
-- creating beautiful and informative data visualizations
-- using math, physics, or data to make dynamic and interactive art
-
-Need me to teach a workshop, consult on projects, build a software products or something else?
 
 {{< rawhtml >}}
 <form

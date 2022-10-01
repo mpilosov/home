@@ -7,12 +7,16 @@ share: false
 ---
 
  # get in touch
-Let’s work together! 
+Let’s work together! Need me to:
 
-Need me to teach a workshop?  
-Help improve your developer experience (both cloud and workstation)?  
-Modernize your Python packaging process?  
+Teach a workshop?  
+
+Help improve your developer experience (both cloud and workstation)?
+
+Modernize your Python packaging process? 
+
 Build a software products?  
+
 _Something else?_  
 
 

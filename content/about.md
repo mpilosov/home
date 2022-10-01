@@ -13,7 +13,7 @@ I am a Third Generation Artist, Machine Learning Architect, and Scientific Softw
 
 I enable people to answer their toughest questions by using mathematics to quanitfy and reduce uncertainty.
 
-## write code for people, not machines
+## I write code for people, not machines
 
 Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets.
 Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.
@@ -35,8 +35,7 @@ I am also available for [consulting](./#connect) of various kinds.
 
 {{< rawhtml >}}
 <p style="margin-bottom:0.5rem">
-My background in the following has proven useful to others:
-</p>
+In particular, my background has allowed me to help others by:</p>
 {{< /rawhtml >}}
 - optimizing experiments constrained by limited resources
 - training others in developing and sharing software

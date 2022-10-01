@@ -35,7 +35,8 @@ I am also available for [consulting](./#connect) of various kinds.
 
 {{< rawhtml >}}
 <p style="margin-bottom:0.5rem">
-In particular, my background has allowed me to help others by:</p>
+In particular, my background has allowed me to help others by:
+</p>
 {{< /rawhtml >}}
 - optimizing experiments constrained by limited resources
 - training others in developing and sharing software

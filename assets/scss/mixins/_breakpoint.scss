@@ -1,11 +1,15 @@
 // Breakpoint sizes from px to ems. Add more values here to add more breakpoints.
 // Change names if you prefer, it wont break the mixin as long as they are strings not just numbers.
 $breakpoints: (
-  break-0: 0,     // 0px       Mobile first
-  break-1: 640,   // 640px   ~ Small tablet up
-  break-2: 800,   // 800px   ~ Large tablet up
-  break-3: 1024,  // 1024px  ~ Desktop up
-  break-4: 1600   // 1600px  ~ Large desktop up
+  break-0: 0,
+  // 0px       Mobile first
+  break-1: 640,
+  // 640px   ~ Small tablet up
+  break-2: 800,
+  // 800px   ~ Large tablet up
+  break-3: 1024,
+  // 1024px  ~ Desktop up
+  break-4: 1600 // 1600px  ~ Large desktop up,
 ) !default;
 
 // Breakpoints. Either set one to one of the breakpoint variables, or use a custom value for minor breakpoints.
@@ -16,23 +20,32 @@ $breakpoints: (
   $value: type-of($break);
 
   // If it is a string (i.e. a breakpoint variable).
-  @if $value == string {
+  @if $value==string {
     // If using 'break-1', 'break-2' etc output the correct breakpoints from map.
     @if map-has-key($breakpoints, $break) {
-      @media screen and (min-width: #{map-get($breakpoints, $break) / 16 * 1em} ) { @content; }
+      @media screen and (min-width: #{map-get($breakpoints, $break) / 16 * 1em}) {
+        @content;
+      }
     } @else {
       @warn "#{$break} is not a set breakpoint variable";
     }
 
-  // If it is a number, use this for the breakpoint.
-  } @else if $value == number {
+    // If it is a number, use this for the breakpoint.
+  } @else if $value==number {
     // If using other numbers output value in ems either for min, min & max or max width breakpoints.
     $query: "all" !default;
-    @if      $break != 0 and $max != 0 { $query: "(min-width: #{$break / 16 * 1em}) and (max-width: #{$max / 16 * 1em})"; }
-    @else if $break != 0 and $max == 0 { $query: "(min-width: #{$break / 16 * 1em})"; }
-    @else if $break == 0 and $max != 0 { $query: "(max-width: #{$max / 16 * 1em})"; }
-    @media #{$query} { @content; }
 
+    @if $break !=0 and $max !=0 {
+      $query: "(min-width: #{$break / 16 * 1em}) and (max-width: #{$max / 16 * 1em})";
+    } @else if $break !=0 and $max==0 {
+      $query: "(min-width: #{$break / 16 * 1em})";
+    } @else if $break==0 and $max !=0 {
+      $query: "(max-width: #{$max / 16 * 1em})";
+    }
+
+    @media #{$query} {
+      @content;
+    }
   } @else {
     @warn "#{$break} is not valid to use as a breakpoint";
   }

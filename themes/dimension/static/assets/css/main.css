@@ -1122,8 +1122,6 @@ input[type="submit"]:disabled,
 		flex-direction: column;
 		align-items: center;
 		transition: transform var(--header-fade-in) ease-in-out, filter var(--header-fade-in) ease-in-out, opacity var(--header-fade-in) ease-in-out;
-		width: 100%;
-		max-width: 1200px;
 		text-align: center;
 	}
 
@@ -1384,3 +1382,9 @@ body.is-article-visible #footer {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* To keep these element above the particle effect, z-index > 10 */
+#main,
+#header {
+	z-index: 11;
+}

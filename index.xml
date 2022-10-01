@@ -41,7 +41,7 @@ It is deployed with #kubernetes on #google-cloud-platform and is built with #pyt
       <guid>https://mpilosov.com/about/</guid>
       <description>I am a Third Generation Artist, Machine Learning Architect, and Scientific Software Engineer.
 I am Michael Pilosov, PhD I enable people to answer their toughest questions by using mathematics to quanitfy and reduce uncertainty.
-write code for people, not machines Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets. Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.</description>
+I write code for people, not machines Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets. Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.</description>
     </item>
     
     <item>
@@ -50,9 +50,10 @@ write code for people, not machines Developing new software tools or dealing wit
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/software/</guid>
-      <description>Software Contributions I learned so much from free software and feel the need to contribute back. When I do things now, I make them available so that people can learn from my trials and tribulations.
-I believe in making complicated things easier for people to digest, and software contributions is one way I do it.
-ML Starter-Packs ml-starter-packs is a Github organization I created to house relatively polished projects for public consumption.</description>
+      <description>Software Contributions I&amp;rsquo;ve learned so much from free software, and want to give back by making the things I build available to others.
+I believe in making complicated things easier for people to digest, and software contributions is one way to do that.
+ML Starter-Packs ml-starter-packs is a Github organization I created to house relatively polished projects for public consumption.
+These are the tools I find myself coming back to over and over, whether for educational or development purposes.</description>
     </item>
     
     <item>
@@ -61,8 +62,8 @@ ML Starter-Packs ml-starter-packs is a Github organization I created to house re
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/contact/</guid>
-      <description>get in touch Let’s work together!
-Need me to teach a workshop?
+      <description>get in touch Let’s work together! Need me to:
+Teach a workshop?
 Help improve your developer experience (both cloud and workstation)?
 Modernize your Python packaging process?
 Build a software products?

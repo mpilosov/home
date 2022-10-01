@@ -1,10 +1,10 @@
 {
   "particles": {
     "number": {
-      "value": 21,
+      "value": 92,
       "density": {
-        "enable": false,
-        "value_area": 800
+        "enable": true,
+        "value_area": 2100
       }
     },
     "color": {
@@ -17,12 +17,12 @@
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 7
       },
       "image": {
         "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "width": 10,
+        "height": 10
       }
     },
     "opacity": {
@@ -30,40 +30,40 @@
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
+        "speed": 7.5,
+        "opacity_min": 1,
         "sync": false
       }
     },
     "size": {
-      "value": 3,
-      "random": true,
+      "value": 1,
+      "random": false,
       "anim": {
         "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
+        "speed": 40.2,
+        "size_min": 12,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 210,
       "color": "#ffffff",
-      "opacity": 0.4,
+      "opacity": 0.42,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 0.21,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
-      "out_mode": "out",
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "enable": true,
+        "rotateX": 9,
+        "rotateY": 92
       }
     }
   },
@@ -82,7 +82,7 @@
     },
     "modes": {
       "grab": {
-        "distance": 40,
+        "distance": 210,
         "line_linked": {
           "opacity": 1
         }
@@ -95,14 +95,14 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 92,
         "duration": 0.4
       },
       "push": {
         "particles_nb": 1
       },
       "remove": {
-        "particles_nb": 2
+        "particles_nb": 1
       }
     }
   },

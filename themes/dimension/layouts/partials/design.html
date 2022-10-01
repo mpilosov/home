@@ -1,4 +1,9 @@
 <!-- Design -->
 <footer id="footer">
-    <p class="copyright">&copy; <a href="{{ .Site.Params.url }}">{{ .Date | time.Format "2006" }} {{ .Site.Params.author }}</a></p>
+  <p class="copyright">
+    &copy;
+    <a href="{{ .Site.Params.url }}"
+      >{{ .Date | time.Format "2006" }} {{ .Site.Params.author }}</a
+    >
+  </p>
 </footer>

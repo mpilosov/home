@@ -1,0 +1,16 @@
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fadeIn 1000ms ease-in both;
+    z-index: 10;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

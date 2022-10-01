@@ -37,4 +37,16 @@
     <script defer src={{ "assets/js/breakpoints.min.js" | relURL }}></script>
     <script defer src={{ "assets/js/util.js" | relURL }}></script>
     <script defer src="{{ "assets/js/main.js" | relURL }}?v={{ .Site.Params.version }}"></script>
+
+    {{ $particlesJs := resources.Get "js/particles.js" }}
+    {{ $particlesConfig := resources.Get "js/particles.json" }}
+    <script type="module">
+        setTimeout(async () => {
+            await import({{ $particlesJs.RelPermalink }});
+            particlesJS.load('wrapper', {{ $particlesConfig.RelPermalink }}, function() {
+                console.log('callback - particles.js config loaded');
+            });
+        }, 1500);
+    </script>
+
 </head>

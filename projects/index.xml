@@ -13,11 +13,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/art/</guid>
-      <description>Probably Art  I combine art, math, and machines to build wonderful things.
- Start with today. Show biggest achievement.
+      <description>Probably Art I combine art, math, and machines to build wonderful things.
+Start with today. Show biggest achievement.
 How did we get here? Probability-Dependent Generative Artwork. It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
 I want to find more projects like this.
-Description Describe your relationship to art.</description>
+Description Describe your relationship to art.
+History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization.</description>
     </item>
     
     <item>
@@ -49,7 +50,9 @@ ML Starter-Packs ml-starter-packs is a Github organization I created to house re
       <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/outreach/</guid>
-      <description>Stochastic Poker  current  min  max  action    Start New Game   var canvas = document.getElementById(&#39;plotCanvas&#39;); var ctx = canvas.getContext(&#39;2d&#39;); var num, maxnum, minnum; var interval = 5; var B = [0] var brakes = 200; var ht = canvas.height; var n = canvas.width; var alpha = 5; initPlot(); drawWalk(); function reset() { B = [0]; var id = window.setTimeout(function () {}, 0); while (id--) { window.</description>
+      <description>Stochastic Poker current min max action Start New Game What&#39;s Going on? A coin is being flipped automatically.
+Heads +1, Tails -1. Keep a running sum.
+This webpage is your &#34;hand&#34;. Find some friends and show them how to get a hand of their own. Choose a unit of value with which to gamble (candy, dimes, chips, etc.). There are six rounds of betting, corresponding to each tick mark in the chart.</description>
     </item>
     
     <item>
@@ -60,8 +63,8 @@ ML Starter-Packs ml-starter-packs is a Github organization I created to house re
       <guid>https://mpilosov.com/projects/other/</guid>
       <description>More Projects Consider this a dumping ground for links to things I want to show people I&amp;rsquo;ve done.
 Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
- Academic Research Academic Research Mind the Grow here I embed a link in a sentence to give context
- Code Math Club  Repository Archive Twitterbots Prior Oracle  Twitter Account Consulting Visit Website </description>
+Academic Research Academic Research Mind the Grow here I embed a link in a sentence to give context
+Code Math Club Repository Archive Twitterbots Prior Oracle Twitter Account Consulting Visit Website </description>
     </item>
     
   </channel>

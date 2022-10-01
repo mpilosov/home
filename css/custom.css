@@ -46,10 +46,6 @@ border-color: var(--border-color);
 #header .logo {
 border: solid 1px var(--border-logo);
 }
-/* menu */
-#header nav ul {
-border: solid 1px var(--border-menus);
-}
 
 /* h2.major {
 font-size: 1.75em;
@@ -67,49 +63,6 @@ li {
 blockquote p:last-of-type {
   margin-bottom: 0.5rem;
 }
-
-/* spacing of page list */
-#header nav ul li{
-  display: flex;
-  /* border-right: 1px solid var(--border-menus); */
-}
-/* @media (min-width:1185px) {
-  #header nav ul li:nth-child(2){
-    border-right: 1px solid var(--border-menus);
-  }
-  
-} */
-#header nav ul li a.even-width{
-  width: 240px;
-}
-/* #header nav ul li a {
-margin: auto;
-line-height: 1.3;
-padding: 1.25rem;
-} */
-/* spacing, just deleted `height` and copied the rest. */
-/* correct spacing in mobile */
-@media screen and (max-width: 480px) {
-  #header nav ul li a {
-	display: block;
-	min-width: 7.5rem;
-	line-height: 2.75rem;
-	padding: 0 1.25rem 0 1.45rem;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	font-size: 0.8rem;
-	border-bottom: 0;
-}
-}
-/* even menu-links width works up until 1000px (and lower) where it overflows offscreen; */
-/* @media screen and (max-width: 1185px) {
-  #header nav ul li a {
-    width: unset;
-  }
-  #header nav ul  {
-   flex-direction: column;
-  }
-} */
 
 /* markdown-embedded image block */
 p img {

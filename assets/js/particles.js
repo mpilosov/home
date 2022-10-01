@@ -118,10 +118,10 @@ var pJS = function (tag_id, params) {
           duration: 0.4,
         },
         push: {
-          particles_nb: 4,
+          particles_nb: 1,
         },
         remove: {
-          particles_nb: 2,
+          particles_nb: 1,
         },
       },
       mouse: {},

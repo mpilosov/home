@@ -7,10 +7,9 @@ share: false
 ---
 
 # Software Contributions
-I learned so much from free software and feel the need to contribute back.
-When I do things now, I make them available so that people can learn from my trials and tribulations.
+I've learned so much from free software, and want to give back by making the things I build available to others. 
 
-I believe in making complicated things easier for people to digest, and software contributions is one way I do it.
+I believe in making complicated things easier for people to digest, and software contributions is one way to do that.
 
 ## ML Starter-Packs
 [ml-starter-packs][org] is a Github organization I created to house relatively polished projects for public consumption.

@@ -25,8 +25,8 @@
                         </div>
                     </div>
 
-                    <nav class="navigation">
-                        <ul class="nav-links">
+                    <nav>
+                        <ul class="nav-links{{ if .Params.horizontalNav }} nav-links--horizontal{{ end }}">
                             {{ range .Pages.ByWeight }}
                                 {{if .Title }}
                                     {{if .Content}}

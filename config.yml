@@ -23,4 +23,4 @@ Params:
   header_transition: '0.9s'
   article_transition: '0.5s' # these two dont seem to work
   text_transition: '0.5s'
-  version: 1
+  version: 2

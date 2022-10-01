@@ -1,17 +1,13 @@
 @import '../mixins';
 
-.navigation {
-  width: 100%;
-}
-
 .nav-links {
   list-style: none;
-  display: flex;
-  width: 100%;
+  display: inline-flex;
   border: 1px solid #fff;
   border-radius: 3px;
   padding: 0;
   flex-direction: column;
+  min-width: 9rem;
 
   li {
     padding: 0;
@@ -22,7 +18,7 @@
     align-items: center;
     justify-content: center;
 
-    flex: 1 0 0;
+    flex: 0 1 auto;
     text-align: center;
 
     &:not(:first-child) {
@@ -33,9 +29,9 @@
   &__link {
     border: none;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-size: 0.8rem;
-    padding: 1rem;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    padding: 0.75em 1.5em;
     display: block;
     display: flex;
     align-items: center;
@@ -48,13 +44,19 @@
     }
   }
 
-  @include breakpoint(break-1) {
-    flex-direction: unset;
+  &--horizontal {
+    @include breakpoint(break-1) {
+      flex-direction: unset;
 
-    > * {
-      &:not(:first-child) {
-        border-top: 0;
-        border-left: 1px solid #fff;
+      .nav-links__link {
+        padding: 1em 1.5em;
+      }
+
+      > * {
+        &:not(:first-child) {
+          border-top: 0;
+          border-left: 1px solid #fff;
+        }
       }
     }
   }

@@ -9,13 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="preload" onload="this.rel='stylesheet'" as="style">
 
-    {{ $style := resources.Get "scss/index.scss" | toCSS }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ $style := resources.Get "scss/index.scss" | toCSS | resources.Minify | resources.Fingerprint "sha512" }}
+    <link href="{{ $style.RelPermalink }}" rel="preload" onload="this.rel='stylesheet'" as="style">
 
-    <link href="{{ "assets/css/main.css?v=" | relURL }}{{ .Site.Params.version }}" rel="preload" onload="this.rel='stylesheet'" as="style" />
+    {{ $mainStyles := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint "sha512" }}
+    <link href="{{ $mainStyles.RelPermalink }}" rel="preload" onload="this.rel='stylesheet'" as="style" />
 
-    <link href="{{ "assets/css/main.css?v=" | relURL }}{{ .Site.Params.version }}" rel="preload" onload="this.rel='stylesheet'" as="style" />
-    <link rel="stylesheet" href="{{ "css/custom.css?v=" | relURL }}{{ .Site.Params.version }}" rel="preload" onload="this.rel='stylesheet'" as="style" />
+    {{ $customStyles := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint "sha512" }}
+    <link href="{{ $customStyles.RelPermalink }}" rel="preload" onload="this.rel='stylesheet'" as="style" />
+
+    <!-- Scripts -->
+    <script defer src={{ "assets/js/jquery.min.js" | relURL }}></script>
+    <script defer src={{ "assets/js/browser.min.js" | relURL }}></script>
+    <script defer src={{ "assets/js/breakpoints.min.js" | relURL }}></script>
+    <script defer src={{ "assets/js/util.js" | relURL }}></script>
+    <script defer src="{{ "assets/js/main.js" | relURL }}?v={{ .Site.Params.version }}"></script>
+
+    {{ $particlesJs := resources.Get "js/particles.js" | resources.Minify | resources.Fingerprint "sha512" }}
+    {{ $particlesConfig := resources.Get "js/particles.json" | resources.Minify | resources.Fingerprint "sha512" }}
+    <script type="module">
+        setTimeout(async () => {
+            await import({{ $particlesJs.RelPermalink }});
+            particlesJS.load('wrapper', {{ $particlesConfig.RelPermalink }}, function() {
+                console.log('callback - particles.js config loaded');
+            });
+        }, 1500);
+    </script>
 
     <link rel="canonical" href="{{ .Permalink }}">
     <noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | relURL }}"/></noscript>
@@ -29,24 +48,4 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
-
-
-    <!-- Scripts -->
-    <script defer src={{ "assets/js/jquery.min.js" | relURL }}></script>
-    <script defer src={{ "assets/js/browser.min.js" | relURL }}></script>
-    <script defer src={{ "assets/js/breakpoints.min.js" | relURL }}></script>
-    <script defer src={{ "assets/js/util.js" | relURL }}></script>
-    <script defer src="{{ "assets/js/main.js" | relURL }}?v={{ .Site.Params.version }}"></script>
-
-    {{ $particlesJs := resources.Get "js/particles.js" }}
-    {{ $particlesConfig := resources.Get "js/particles.json" }}
-    <script type="module">
-        setTimeout(async () => {
-            await import({{ $particlesJs.RelPermalink }});
-            particlesJS.load('wrapper', {{ $particlesConfig.RelPermalink }}, function() {
-                console.log('callback - particles.js config loaded');
-            });
-        }, 1500);
-    </script>
-
 </head>

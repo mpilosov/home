@@ -11,7 +11,7 @@ I am a Third Generation Artist, Machine Learning Architect, and Scientific Softw
 
 ![portrait](./profile.webp)
 
-I enable people to answer their toughest questions by using mathematics to quanitfy and reduce uncertainty.
+I enable people to answer their toughest questions by using mathematics to quantify and reduce uncertainty.
 
 ## I write code for people, not machines
 

@@ -4,7 +4,7 @@
       "value": 92,
       "density": {
         "enable": true,
-        "value_area": 2100
+        "value_area": 1800
       }
     },
     "color": {
@@ -62,8 +62,8 @@
       "bounce": false,
       "attract": {
         "enable": true,
-        "rotateX": 9,
-        "rotateY": 92
+        "rotateX": 420,
+        "rotateY": 700,
       }
     }
   },

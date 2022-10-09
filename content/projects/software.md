@@ -43,15 +43,88 @@ Under that organization, I also began to publish templates for educating other e
 
 These are the tools I find myself coming back to over and over, whether for educational or development purposes.
 
-## MTG?
+### Containerized JupyterHub
+
+{{< button href="https://github.com/ml-starter-packs/jupyterhub-deploy-docker">}}jupyterhub-deploy-docker{{< /button >}}
+
+### Containerized RStudio + RShiny
+
+{{< button href="https://github.com/ml-starter-packs/stats-server">}}stats-server{{< /button >}}
+
+### GPU-Enabled Jupyter Images
+
+{{< button href="https://github.com/iot-salzburg/gpu-jupyter">}}gpu-jupyter{{< /button >}}
+
+### Microservices Workshop
+
+{{< button href="https://github.com/ml-starter-packs/microservice-workshop">}}github{{< /button >}}
+{{< button href="https://mybinder.org/v2/gh/ml-starter-packs/microservice-workshop/main?urlpath=vscode/">}}run in browser{{< /button >}}
+
+### ML Mono-Repo
+
+{{< button href="https://github.com/ml-starter-packs/ml-monorepo">}}ml-monorepo{{< /button >}}
+
+
+### mlflow reference deployment
+
+{{< button href="https://github.com/ml-starter-packs/mlflow-experiment/">}}mlflow-experiment{{< /button >}}
+
+
+### Sharing Web Apps (for free)
+
+One of the challenges I repeatedly encountered was that I would build some sort of web-based application for a friend or client demo, and didn't want to be bogged down with deployment concerns.
+I wanted to be able to share my work simply by providing a URL but (at that time) was uncomfortable with exposing services on my home network, and didn't want to overload my minimal cloud servers.
+
+I had used [mybinder.org](https://mybinder.org) (a free cloud-compute platform), in the past for sharing my work in conference presentations (my reproducibility concerns led me to use it as a temporary solution).
+Since I found myself often leveraging the same patterns, I made a template repo which launches a minimal interactive web application app via binder and proxies the traffic to it.
+
+{{< button href="https://github.com/ml-starter-packs/binder-streamlit">}}binder-streamlit{{< /button >}}
+
+## Decisioning Tools
+
+### Mind the Grow
+
+simulation
+
+website
+
+
+### Legislation Scraping
+
+[Andreana Rosnik](https://andreanarosnik.com/) published her work for scraping legislation PDFs from government websites using natural language processing.
+I really loved the work and use-case:
+> `legiscrapor` is a project to web scrape and crawl through parliamentary websites of various countries around the world for legislation related to human rights issues.
+
+My contribution was straightforward. I wanted stuff like this to be more easily usable by others, so I helped turn Andrea's scripts into a Python package.
+
+{{< button href="https://github.com/amrosnik/legiscrapor">}}legiscrapor{{< /button >}}
+
 
 ## Research
+
 I discuss my research on the [estimation](#estimation) page and provide references to the associated code there.
+However, one of the projects of which I'm most proud was the demonstration of Continuous Integration & Deployment principles in the publication of my doctoral dissertation.
+
+### Dissertation Template
+
+
+{{< button href="https://github.com/mathematicalmichael/dissertation-template">}}dissertation-template{{< /button >}}
+
+
+### LaTeX Lesson Plans
+
+
+{{< button href="https://github.com/ml-starter-packs/binder-streamlit">}}math1010{{< /button >}}
+
 
 ## Closed Source
 
-A bit about what I've done for work.
+In late 2019 I joined [slalom _build][slalom-build] as an Architect and began leveraging my skillset for various clients.
+Here I provide a general description of some of the code-bases to which I contributed, as I cannot share direct references.
 
+
+
+[slalom-build]: https://slalombuild.com
 [org]: https://github.com/ml-starter-packs
 [jdd-orig]: https://github.com/jupyter/jupyterhub-deploy-docker
 [jhub]: https://github.com/jupyter/jupyterhub
@@ -64,6 +137,7 @@ A bit about what I've done for work.
 [stats-server]: https://github.com/ml-starter-packs/stats-server
 [binder-streamlit]: https://github.com/ml-starter-packs/binder-streamlit
 [launch-microservices]: https://mybinder.org/v2/gh/ml-starter-packs/microservice-workshop/main?urlpath=vscode/
+[gpus]: https://github.com/iot-salzburg/gpu-jupyter
 
 [mud]: https://github.com/mathematicalmichael/mud
 [mudex]: https://github.com/mathematicalmichael/mud-examples

@@ -3,6 +3,7 @@ title: etc
 weight: 202108
 timestamp: false
 share: false
+draft: true
 ---
 
 # More Projects

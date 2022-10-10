@@ -1,7 +1,7 @@
 ---
 title: stochastic poker
 date: 2016-03-21
-weight: 10
+weight: 21
 share: true
 timestamp: true
 draft: false

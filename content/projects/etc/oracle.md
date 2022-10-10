@@ -1,7 +1,7 @@
 ---
 title: The Oracle
 date: 2020-09-21
-weight: 21
+weight: 1
 timestamp: false
 share: false
 ---
@@ -13,6 +13,14 @@ This project is the culmination of many repeated efforts to estimate some quanti
 I frequently use it in place of "back-of-the-napkin" math, especially when it involves a lot of uncertainty such as when estimating the cost of a [cloud compute job](https://oracle.math.computer/cloud) for clients.
 It can be used in many ways, the imagination of the user is the practical limit (other than the number of variables involved...).
 
+{{< button href="https://oracle.math.computer/">}}The Oracle{{< /button >}}
+
+This app generates visualizations called Parallel Plots that look like this:
+
+![plot](../../projects/oracle/car-filter.jpg)
+
+
+## Usage 
 It starts with a specification of the form
 
 > `quantity = function(parameters)`
@@ -31,27 +39,33 @@ These distributions are used to then repeatedly evaluate the user's equation, re
 > - `speed = distance * time`
 > - `cost = time_in_hours*hourly_rate_in_dollars`
 
-{{< button href="https://oracle.math.computer/">}}The Oracle{{< /button >}}
+## Features
 
-Some basic features of this software project I included were:
+![plot](../../projects/oracle/car-scatter.jpg)
+
+Some basic functionality of this app includes:
 - Automatic deployments to Google Cloud Run (managed kubernetes)
 - String parsing (dangerous! I know...) to determine math equation supplied
 - Supports conditionals / boolean expressions to allow for equations with discontinuities, e.g., 
   - `amount > value`
   - `amount == value`
   - `amount & value`
-
+- Allows for visualization of distributions and scatterplots
 
 {{< button href="https://oracle.math.computer/examples">}}Example Usage List{{< /button >}}
 
+
+## Footnote
 In mathematician's terms: 
 > Performs Monte-Carlo simulation to solve a stochastic forward problem.
 
+An optional beta-distribution can be specified to characterize the range of "likely" values (click the orb to trigger "advanced" mode on the homepage).
 
-Note to the reader: An optional beta-distribution can be specified to characterize the range of "likely" values (click the orb to trigger "advanced" mode on the homepage).
+## Credit
 
 Built with Python, `nginx`, and docker. Credit also to
   - `flask` + `gunicorn` + `gevent`
   - `numpy`
   - `pandas`
   - `numexpr`
+  - `hiplot`

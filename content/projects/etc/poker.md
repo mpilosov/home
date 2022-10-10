@@ -1,13 +1,17 @@
 ---
-title: run events
+title: stochastic poker
 date: 2016-03-21
 weight: 30
 share: true
 timestamp: true
-draft: true
+draft: false
 ---
 
 # Stochastic Poker
+
+Context: I ran an event during my tenure on the executive board of the CU Denver Math Club which presented several "mathematical games," which included one novel invention which required a bit of software engineering in Javascript to accomplish.
+You are seeing a refactored version below.
+
 {{< poker >}}
 
 ## Rules

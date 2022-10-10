@@ -35,12 +35,15 @@ The project that actually motivated my research was at [Los Alamos National Labo
 The team there was using [Julia](https://julialang.org/) to simulate the spread of [hexavelent chromium](https://www.osha.gov/hexavalent-chromium) in the subsurface by incorporating data collected at groundwater wells. 
 I used Julia to develop some of the initial work for what eventually became my Python package `mud`, but it was my encounters with other researchers at the lab that eventually led me to the research question I would answer for the next few years.
 > How do we incorporate all of the data, not knowing which of it is helpful?
-They were solving a parameter-estimation problem ("where is the toxin and how is it spreading?"), not a distribution-estimation problem.
+
+They were solving a parameter-estimation problem (e.g., "where is the toxin and how is it spreading?"), not a distribution-estimation problem (e.g., "what is the variability in toxin concentrations?").
 The framework I was tasked with using _didn't handle_ parameter-estimation, as it was designed for an entirely different class of problems.
 
 I would spend the next two years prototyping how I could "translate" between these two problems (a common theme in pure mathematics), and several subsequent years refining and rigorously proving the approach that I developed.
 I knew it worked due to computational evidence for over a year before I developed the theory to mathematically prove what I was doing.
 In this way, the computer was my laboratory: I experimented with different hypotheses for how I could structure an algorithm, gained valuable insights from studying what worked, and then pursued an explanation which would start the cycle all over again.
+
+### Addendum
 
 At the end of my time in academia, I was unable to revisit how well it worked on the original problem that I was trying to solve involving subsurface contaminant transport, as the research group had it's funding changed and moved on to other projects.
 However, the approach has now been thoroughly tested against data from recent hurricane storm surge simulations (involving real data collected from buoys) and is proving extremely promising in providing accurate and precise parameter estimates.

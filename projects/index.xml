@@ -14,11 +14,9 @@
       
       <guid>https://mpilosov.com/projects/art/</guid>
       <description>Probably Art I combine art, math, and machines to build wonderful things.
-Start with today. Show biggest achievement.
-How did we get here? Probability-Dependent Generative Artwork. It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
-I want to find more projects like this.
-Description Describe your relationship to art.
-History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Probably Art context Project Present code exists here and needs major reorganization.</description>
+Unfortunately, I have done a bad job of documenting these projects.
+Please pardon this Work-In-Progress. I promise to fill this page with content shortly. My priority was first to document all of the other projects I&amp;rsquo;ve done.
+In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013. I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</description>
     </item>
     
     <item>
@@ -27,45 +25,19 @@ History Moving Pictures summer 2013 History&amp;hellip; early Gallery Project Pr
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/research/</guid>
-      <description>Research MUD The Oracle (AKA the Monte-Carlo Calculator)
-talk about research, wanting to make something useful, something to share. The Oracle is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
-Often we find &amp;ldquo;back-of-the-napkin&amp;rdquo; calculations to be useful&amp;hellip; randall munroe what if &amp;hellip; fermi problems wiki &amp;hellip; TK TK TK
-It is deployed with #kubernetes on #google-cloud-platform and is built with #python using #flask.</description>
+      <description>Research If there&amp;rsquo;s one theme that unifies my research experience, it&amp;rsquo;s estimation.
+Most of my time was spent creating new methods to estimate truth from data, which is polluted by observational noise in the measurement process.
+I developed a new statistical method to estimate model parameters from noisy data (i.e., &amp;ldquo;fitting a model&amp;rdquo;). I used a measure-theoretic framework (developed by my advisor Dr. Troy Butler to solve a stochastic inverse problem, one involving estimation of a true parameter.</description>
     </item>
     
     <item>
       <title>architect &amp; engineer</title>
-      <link>https://mpilosov.com/projects/software/</link>
+      <link>https://mpilosov.com/projects/engineer/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mpilosov.com/projects/software/</guid>
-      <description>Software Contributions I&amp;rsquo;ve learned so much from free software, and want to give back by making the things I build available to others.
-I believe in making complicated things easier for people to digest, and software contributions is one way to do that.
-ML Starter-Packs ml-starter-packs is a Github organization I created to house relatively polished projects for public consumption.
-These are the tools I find myself coming back to over and over, whether for educational or development purposes.</description>
-    </item>
-    
-    <item>
-      <title>run events</title>
-      <link>https://mpilosov.com/projects/outreach/</link>
-      <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/outreach/</guid>
-      <description>Stochastic Poker current min max action Start New Game What&#39;s Going on? A coin is being flipped automatically.
-Heads +1, Tails -1. Keep a running sum.
-This webpage is your &#34;hand&#34;. Find some friends and show them how to get a hand of their own. Choose a unit of value with which to gamble (candy, dimes, chips, etc.). There are six rounds of betting, corresponding to each tick mark in the chart.</description>
-    </item>
-    
-    <item>
-      <title>etc</title>
-      <link>https://mpilosov.com/projects/other/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/other/</guid>
-      <description>More Projects Consider this a dumping ground for links to things I want to show people I&amp;rsquo;ve done.
-Academic Research I worked to develop new ways of quantifying and reducing uncertainty.
-Academic Research Academic Research Mind the Grow here I embed a link in a sentence to give context
-Code Math Club Repository Archive Twitterbots Prior Oracle Twitter Account Consulting Visit Website </description>
+      <guid>https://mpilosov.com/projects/engineer/</guid>
+      <description>Stuff I&amp;rsquo;ve Built (&amp;amp; Why) I&amp;rsquo;ve learned so much from free software, and want to give back by making the things I build available to others. I would characterize my work as falling into one of three categories:
+improving the research &amp;amp; development experience educational resources software to support computational science I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.</description>
     </item>
     
   </channel>

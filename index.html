@@ -27,15 +27,17 @@
     <script defer src="/assets/js/main.js?v=2"></script>
 
     
+        
+        
+        <script type="module">
+            setTimeout(async () => {
+                await import("/js/particles.min.07f1e711a437714bfd8cf423d8c4a06fd66be1feb27c8f0621997142ffda5f3a043a03e61993bf0b947be483c8f06719495054debd222332f1446233cc5f3d0d.js");
+                particlesJS.load('wrapper', "/js/particles.min.0564d1a0aa5610e88baafce1a20af3de5c5be2266615ef65165367474d702420c510bfa0276a79fc5f58f2884ff79b86149e6cc48e7f5de025deff6873ce7b2b.json", function() {
+                    console.log('callback - particles.js config loaded');
+                });
+            }, 1500);
+        </script>
     
-    <script type="module">
-        setTimeout(async () => {
-            await import("/js/particles.min.07f1e711a437714bfd8cf423d8c4a06fd66be1feb27c8f0621997142ffda5f3a043a03e61993bf0b947be483c8f06719495054debd222332f1446233cc5f3d0d.js");
-            particlesJS.load('wrapper', "/js/particles.min.626879c40499aef1618a47e985901a92be1f1f88217ebfb9883e8de41fa6b76b60269c22e9dbbf576a8fab435448b79166508c597df98ba469f154e04e30731e.json", function() {
-                console.log('callback - particles.js config loaded');
-            });
-        }, 1500);
-    </script>
 
     <link rel="canonical" href="https://mpilosov.com/">
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css"/></noscript>
@@ -137,7 +139,9 @@
             
                 <header id="header">
                     <div class="logo">
-                        <a href="/">
+                        
+                            <a href=/>
+                        
                             <span class="icon">
                                 <img src="/icons/main.svg">
                             </span>
@@ -197,13 +201,13 @@
                                     
                                     
                                     <p>I am a Third Generation Artist, Machine Learning Architect, and Scientific Software Engineer.</p>
-<h1 id="i-am-michael-pilosov-phd">I am Michael Pilosov, PhD</h1>
+<h1 id="i-am-michael-pilosov">I am Michael Pilosov</h1>
 <p><img src="./profile.webp" alt="portrait"></p>
 <p>I enable people to answer their toughest questions by using mathematics to quantify and reduce uncertainty.</p>
-<h2 id="i-write-code-for-people-not-machines">I write code for people, not machines</h2>
+<h2 id="write-code-for-people-not-machines">write code for people, not machines</h2>
 <p>Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets.
 Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.</p>
-<p>As an applied mathematician, I created a new statistical technique to reduce uncertainty when determining truth from noisy data.
+<p>For my PhD in Applied Mathematics, I created a new statistical technique to determine truth from noisy data (solve stochastic inverse problems).
 To share this work with anyone else who could benefit from it, I made my research accessible as open-source <a href="./projects/#estimation">software</a>.</p>
 <p>I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 Lines of code are also my favorite media to work with when creating <a href="./projects/#art">beautiful things</a>.</p>
@@ -229,10 +233,7 @@ In particular, my background has allowed me to help others by:
 
 
 
-  
-
-
-<a href="/resume.pdf"   target="_blank" rel="noreferrer" class="button">view resume</a>
+<a href="./resume.pdf?v=20221009"   target="_blank" rel="noreferrer" class="button">view resume</a>
 
 
                                     
@@ -252,11 +253,13 @@ In particular, my background has allowed me to help others by:
                                     
                                     
                                     <h1 id="get-in-touch">get in touch</h1>
-<p>Let’s work together! Need me to:</p>
-<p>Teach a workshop?</p>
-<p>Help improve your developer experience (both cloud and workstation)?</p>
-<p>Modernize your Python packaging process?</p>
-<p>Build a software products?</p>
+<p>Let’s work together! Do you need me to:</p>
+<ul>
+<li>Teach a workshop?</li>
+<li>Help improve your developer experience (both cloud and workstation)?</li>
+<li>Modernize your Python packaging process?</li>
+<li>Build a software products?</li>
+</ul>
 <p><em>Something else?</em></p>
 
 
@@ -279,7 +282,7 @@ In particular, my background has allowed me to help others by:
 
 
                                     
-                                    <center><p>i am on the internet at:</p></center>
+                                    <center><p>I am on the internet at:</p></center>
 <div class="social-icons">
     <a href="https://github.com/mathematicalmichael/" target="_blank" rel="noopener noreferrer me" title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2"

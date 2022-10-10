@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mathematical Michael</title>
-    <link>https://mpilosov.com/</link>
-    <description>Recent content on Mathematical Michael</description>
+    <title>software on Mathematical Michael</title>
+    <link>https://mpilosov.com/projects/etc/</link>
+    <description>Recent content in software on Mathematical Michael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mpilosov.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mpilosov.com/projects/etc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Oracle</title>
       <link>https://mpilosov.com/projects/etc/oracle/</link>
@@ -15,50 +15,6 @@
       <guid>https://mpilosov.com/projects/etc/oracle/</guid>
       <description>The Oracle This project is the culmination of many repeated efforts to estimate some quantity that can be expressed through a basic math equation.
 I frequently use it in place of &amp;ldquo;back-of-the-napkin&amp;rdquo; math, especially when it involves a lot of uncertainty such as when estimating the cost of a cloud compute job for clients. It can be used in many ways, the imagination of the user is the practical limit (other than the number of variables involved&amp;hellip;).</description>
-    </item>
-    
-    <item>
-      <title>art</title>
-      <link>https://mpilosov.com/projects/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/art/</guid>
-      <description>Probably Art I combine art, math, and machines to build wonderful things.
-Unfortunately, I have done a bad job of documenting these projects.
-Please pardon this Work-In-Progress. I promise to fill this page with content shortly. My priority was first to document all of the other projects I&amp;rsquo;ve done.
-In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013. I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</description>
-    </item>
-    
-    <item>
-      <title>estimation</title>
-      <link>https://mpilosov.com/projects/research/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/research/</guid>
-      <description>Research If there&amp;rsquo;s one theme that unifies my research experience, it&amp;rsquo;s estimation.
-Most of my time was spent creating new methods to estimate truth from data, which is polluted by observational noise in the measurement process.
-I developed a new statistical method to estimate model parameters from noisy data (i.e., &amp;ldquo;fitting a model&amp;rdquo;). I used a measure-theoretic framework (developed by my advisor Dr. Troy Butler to solve a stochastic inverse problem, one involving estimation of a true parameter.</description>
-    </item>
-    
-    <item>
-      <title>who I am</title>
-      <link>https://mpilosov.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/about/</guid>
-      <description>I am a Third Generation Artist, Machine Learning Architect, and Scientific Software Engineer.
-I am Michael Pilosov I enable people to answer their toughest questions by using mathematics to quantify and reduce uncertainty.
-write code for people, not machines Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets. Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.</description>
-    </item>
-    
-    <item>
-      <title>architect &amp; engineer</title>
-      <link>https://mpilosov.com/projects/engineer/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/engineer/</guid>
-      <description>Stuff I&amp;rsquo;ve Built (&amp;amp; Why) I&amp;rsquo;ve learned so much from free software, and want to give back by making the things I build available to others. I would characterize my work as falling into one of three categories:
-improving the research &amp;amp; development experience educational resources software to support computational science I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.</description>
     </item>
     
     <item>
@@ -80,17 +36,6 @@ Heads +1, Tails -1. Keep a running sum.</description>
       <guid>https://mpilosov.com/projects/etc/mtg/</guid>
       <description>Mind the Grow Mind the Grow was a company I started with the hopes of writing and supporting software to help with agricultural planning.
 The scope is not some complicated forecasting model based on historical data, but rather a decision-making toolbox (&amp;ldquo;should I buy more land?&amp;rdquo;, &amp;ldquo;what mix of crops should I plant?&amp;rdquo;, &amp;ldquo;how should I plan crop rotations?&amp;rdquo;, etc), focused on solving a set of problems I encountered when volunteering with a coffee cooperative in 2012.</description>
-    </item>
-    
-    <item>
-      <title>connect</title>
-      <link>https://mpilosov.com/contact/</link>
-      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/contact/</guid>
-      <description>get in touch Let’s work together! Do you need me to:
-Teach a workshop? Help improve your developer experience (both cloud and workstation)? Modernize your Python packaging process? Build a software products? Something else?
-Your email: Your message: Send </description>
     </item>
     
     <item>

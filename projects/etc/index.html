@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>software</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="preload" onload="this.rel='stylesheet'" as="style">
+
+    
+    <link href="/scss/index.min.8bd9a2ea1b979ccf852c8ccfac596e9b1c126dcb7f2a0a2cf1845b8f49a9d97dd7933c1c55ae7cf640b812ce0b90985d11582c51c056cd5f11df7e40d4e4952d.css" rel="preload" onload="this.rel='stylesheet'" as="style">
+
+    
+    <link href="/css/main.min.1176db9e40f812e3f260e7f8be1b9b2f21f03f277b6d702fe5faf3572fe67d963e14f5086964c26552e2d725ccb8fe7836630ad9fff6604fbacb886697eefe72.css" rel="preload" onload="this.rel='stylesheet'" as="style" />
+
+    
+    <link href="/css/custom.min.2484ed3f13e48444c8fe0942c4d04475bac96c4c9aed95ef5c810767bde665f1a3449e432af4cbb3ff33a28e642ecc07293ca5ec18d48b24435365bfc51c6014.css" rel="preload" onload="this.rel='stylesheet'" as="style" />
+
+    
+    <script defer src=/assets/js/jquery.min.js></script>
+    <script defer src=/assets/js/browser.min.js></script>
+    <script defer src=/assets/js/breakpoints.min.js></script>
+    <script defer src=/assets/js/util.js></script>
+    <script defer src="/assets/js/main.js?v=2"></script>
+
+    
+
+    <link rel="canonical" href="https://mpilosov.com/projects/etc/">
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css"/></noscript>
+
+    <style>
+  :root{
+      --site-background :  url('data:image/jpeg;base64,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');
+      --custom-font-color: #fff ;
+      --headings-color: #fff;
+      --body-bg: #1b1f22;
+      --article-bg: #1b1f22;
+      --border-color: #e83e8c;
+      --bg-grad-from: rgba(19, 21, 25, 0.5);
+      --bg-grad-to: rgba(19, 21, 25, 0.5);
+      --border-logo: #fff;
+      --border-menus: #fff;
+      --bg-delay: 0s;
+      --bg-fade-in: 2.1s;
+      --header-delay: 0s;
+      --header-transition: 0.9s;
+      --article-transition: 0.5s;
+      --text-transition: 0.5s;
+      --header-fade-in: 0.5s;
+  };
+</style>
+<style>
+  #bg {
+    transform: scale(1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+
+  #bg:before,
+  #bg:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #bg:before {
+    transition: background-color var(--bg-fade-in) ease-in-out;
+    transition-delay: var(--bg-delay);
+    background-image: linear-gradient(
+      to top,
+      var(--bg-grad-from),
+      var(--bg-grad-to)
+    );
+    background-size: auto, 256px 256px;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    z-index: 2;
+  }
+
+  #bg:after {
+    transform: scale(1.125);
+    transition: transform var(--header-fade-in) ease-in-out,
+      filter var(--header-fade-in) ease-in-out;
+    background-image: var(--site-background);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  body.is-article-visible #bg:after {
+    transform: scale(1.0825);
+    filter: blur(0.2rem);
+  }
+
+  body.is-preload #bg:before {
+    background-color: #000000;
+  }
+</style>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body class="is-preload">
+
+    
+        <div id="wrapper">
+
+            
+                <header id="header">
+                    <div class="logo">
+                        
+                            <a href="../">
+                        
+                            <span class="icon">
+                                <img src="/icons/sacred.svg">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div id="particles-js" class="inner">
+                            <h1>software</h1>
+                            
+                            <p>
+                                Selected Projects &amp; Contributions
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <nav>
+                        <ul class="nav-links">
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#the-oracle"
+                                            >The Oracle</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#stochastic-poker"
+                                            >stochastic poker</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#cafelytics"
+                                            >Cafelytics</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#containerized-jupyterhub"
+                                            >Containerized JupyterHub</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#statistical-dev-env"
+                                            >Statistical Dev Env</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#mlflow-example"
+                                            >mlflow example</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#microservices-for-ml"
+                                            >microservices for ml</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#ml-monorepo"
+                                            >ml monorepo</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#legislation-scraping"
+                                            >legislation scraping</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#dissertation-template"
+                                            >dissertation template</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#gpu-jupyter"
+                                            >GPU-Jupyter</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#tex-for-teachers"
+                                            >tex for teachers</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
+                                            <a
+                                                class="nav-links__link"
+                                                href="#free-web-apps"
+                                            >free web apps</a>
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </nav>
+                </header>
+            
+                <div id="main">
+
+                    
+                        
+                            
+                                <article id="the-oracle">
+                                    
+                                    
+                                    
+                                    <h1 id="the-oracle">The Oracle</h1>
+<p>This project is the culmination of many repeated efforts to estimate some quantity that can be expressed through a basic math equation.</p>
+<p>I frequently use it in place of &ldquo;back-of-the-napkin&rdquo; math, especially when it involves a lot of uncertainty such as when estimating the cost of a <a href="https://oracle.math.computer/cloud">cloud compute job</a> for clients.
+It can be used in many ways, the imagination of the user is the practical limit (other than the number of variables involved&hellip;).</p>
+
+
+
+<a href="https://oracle.math.computer/"   target="_blank" rel="noreferrer" class="button">The Oracle</a>
+
+<p>This app generates visualizations called Parallel Plots that look like this:</p>
+<p><img src="../../projects/oracle/car-filter.jpg" alt="plot"></p>
+<h2 id="usage">Usage</h2>
+<p>It starts with a specification of the form</p>
+<blockquote>
+<p><code>quantity = function(parameters)</code></p>
+</blockquote>
+<p>Where</p>
+<ul>
+<li><code>parameters</code> can represent any <code>_</code>-delimited strings,</li>
+<li>the <code>function</code> can use the full range of math operators
+<ul>
+<li>(<code>/</code>, <code>+</code>, <code>*</code>, <code>-</code>, <code>sin</code>, <code>cos</code>, etc.),</li>
+</ul>
+</li>
+<li>and parentheses <code>(</code> <code>)</code> to relate the parameters to each other.</li>
+</ul>
+<p>For each <code>parameter</code> specified in the equation written by the user, a range of values are requested for each one.
+These distributions are used to then repeatedly evaluate the user&rsquo;s equation, representing the full range of uncertain values in the equation&rsquo;s left-hand side (<code>quantity</code>).</p>
+<blockquote>
+<p>For example, a user could write expressions such as</p>
+<ul>
+<li><code>force = mass * acceleration</code></li>
+<li><code>speed = distance * time</code></li>
+<li><code>cost = time_in_hours*hourly_rate_in_dollars</code></li>
+</ul>
+</blockquote>
+<h2 id="features">Features</h2>
+<p><img src="../../projects/oracle/car-scatter.jpg" alt="plot"></p>
+<p>Some basic functionality of this app includes:</p>
+<ul>
+<li>Automatic deployments to Google Cloud Run (managed kubernetes)</li>
+<li>String parsing (dangerous! I know&hellip;) to determine math equation supplied</li>
+<li>Supports conditionals / boolean expressions to allow for equations with discontinuities, e.g.,
+<ul>
+<li><code>amount &gt; value</code></li>
+<li><code>amount == value</code></li>
+<li><code>amount &amp; value</code></li>
+</ul>
+</li>
+<li>Allows for visualization of distributions and scatterplots</li>
+</ul>
+
+
+
+<a href="https://oracle.math.computer/examples"   target="_blank" rel="noreferrer" class="button">Example Usage List</a>
+
+<h2 id="footnote">Footnote</h2>
+<p>In mathematician&rsquo;s terms:</p>
+<blockquote>
+<p>Performs Monte-Carlo simulation to solve a stochastic forward problem.</p>
+</blockquote>
+<p>An optional beta-distribution can be specified to characterize the range of &ldquo;likely&rdquo; values (click the orb to trigger &ldquo;advanced&rdquo; mode on the homepage).</p>
+<h2 id="credit">Credit</h2>
+<p>Built with Python, <code>nginx</code>, and docker. Credit also to</p>
+<ul>
+<li><code>flask</code> + <code>gunicorn</code> + <code>gevent</code></li>
+<li><code>numpy</code></li>
+<li><code>pandas</code></li>
+<li><code>numexpr</code></li>
+<li><code>hiplot</code></li>
+</ul>
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="stochastic-poker">
+                                    
+                                    
+                                    
+                                        <h4 class="minor">March 2016</h4>
+                                    
+                                    <h1 id="stochastic-poker">Stochastic Poker</h1>
+<p>Context: I ran an event during my tenure on the executive board of the CU Denver Math Club which presented several &ldquo;mathematical games,&rdquo; which included one novel invention which required a bit of software engineering in Javascript to accomplish.
+You are seeing a refactored version below.</p>
+
+<div class="plot-container">
+  <canvas id="plotCanvas" class="plot-canvas" width="auto" height="auto"></canvas>
+
+  <div class="printout">
+
+    <div class="score">
+      <label class="poker-label">current</label>
+      <input type="text" id="curValue" readonly>
+    </div>
+
+    <div class="vg-right">
+      <div class="value_group">
+        <label class="poker-label">min</label>
+        <input type="text" id="minValue" readonly>
+      </div>
+      <div class="value_group">
+        <label class="poker-label">max</label>
+        <input type="text" id="maxValue" readonly>
+      </div>
+      <div class="value_group">
+        <label class="poker-label">action</label>
+        <input type="text" id="status" readonly>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="reset-btn" onclick="reset()" color="grey"><u>Start New Game</u></button>
+</div>
+<br>
+<br>
+
+<script>
+  var canvas = document.getElementById('plotCanvas');
+  var ctx = canvas.getContext('2d');
+
+  var num, maxnum, minnum;
+
+  var interval = 5;
+
+  var B = [0]
+  var brakes = 200; 
+  var ht = canvas.height;
+  var n = canvas.width;
+  var alpha = 5;
+
+  initPlot();
+  drawWalk();
+
+  function reset() {
+    B = [0];
+    var id = window.setTimeout(function () {}, 0);
+    while (id--) {
+      window.clearTimeout(id); 
+    }
+    document.getElementById("minValue").value = 0;
+    document.getElementById("maxValue").value = 0;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    initPlot()
+    drawWalk();
+  }
+
+  function initPlot() {
+    ctx.font = "16px sans-serif";
+    ctx.filStyle = "light";
+    
+    ctx.font = "36px serif";
+    
+
+    ctx.beginPath();
+    ctx.moveTo(0, canvas.height / 2)
+    ctx.lineTo(canvas.width, canvas.height / 2)
+    ctx.stroke();
+
+    var tick_length = 7;
+    var tick_its = 6;
+
+    var curBox = document.getElementById("curValue");
+    curBox.style["width"] = "80px";
+    curBox.style["height"] = "40px";
+    curBox.style.fontSize = "x-large";
+
+    var minBox = document.getElementById("minValue");
+    minBox.style["width"] = "60px";
+    minBox.style["height"] = "30px";
+    minBox.style.fontSize = "small";
+
+    var maxBox = document.getElementById("maxValue");
+    maxBox.style["width"] = "60px";
+    maxBox.style["height"] = "30px";
+    maxBox.style.fontSize = "small";
+
+    var statusBox = document.getElementById("status");
+    statusBox.style["width"] = "80px";
+    statusBox.style["height"] = "30px";
+    statusBox.style.fontSize = "large";
+    statusBox.style.fontStyle = "bold";
+
+    for (var i = 1; i < tick_its; i++) {
+      
+      ctx.moveTo(i * canvas.width / tick_its, canvas.height / 2 - tick_length)
+      ctx.lineTo(i * canvas.width / tick_its, canvas.height / 2 + tick_length)
+      ctx.stroke();
+      
+      
+      
+      
+    }
+  }
+
+  function drawWalk() {
+    function plot(timestep) {
+
+      window.setTimeout(function () {
+        
+        if (Math.random() < 0.5) {
+          B.push(B[timestep] - alpha / n);
+        } else {
+          B.push(B[timestep] + alpha / n);
+        }
+        var tick_its = 6;
+        var status = "WAIT";
+        if (timestep % (canvas.width / tick_its) < 10) {
+          status = "BET";
+        }
+        if (timestep == (canvas.width - 1)) {
+          status = "SHOW";
+        }
+
+        
+        ctx.lineTo(timestep, B[timestep] * 100 + ht / 2);
+        ctx.stroke();
+
+        num = (-ht / 8 * B[timestep]).toFixed(); 
+        maxnum = (-ht / 8 * Math.min.apply(null, B)).toFixed(); 
+        minnum = (-ht / 8 * Math.max.apply(null, B)).toFixed(); 
+        document.getElementById("curValue").value = num;
+        document.getElementById("minValue").value = minnum;
+        document.getElementById("maxValue").value = maxnum;
+        document.getElementById("status").value = status;
+      }, timestep * brakes);
+    }
+
+    ctx.beginPath();
+
+    for (var i = 0; i < n; i++) {
+      plot(i);
+    }
+  }
+
+  
+  
+  
+  
+</script>
+
+<h2>What's Going on?</h2>
+<p>A coin is being flipped automatically.<br>
+  Heads +1, Tails -1.
+  Keep a running sum.</p>
+<i>This webpage is your "hand".</i>
+<p>
+  Find some friends and show them how to get a hand of their own. Choose a unit of value with which to gamble (candy,
+  dimes, chips, etc.).
+</p>
+
+<p>
+  There are six rounds of betting, corresponding to each tick mark in the chart.
+  During each round each player must bet a predetermined minimum, fold (resign), or raise--which everyone else must call (match) to remain in the game.
+  At the end of each game, the player remaining with the highest current score is the winner.
+</p>
+
+<p>
+  Game concept by <a href="http://math.ucdenver.edu/~bsimon" target="_blank">Dr. Burt Simon</a>.<br>Design and Software Copyright 2016 <a href="https://elliottregan.com" target="_blank">E. Regan</a> & M. Pilosov
+</p>
+<br>
+
+<h2 id="rules">Rules</h2>
+<p>Gambling would occur on pre-determined intervals (timer), or whenever someone wants to (if you enjoy a bit of chaos).</p>
+<h2 id="history">History</h2>
+<p>One of the activities I organized as part of Math Club was an event where we incorporated this game as one of the “stations” at our Poker &amp; Games night.</p>
+<p>In a sense this was my first successful attempt at writing something that could be used without any technical background whatsoever.</p>
+
+                                    
+                                    
+
+<div class="social-icons">
+  <a class="twitter" href="https://twitter.com/intent/tweet?text=stochastic%20poker&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2fetc%2fpoker%2f"
+    target="_blank" rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path
+        d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z">
+      </path>
+    </svg>
+  </a>
+  <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmpilosov.com%2fprojects%2fetc%2fpoker%2f" target="_blank"
+    rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="currentColor">
+      <path
+        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+    </svg>
+  </a>
+  <a class="linkedin"
+    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2fetc%2fpoker%2f&amp;title=stochastic%20poker"
+    target="_blank" rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+      <path
+        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+      </svg>
+  </a>
+  <a class="email" href="mailto:?subject=stochastic%20poker&amp;body=https%3a%2f%2fmpilosov.com%2fprojects%2fetc%2fpoker%2f">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+      <path
+        d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z" />
+    </svg>
+  </a>
+</div>
+
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="cafelytics">
+                                    
+                                    
+                                    
+                                    <h1 id="mind-the-grow">Mind the Grow</h1>
+<p>Mind the Grow was a company I started with the hopes of writing and supporting software to help with agricultural planning.</p>
+<p>The scope is not some complicated forecasting model based on historical data, but rather a decision-making toolbox (&ldquo;should I buy more land?&rdquo;, &ldquo;what mix of crops should I plant?&rdquo;, &ldquo;how should I plan crop rotations?&rdquo;, etc), focused on solving a set of problems I encountered when volunteering with a coffee cooperative in 2012.</p>
+<h2 id="cafelytics">Cafelytics</h2>
+<p>The purpose is to assist cooperatives with minimal data (who owns what land and what is planted there, nothing historical assumed) in planning the stability of future yields.</p>
+<p><img src="https://user-images.githubusercontent.com/40366263/126934177-7353103f-bd90-4a7a-9085-f409a69d1b66.png" alt="plot"></p>
+<p>I wrote about this software extensively on the <a href="https://www.mindthegrow.com/cafelytics/">website</a>.</p>
+<p>Some basic features of this software project I included were:</p>
+<ul>
+<li>Built with Python (ported from Matlab originally, later Octave)</li>
+<li>Shipped as the package <code>cafelytics</code> via <a href="https://pypi.org">PyPi</a></li>
+<li>Automatic documentation built with <a href="https://www.sphinx-doc.org/en/master/man/sphinx-build.html">sphinx</a> and deployed with <a href="https://readthedocs.org/">readthedocs</a>.</li>
+<li>Github Actions for automated testing + package releases</li>
+<li>Code Coverage Reports</li>
+</ul>
+
+
+
+<a href="https://github.com/mindthegrow/cafelytics"   target="_blank" rel="noreferrer" class="button">github</a>
+
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="containerized-jupyterhub">
+                                    
+                                    
+                                    
+                                    <h1 id="containerized-jupyterhub">Containerized JupyterHub</h1>
+<p>In early 2017, set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it.
+I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.</p>
+
+
+
+<a href="https://github.com/ml-starter-packs/jupyterhub-deploy-docker"   target="_blank" rel="noreferrer" class="button">jupyterhub-deploy-docker</a>
+
+<p>To support the statisticians in my department who were using R instead of Python, I built a <a href="/projects/etc/#statistical-dev-env">containerized RStudio + RShiny server</a> that would launch through JupyterHub via an nginx-proxy server.
+Students had the full Python/JupyterLab experience available, but RStudio was also available in a standalone browser tab.</p>
+<p>I eventually began adopting <a href="https://code.visualstudio.com/">VSCode</a> as a development environment since I began leaning more into software engineering, which left me doing a lot of work in JupyterLab&rsquo;s Terminal.
+I discovered that this too was a web-app, one that I could proxy via JupyterHub much the same way I did with RStudio, and so I added VSCode as a development environment available in my default user environment.</p>
+<p>TODO: add some screenshots.</p>
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="statistical-dev-env">
+                                    
+                                    
+                                    
+                                    <h1 id="rstudio--rshiny">RStudio + RShiny</h1>
+<p>Every time I had to reproduce results that were produced in <code>R</code> I had a hard time, so I containerized RStudio and RShiny in order to have a development environment that would work across operating systems and cloud deployments.</p>
+
+
+
+<a href="https://github.com/ml-starter-packs/stats-server"   target="_blank" rel="noreferrer" class="button">stats-server</a>
+
+<p>I was able to also proxy these services through JupyterHub so these environments can be available as options in <a href="./#containerized-jupyterhub">my deployment template</a>.</p>
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="mlflow-example">
+                                    
+                                    
+                                    
+                                    <h1 id="mlflow-reference-deployment">mlflow reference deployment</h1>
+<p>I discovered <a href="https://mlflow.org">mlflow</a> while researching experiment management solutions on a client engagement.
+I find it strikes a perfect balance of being flexible enough to be useful in many contexts and deployment configurations, while not doing &ldquo;too much.&rdquo;</p>
+<p>To help myself spin up a containerized mlflow deployment with <code>PostGreSQL</code> and <code>S3</code> backends, I crafted a template project that demonstrated assessments of several natural language processing models.
+In order to answer &ldquo;how does this machine-learning model work for our specific use-case?,&rdquo; assessments such as these have become very common in my consulting work, and mlflow helps a lot with keeping everything tidy and reproducible.</p>
+
+
+
+<a href="https://github.com/ml-starter-packs/mlflow-experiment/"   target="_blank" rel="noreferrer" class="button">mlflow-experiment</a>
+
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="microservices-for-ml">
+                                    
+                                    
+                                    
+                                    <h1 id="microservices-workshop">Microservices Workshop</h1>
+<p>I volunteered to teach junior engineers and architects from other capabilities at my company about issues related to &ldquo;ML Ops,&rdquo; or the operationalization of machine-learning models.
+What this means in practice is applying the last decade of developments from the web-world to machine-learning use-cases (e.g. exposing functionality via API calls).
+This was part of a larger &ldquo;ML Academy&rdquo; the students were part of, and my lesson came towards the end of the curriculum.</p>
+<p>In this particular workshop, I wanted the &ldquo;students&rdquo; to be able to get right into making things work themselves (some had never programmed before the training), so I leveraged <a href="https://mybinder.org">Binder</a> and some of my work with getting <a href="/projects/etc/#containerized-jupyterhub">VSCode integrated into Jupyterhub</a> to provide them a one-click browser-based experience.
+I leveraged <code>Makefiles</code> and self-contained <code>README</code> files in three separate repositories to guide them through several sub-lessons about web apps and micro-services.</p>
+<p>You can find the wrapper project here (the development environment with links to the lessons):
+
+
+
+<a href="https://github.com/ml-starter-packs/microservice-workshop"   target="_blank" rel="noreferrer" class="button">github</a>
+</p>
+<p>Or if you&rsquo;re the interactive type, you can jump right into the demo:
+
+
+
+<a href="https://mybinder.org/v2/gh/ml-starter-packs/microservice-workshop/main?urlpath=vscode/"   target="_blank" rel="noreferrer" class="button">run in browser</a>
+</p>
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="ml-monorepo">
+                                    
+                                    
+                                    
+                                    <h1 id="machine-learning-mono-repo">Machine Learning Mono Repo</h1>
+<p>During one of my consulting engagements, I encountered a client with a situation that I feel plagues many organizations who have embraced micro-service architecture patterns.
+I am an advocate of the principle of separation that this design decision reflects, but I discovered that one of the implications (splitting services out into their own repositories) led to a lot of technical debt.
+Since we were working on a large legacy codebase that was being converted slowly to python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.
+The maintenance effort of managing updates in this many co-dependent packages became a major effort, and I took note of this challenge when I went onto my next engagement.
+On my next project, I had significantly more design freedom since the opportunity involved a brand new product without existing code.</p>
+<p>There too, a micro-service approach was appropriate (modules for data pre-processing, training and assessing models have very different dependencies than the model-serving API), but I wanted a better organizational solution.
+In came <a href="https://www.pantsbuild.org/">pants</a>, a build-tool from Twitter for managing mono-repos.
+This made shipping a half-dozen python packages <em>much</em> simpler, and provided a lot of benefits such as intelligent test-caching (only re-run the subset of tests that have dependencies on changed code).</p>
+<p>In any case, I am not here to advocate for <code>pants</code>, but I do want to highlight the project I created after this engagement ended.
+Along with the help of my colleague Sami Rodrigue, I created an example repository which showcases a minimal &ldquo;Machine-Learning-Oriented&rdquo; project managed with <code>pants</code>, to help make a more complete example that would speak to my peers in consulting.</p>
+
+
+
+<a href="https://github.com/ml-starter-packs/ml-monorepo"   target="_blank" rel="noreferrer" class="button">ml-monorepo</a>
+
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="legislation-scraping">
+                                    
+                                    
+                                    
+                                    <h1 id="scraping-legislation-with-nlp">Scraping Legislation with NLP</h1>
+<p><a href="https://andreanarosnik.com/">Andreana Rosnik</a> published her work for scraping legislation PDFs from government websites using natural language processing.
+I really loved the work and use-case:</p>
+<blockquote>
+<p><code>legiscrapor</code> is a project to web scrape and crawl through parliamentary websites of various countries around the world for legislation related to human rights issues.</p>
+</blockquote>
+<p>My contribution was straightforward. I wanted stuff like this to be more easily usable by others, so I helped turn Andrea&rsquo;s scripts into a Python package.</p>
+
+
+
+<a href="https://github.com/amrosnik/legiscrapor"   target="_blank" rel="noreferrer" class="button">legiscrapor</a>
+
+<p>I hope you can find it useful!</p>
+<p>In all honesty, I love small projects such as this one that can be tackled over the course of a couple evenings.
+If you have a tool or set of scripts that you find yourself relying on at work and want to make them publicly available, I would love to help!</p>
+
+
+<a href="/#connect"  class="button">get in touch</a>
+
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="dissertation-template">
+                                    
+                                    
+                                    
+                                    <h1 id="dissertation-template">Dissertation Template</h1>
+<p>When writing my doctoral dissertation, I adopted <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">git-flow</a> practices and wanted to treat my PDF as a software product (I was already working at the time).
+I used an existing dissertation template from a student in the biology program from several years prior to my own writing, and modified it heavily to meet the new publication standards published by the university.
+However, my contributions also included the creation of a development environment that could be used to compile the document, since setting up LaTeX with the right set of extensions can be quite challenging.
+Furthermore, I leveraged <a href="https://github.com/features/actions">Github Actions</a> to check the validity of proposed changes by ensuring the document can be compiled through a prebuilt docker image, and release a PDF as a build artifact.</p>
+<p>Since the story I was telling in my dissertation evolved a lot in the writing and editing process, there was a lot of &ldquo;moving sections around,&rdquo; which created a lot of meaningless <code>git diff</code>s, making pull requests more challenging to review, and attribution of changes (&ldquo;when did I write this section?&rdquo;, &ldquo;whose proposals were these?&rdquo;) nearly impossible.
+As paragraphs, examples, and whole sections were added, removed, and modified, I found myself having a hard time ensuring that the &ldquo;latest results&rdquo; were reflected in the paper.
+To facilitate a better writing experience (which in LaTeX can often feel like software engineering), I architected the project to encourage the use of modular sections with self-contained examples.</p>
+
+
+
+<a href="https://github.com/mathematicalmichael/dissertation-template"   target="_blank" rel="noreferrer" class="button">dissertation-template</a>
+
+<p>Several students in my department have successfully used this template to submit their dissertations.</p>
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="gpu-jupyter">
+                                    
+                                    
+                                    
+                                    <h3 id="gpu-enabled-jupyter-images">GPU-Enabled Jupyter Images</h3>
+<p>After many years of running CPU-only <a href="./#containerized-jupyterhub">JupyterHub</a> on cloud servers, I eventually built my own workstation equipped with an Nvidia GPU.
+This presented me with a new problem: none of my existing containerized development environments had the required hardware support to enable the acceleration the GPU promised.</p>
+<p>In comes <a href="https://github.com/iot-salzburg/gpu-jupyter">gpu-jupyter</a>, a project which provided Dockerfiles that mirrored the <a href="https://github.com/jupyter/jupyter-docker-stacks">jupyter-docker-stacks</a> but built on Nvidia-published base-images.
+I found this repository <em>almost</em> worked for me, so I began contributing fixes and improvements to it regularly, including the automation of building and publishing images with <a href="https://github.com/features/actions">Github Actions</a>.
+I am now a somewhat-active maintainer of the project, in large part because I personally depend on for my own JupyterHub deployment, and like to keep things up-to-date.</p>
+
+
+
+<a href="https://github.com/iot-salzburg/gpu-jupyter"   target="_blank" rel="noreferrer" class="button">gpu-jupyter</a>
+
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="tex-for-teachers">
+                                    
+                                    
+                                    
+                                    <h1 id="latex-lesson-plans">LaTeX Lesson Plans</h1>
+<p>As part of my PhD program I taught several undergraduate courses.
+Many of these involve teaching problem-solving from word statements involving numbers.</p>
+<p>I wanted a software-like experience to design all the lesson plans, quizzes, and exams.
+If I discovered a typo during teaching, I didn&rsquo;t want to have to edit multiple versions of the same document (the original and answer key), to prepare for the next semester.</p>
+<p>I began to architect a repo which used LaTeX&rsquo;s programmatic features to create a flexible platform for teachers to organize their materials.</p>
+<ul>
+<li>problems exist as individual <code>.tex</code> files, with solutions written in the space provided to the student to do their work by hand</li>
+<li>each quiz/lesson/exam references these problems and generates <em>both</em> a blank version for the students and the associated answer key</li>
+<li>problems carry point values which can be used in quizzes and exams to create grading templates including the sum of total points</li>
+</ul>
+
+
+
+<a href="https://github.com/mpilosov/math1010"   target="_blank" rel="noreferrer" class="button">math1010</a>
+
+<p>This project is (in full transparency) not entirely complete.
+Everything listed above is indeed demonstrated, but I only began migrating a small portion of the existing course content.
+Ideally I will use the project as a starting point for a more &ldquo;minimal&rdquo; template, not specific to this particular class, but that would require someone to <a href="/#connect">actually request it</a>.</p>
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+                        
+                            
+                                <article id="free-web-apps">
+                                    
+                                    
+                                    
+                                    <h1 id="sharing-apps-for-free">Sharing Apps (for free)</h1>
+<p>One of the challenges I repeatedly encountered was that I would build some sort of web-based application for a friend or client demo, and didn&rsquo;t want to be bogged down with deployment concerns.
+I wanted to be able to share my work simply by providing a URL but (at that time) was uncomfortable with exposing services on my home network, and didn&rsquo;t want to overload my minimal cloud servers.</p>
+<p>I had used <a href="https://mybinder.org">mybinder.org</a> (a free cloud-compute platform), in the past for sharing my work in conference presentations (my reproducibility concerns led me to use it as a temporary solution).
+Since I found myself often leveraging the same patterns, I made a template repo which launches a minimal interactive web application app via binder and proxies the traffic to it.</p>
+
+
+
+<a href="https://github.com/ml-starter-packs/binder-streamlit"   target="_blank" rel="noreferrer" class="button">binder-streamlit</a>
+
+
+                                    
+                                    
+                                </article>
+                            
+                        
+                    
+
+                </div>
+
+                
+<footer id="footer">
+  <p class="copyright">
+    &copy;
+    <a href="https://github.com/mathematicalmichael"
+      >2022 Michael Pilosov</a
+    >
+  </p>
+</footer>
+
+
+        </div>
+
+    
+    <div id="bg"></div>
+
+</body>
+
+
+
+</html>
+

@@ -26,15 +26,6 @@
     <script defer src="/assets/js/main.js?v=2"></script>
 
     
-    
-    <script type="module">
-        setTimeout(async () => {
-            await import("/js/particles.min.07f1e711a437714bfd8cf423d8c4a06fd66be1feb27c8f0621997142ffda5f3a043a03e61993bf0b947be483c8f06719495054debd222332f1446233cc5f3d0d.js");
-            particlesJS.load('wrapper', "/js/particles.min.626879c40499aef1618a47e985901a92be1f1f88217ebfb9883e8de41fa6b76b60269c22e9dbbf576a8fab435448b79166508c597df98ba469f154e04e30731e.json", function() {
-                console.log('callback - particles.js config loaded');
-            });
-        }, 1500);
-    </script>
 
     <link rel="canonical" href="https://mpilosov.com/projects/">
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css"/></noscript>
@@ -136,7 +127,9 @@
             
                 <header id="header">
                     <div class="logo">
-                        <a href="/">
+                        
+                            <a href="../">
+                        
                             <span class="icon">
                                 <img src="/icons/sacred.svg">
                             </span>
@@ -192,21 +185,7 @@
                                 
                                     
                                         <li>
-                                            <a
-                                                class="nav-links__link"
-                                                href="#run-events"
-                                            >run events</a>
-                                        </li>
-                                    
-                                
-                            
-                                
-                                    
-                                        <li>
-                                            <a
-                                                class="nav-links__link"
-                                                href="#etc"
-                                            >etc</a>
+                                            <a class="nav-links__link" href="/projects/etc/">software</a>
                                         </li>
                                     
                                 
@@ -228,52 +207,15 @@
 <blockquote>
 <p>I combine art, math, and machines to build wonderful things.</p>
 </blockquote>
-<p>Start with today.
-Show biggest achievement.</p>
-<p>How did we get here?
-Probability-Dependent Generative Artwork.
-It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.</p>
-<p>I want to find more projects like this.</p>
-<h2 id="description">Description</h2>
-<p>Describe your relationship to art.</p>
-<h2 id="history">History</h2>
-<h2 id="moving-pictures">Moving Pictures</h2>
-<h3 id="summer-2013">summer 2013</h3>
-<p>History&hellip; early
-
-
-
-  
-
-
-<a href="https://mindthegrow.com"   target="_blank" rel="noreferrer" class="button">Gallery</a>
-
-
-
-
-  
-
-
-<a href="https://mindthegrow.com"   target="_blank" rel="noreferrer" class="button">Project</a>
-</p>
-<h2 id="probably-art-1">Probably Art</h2>
-<p>context
-
-
-
-  
-
-
-<a href="https://mindthegrow.com"   target="_blank" rel="noreferrer" class="button">Project</a>
-</p>
-<h2 id="present">Present</h2>
-<p>code exists <a href="">here</a> and needs major reorganization. early software.</p>
-<h2 id="future">Future</h2>
-<p>plans to marry the two, clean up the repos, use for education.</p>
-<h2 id="generative-architecture">Generative Architecture</h2>
-<p>National Jewish Health: Center for</p>
-<p>TK: show images</p>
-<p>TK: link to dedicated project page</p>
+<p>Unfortunately, I have done a bad job of documenting these projects.</p>
+<p>Please pardon this Work-In-Progress. I promise to fill this page with content shortly.
+My priority was first to document all of the <em>other</em> projects I&rsquo;ve done.</p>
+<p>In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013.
+I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</p>
+<p>My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in both hardware and software development (it started with scripting in Matlab&hellip;), and how I found a creative outlet for expression.</p>
+<p>To date, my biggest artistic &ldquo;accomplishment&rdquo; is that I wrote software that enabled the parametric design of the exterior of a hospital in Denver.
+The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect&rsquo;s CAD software immediately.
+This enabled the automation of part ordering and flexibility in the design (choice of colors and their relative occurrences).</p>
 
                                     
                                     
@@ -322,15 +264,63 @@ It was the first experience I had with GUIs, and then the same theme tied togeth
                                     
                                     
                                     <h1 id="research">Research</h1>
-<h2 id="mud">MUD</h2>
+<p>If there&rsquo;s one theme that unifies my research experience, it&rsquo;s <em>estimation</em>.</p>
+<p>Most of my time was spent creating new methods to estimate <em>truth</em> from <em>data</em>, which is polluted by observational noise in the measurement process.</p>
+<p>I developed a new statistical method to estimate model parameters from noisy data (i.e., &ldquo;fitting a model&rdquo;).
+I used a measure-theoretic framework (developed by my advisor <a href="http://math.ucdenver.edu/~tbutler/">Dr. Troy Butler</a> to solve a <em>stochastic inverse problem</em>, one involving estimation of a true parameter.</p>
+<blockquote>
+<p>What makes this framework interesting is that you can incorporate your assumptions <em>without biasing</em> your conclusions.</p>
+<p>This is accomplished by the construction of a <em>specialized regularization term</em> by solving an associated <em>stochastic forward problem</em>.</p>
+<p>To reiterate, this measure-theoretic framework inverts a distribution by incorporating the knowledge gained by first solving a forward problem.</p>
+</blockquote>
+<p>My specific contributions focused on casting a <em>parameter-estimation</em> problem as a <em>distribution-estimation</em> problem in order to leverage the aforementioned measure-theoretic framework.</p>
+<p>I named this new method &ldquo;MUD&rdquo;, which stands for <em>Maximal Updated Density</em>.
+You can read about it <a href="#mud">below</a>.</p>
+<p>I published my <a href="https://github.com/mathematicalmichael/thesis">dissertation</a> on Github, and made all the software available as open-source Python packages.</p>
+<h2 id="tracking-toxins--hurricanes">Tracking Toxins &amp; Hurricanes</h2>
+<p>The project that actually motivated my research was at <a href="https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory">Los Alamos National Laboratory</a> in the Environmental &amp; Earth Sciences Group, working on physics-based modeling for environmental remediation.
+The team there was using <a href="https://julialang.org/">Julia</a> to simulate the spread of <a href="https://www.osha.gov/hexavalent-chromium">hexavelent chromium</a> in the subsurface by incorporating data collected at groundwater wells.
+I used Julia to develop some of the initial work for what eventually became my Python package <code>mud</code>, but it was my encounters with other researchers at the lab that eventually led me to the research question I would answer for the next few years.</p>
+<blockquote>
+<p>How do we incorporate all of the data, not knowing which of it is helpful?</p>
+</blockquote>
+<p>They were solving a parameter-estimation problem (e.g., &ldquo;where is the toxin and how is it spreading?&rdquo;), not a distribution-estimation problem (e.g., &ldquo;what is the variability in toxin concentrations?&rdquo;).
+The framework I was tasked with using <em>didn&rsquo;t handle</em> parameter-estimation, as it was designed for an entirely different class of problems.</p>
+<p>I would spend the next two years prototyping how I could &ldquo;translate&rdquo; between these two problems (a common theme in pure mathematics), and several subsequent years refining and rigorously proving the approach that I developed.
+I knew it worked due to computational evidence for over a year before I developed the theory to mathematically prove what I was doing.
+In this way, the computer was my laboratory: I experimented with different hypotheses for how I could structure an algorithm, gained valuable insights from studying what worked, and then pursued an explanation which would start the cycle all over again.</p>
+<h3 id="addendum">Addendum</h3>
+<p>At the end of my time in academia, I was unable to revisit how well it worked on the original problem that I was trying to solve involving subsurface contaminant transport, as the research group had it&rsquo;s funding changed and moved on to other projects.
+However, the approach has now been thoroughly tested against data from recent hurricane storm surge simulations (involving real data collected from buoys) and is proving extremely promising in providing accurate and precise parameter estimates.
+My work was funded by the NSF and DOE, and is in the process of being incorporated into real prediction systems to inform evacuation decisions during hurricanes (though I have only an advisory role at this point).</p>
 <h2 id="the-oracle">The Oracle</h2>
 <p>(AKA the Monte-Carlo Calculator)</p>
-<p>talk about research, wanting to make something useful, something to share.
-<img src="../projects/oracle//car-scatter.jpg" alt="plot"></p>
-<p><img src="../projects/oracle/car-filter.jpg" alt="plot"></p>
+<p>After graduating, I really wanted to build something <em>useful</em> to a broader audience as a consequence of my academic research.
+One of the small components of my work involved stochastic forward problems, which I found myself reaching for when simulating various processes under uncertainty.
+In addition, I became adept at understanding how to deal with high-dimensional data.
+One technique to do visualize problems in moderately sized dimensions is Parallel Plots.
+I combined these two things and built many versions of what eventually became The Oracle.</p>
 <p><a href="https://oracle.math.computer">The Oracle</a> is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).</p>
-<p>Often we find &ldquo;back-of-the-napkin&rdquo; calculations to be useful&hellip; randall munroe what if &hellip; fermi problems wiki &hellip; TK TK TK</p>
-<p>It is deployed with <code>#kubernetes</code> on <code>#google-cloud-platform</code> and is built with <code>#python</code> using <code>#flask</code>.</p>
+
+
+<a href="/projects/etc/#the-oracle"  class="button">Read More</a>
+
+<h2 id="mud">MUD</h2>
+<p>The software library <code>mud</code> associated with the Python package of the same name can be found here:</p>
+
+
+
+<a href="https://github.com/mathematicalmichael/mud"   target="_blank" rel="noreferrer" class="button">github</a>
+
+<p>Some information about it:</p>
+<ul>
+<li>Built with Python</li>
+<li>Shipped as the package <code>mud</code> via <a href="https://pypi.org/project/mud">PyPi</a></li>
+<li>Automatic documentation built with <a href="https://www.sphinx-doc.org/en/master/man/sphinx-build.html">sphinx</a> and deployed with <a href="https://readthedocs.org/">readthedocs</a>.</li>
+<li>Github Actions for automated testing + package releases</li>
+<li>Code Coverage Reports</li>
+<li>Can be paired with <code>mud-examples</code> to generate all the figures in my dissertation with one command</li>
+</ul>
 
                                     
                                     
@@ -378,15 +368,41 @@ It was the first experience I had with GUIs, and then the same theme tied togeth
                                     
                                     
                                     
-                                    <h1 id="software-contributions">Software Contributions</h1>
-<p>I&rsquo;ve learned so much from free software, and want to give back by making the things I build available to others.</p>
-<p>I believe in making complicated things easier for people to digest, and software contributions is one way to do that.</p>
-<h2 id="ml-starter-packs">ML Starter-Packs</h2>
-<p><a href="https://github.com/ml-starter-packs">ml-starter-packs</a> is a Github organization I created to house relatively polished projects for public consumption.</p>
-<p>These are the tools I find myself coming back to over and over, whether for educational or development purposes.</p>
-<h2 id="mtg">MTG?</h2>
-<h2 id="closed-source">Closed Source</h2>
-<p>A bit about what I&rsquo;ve done for work.</p>
+                                    <h1 id="stuff-ive-built--why">Stuff I&rsquo;ve Built (&amp; Why)</h1>
+<p>I&rsquo;ve learned so much from free software, and want to give back by making the things I build available to others.
+I would characterize my work as falling into one of three categories:</p>
+<ul>
+<li>improving the research &amp; development experience</li>
+<li>educational resources</li>
+<li>software to support computational science</li>
+</ul>
+<p>I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.
+On this page I provide some context around why I built them.
+If you want, you can skip to the <a href="./etc">software contributions page</a>.</p>
+<h2 id="motivations">Motivations</h2>
+<p>The research I was required to conduct for my doctoral dissertation involved developing new mathematical methods in tandem with writing code that demonstrates its practical utility.
+I kept running into certain problems that undermined my productivity, including but not limited to:</p>
+<ul>
+<li>stuff worked on one machine but not another</li>
+<li>small changes would break large functionality</li>
+<li>missing dependencies (data, images) preventing reproducibility</li>
+<li>trusting my implementations were &ldquo;correct&rdquo; before sharing</li>
+</ul>
+<p>These issues led me to adopt tools like containers for setting up a reproducible computational environment, git for tracking versions of my work, and software packaging (including testing) for ensuring the integrity of my contributions.
+I wanted to make it so that other people wouldn&rsquo;t have to trip against the same roadblocks that I did.
+Furthermore, I noticed that professors who were trying to adopt more computational work into their curriculum were struggling to help students set up an environment on their personal computers that would enable them to do their coursework.</p>
+<h2 id="solutions">Solutions</h2>
+<p>I took initiative to solve these problems.
+I set up <a href="/projects/etc/#jupyterhub-deploy-docker">JupyterHub</a> at CU Denver and onboarded much of my math department to a browser-based development workflow.
+I maintained this deployment for many years with upgrades on a fork of a Project Jupyter <a href="https://github.com/jupyter/jupyterhub-deploy-docker">reference deployment</a>, and eventually published a &ldquo;template&rdquo; under the <a href="https://github.com/ml-starter-packs">ml-starter-packs</a> organization after using it years post-graduation (including with clients).</p>
+<p>Under the name of that Github organization, I also began to publish templates when teaching internal workshops on the <a href="./etc/#microservices-for-ml">deployment of machine-learning models</a> and exposing their functionality through APIs.
+I also began adopting the use of <a href="https://mlflow.org">mlflow</a> and advocating for its use in tracking experiments during the research and development lifecycle, so I created a <a href="/projects/etc/#mlflow-example">containerized deployment</a> template to help others get started by providing a complete working example.</p>
+<p>I discuss software related to my research on the <a href="#estimation">estimation</a> page and provide references to the associated code there, as I made all of my results available as open-source Python packages published on PyPi.
+However, one of the projects of which I&rsquo;m most proud was the demonstration of Continuous Integration &amp; Deployment principles in the publication of my <a href="https://github.com/mathematicalmichael/thesis">doctoral dissertation</a>, which I used to create a <a href="/projects/etc/#dissertation-template">template for others to use</a>.</p>
+
+
+<a href="/projects/etc"  class="button">software contributions</a>
+
 
                                     
                                     
@@ -395,315 +411,6 @@ It was the first experience I had with GUIs, and then the same theme tied togeth
                         
                     
                         
-                            
-                                <article id="run-events">
-                                    
-                                    
-                                    
-                                        <h4 class="minor">March 2016</h4>
-                                    
-                                    <h1 id="stochastic-poker">Stochastic Poker</h1>
-
-<div class="plot-container">
-  <canvas id="plotCanvas" class="plot-canvas" width="auto" height="auto"></canvas>
-
-  <div class="printout">
-
-    <div class="score">
-      <label class="poker-label">current</label>
-      <input type="text" id="curValue" readonly>
-    </div>
-
-    <div class="vg-right">
-      <div class="value_group">
-        <label class="poker-label">min</label>
-        <input type="text" id="minValue" readonly>
-      </div>
-      <div class="value_group">
-        <label class="poker-label">max</label>
-        <input type="text" id="maxValue" readonly>
-      </div>
-      <div class="value_group">
-        <label class="poker-label">action</label>
-        <input type="text" id="status" readonly>
-      </div>
-    </div>
-  </div>
-  <button type="button" class="reset-btn" onclick="reset()" color="grey"><u>Start New Game</u></button>
-</div>
-<br>
-<br>
-
-<script>
-  var canvas = document.getElementById('plotCanvas');
-  var ctx = canvas.getContext('2d');
-
-  var num, maxnum, minnum;
-
-  var interval = 5;
-
-  var B = [0]
-  var brakes = 200; 
-  var ht = canvas.height;
-  var n = canvas.width;
-  var alpha = 5;
-
-  initPlot();
-  drawWalk();
-
-  function reset() {
-    B = [0];
-    var id = window.setTimeout(function () {}, 0);
-    while (id--) {
-      window.clearTimeout(id); 
-    }
-    document.getElementById("minValue").value = 0;
-    document.getElementById("maxValue").value = 0;
-
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    initPlot()
-    drawWalk();
-  }
-
-  function initPlot() {
-    ctx.font = "16px sans-serif";
-    ctx.filStyle = "light";
-    
-    ctx.font = "36px serif";
-    
-
-    ctx.beginPath();
-    ctx.moveTo(0, canvas.height / 2)
-    ctx.lineTo(canvas.width, canvas.height / 2)
-    ctx.stroke();
-
-    var tick_length = 7;
-    var tick_its = 6;
-
-    var curBox = document.getElementById("curValue");
-    curBox.style["width"] = "80px";
-    curBox.style["height"] = "40px";
-    curBox.style.fontSize = "x-large";
-
-    var minBox = document.getElementById("minValue");
-    minBox.style["width"] = "60px";
-    minBox.style["height"] = "30px";
-    minBox.style.fontSize = "small";
-
-    var maxBox = document.getElementById("maxValue");
-    maxBox.style["width"] = "60px";
-    maxBox.style["height"] = "30px";
-    maxBox.style.fontSize = "small";
-
-    var statusBox = document.getElementById("status");
-    statusBox.style["width"] = "80px";
-    statusBox.style["height"] = "30px";
-    statusBox.style.fontSize = "large";
-    statusBox.style.fontStyle = "bold";
-
-    for (var i = 1; i < tick_its; i++) {
-      
-      ctx.moveTo(i * canvas.width / tick_its, canvas.height / 2 - tick_length)
-      ctx.lineTo(i * canvas.width / tick_its, canvas.height / 2 + tick_length)
-      ctx.stroke();
-      
-      
-      
-      
-    }
-  }
-
-  function drawWalk() {
-    function plot(timestep) {
-
-      window.setTimeout(function () {
-        
-        if (Math.random() < 0.5) {
-          B.push(B[timestep] - alpha / n);
-        } else {
-          B.push(B[timestep] + alpha / n);
-        }
-        var tick_its = 6;
-        var status = "WAIT";
-        if (timestep % (canvas.width / tick_its) < 10) {
-          status = "BET";
-        }
-        if (timestep == (canvas.width - 1)) {
-          status = "SHOW";
-        }
-
-        
-        ctx.lineTo(timestep, B[timestep] * 100 + ht / 2);
-        ctx.stroke();
-
-        num = (-ht / 8 * B[timestep]).toFixed(); 
-        maxnum = (-ht / 8 * Math.min.apply(null, B)).toFixed(); 
-        minnum = (-ht / 8 * Math.max.apply(null, B)).toFixed(); 
-        document.getElementById("curValue").value = num;
-        document.getElementById("minValue").value = minnum;
-        document.getElementById("maxValue").value = maxnum;
-        document.getElementById("status").value = status;
-      }, timestep * brakes);
-    }
-
-    ctx.beginPath();
-
-    for (var i = 0; i < n; i++) {
-      plot(i);
-    }
-  }
-
-  
-  
-  
-  
-</script>
-
-<h2>What's Going on?</h2>
-<p>A coin is being flipped automatically.<br>
-  Heads +1, Tails -1.
-  Keep a running sum.</p>
-<i>This webpage is your "hand".</i>
-<p>
-  Find some friends and show them how to get a hand of their own. Choose a unit of value with which to gamble (candy,
-  dimes, chips, etc.).
-</p>
-
-<p>
-  There are six rounds of betting, corresponding to each tick mark in the chart.
-  During each round each player must bet a predetermined minimum, fold (resign), or raise--which everyone else must call (match) to remain in the game.
-  At the end of each game, the player remaining with the highest current score is the winner.
-</p>
-
-<p>
-  Game concept by <a href="http://math.ucdenver.edu/~bsimon" target="_blank">Dr. Burt Simon</a>.<br>Design and Software Copyright 2016 <a href="https://elliottregan.com" target="_blank">E. Regan</a> & M. Pilosov
-</p>
-<br>
-
-<h2 id="rules">Rules</h2>
-<p>Gambling would occur on pre-determined intervals (timer), or whenever someone wants to (if you enjoy a bit of chaos).</p>
-<h2 id="history">History</h2>
-<p>One of the activities I organized as part of Math Club was an event where we incorporated this game as one of the “stations” at our Poker &amp; Games night.</p>
-<p>In a sense this was my first successful attempt at writing something that could be used without any technical background whatsoever.</p>
-
-                                    
-                                    
-
-<div class="social-icons">
-  <a class="twitter" href="https://twitter.com/intent/tweet?text=run%20events&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2foutreach%2f"
-    target="_blank" rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path
-        d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z">
-      </path>
-    </svg>
-  </a>
-  <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmpilosov.com%2fprojects%2foutreach%2f" target="_blank"
-    rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="currentColor">
-      <path
-        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-    </svg>
-  </a>
-  <a class="linkedin"
-    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2foutreach%2f&amp;title=run%20events"
-    target="_blank" rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
-      <path
-        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-      </svg>
-  </a>
-  <a class="email" href="mailto:?subject=run%20events&amp;body=https%3a%2f%2fmpilosov.com%2fprojects%2foutreach%2f">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
-      <path
-        d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z" />
-    </svg>
-  </a>
-</div>
-
-                                </article>
-                            
-                        
-                    
-                        
-                            
-                                <article id="etc">
-                                    
-                                    
-                                    
-                                    <h1 id="more-projects">More Projects</h1>
-<p>Consider this a dumping ground for links to things I want to show people I&rsquo;ve done.</p>
-<h2 id="academic-research">Academic Research</h2>
-<p>I worked to develop new ways of quantifying and reducing uncertainty.</p>
-<p>
-
-
-  
-
-
-<a href="https://oracle.math.computer"   target="_blank" rel="noreferrer" class="button">Academic Research</a>
-
-
-
-
-  
-
-
-<a href="https://oracle.math.computer"   target="_blank" rel="noreferrer" class="button">Academic Research</a>
-</p>
-<h2 id="mind-the-grow">Mind the Grow</h2>
-<p>here I <a href="https://oracle.math.computer">embed</a> a link in a sentence to give context</p>
-<p>
-
-
-  
-
-
-<a href="https://mindthegrow.com"   target="_blank" rel="noreferrer" class="button">Code</a>
-
-<!-- raw HTML omitted --></p>
-<h2 id="math-club">Math Club</h2>
-<p>
-
-
-  
-
-
-<a href="https://mindthegrow.com"   target="_blank" rel="noreferrer" class="button">Repository</a>
-
-
-
-
-  
-
-
-<a href="https://mindthegrow.com"   target="_blank" rel="noreferrer" class="button">Archive</a>
-</p>
-<h2 id="twitterbots">Twitterbots</h2>
-<h3 id="prior-oracle">Prior Oracle</h3>
-<p>
-
-
-  
-
-
-<a href="https://twitter.com/priororacle/"   target="_blank" rel="noreferrer" class="button">Twitter Account</a>
-
-<!-- raw HTML omitted --></p>
-<h2 id="consulting">Consulting</h2>
-
-
-
-  
-
-
-<a href="https://mindthemath.com/resources"   target="_blank" rel="noreferrer" class="button">Visit Website</a>
-
-
-                                    
-                                    
-                                </article>
                             
                         
                     

@@ -1,7 +1,7 @@
 ---
 title: Containerized JupyterHub
 date: 2018-07-21
-weight: 20
+weight: 30
 timestamp: false
 share: false
 ---

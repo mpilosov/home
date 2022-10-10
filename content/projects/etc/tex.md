@@ -1,7 +1,7 @@
 ---
-title: latex
+title: tex for teachers
 date: 2018-07-21
-weight: 20
+weight: 90
 timestamp: false
 share: false
 ---
@@ -20,3 +20,7 @@ I began to architect a repo which used LaTeX's programmatic features to create a
 - problems carry point values which can be used in quizzes and exams to create grading templates including the sum of total points
 
 {{< button href="https://github.com/mpilosov/math1010">}}math1010{{< /button >}}
+
+This project is (in full transparency) not entirely complete.
+Everything listed above is indeed demonstrated, but I only began migrating a small portion of the existing course content.
+Ideally I will use the project as a starting point for a more "minimal" template, not specific to this particular class, but that would require someone to [actually request it](/#connect).

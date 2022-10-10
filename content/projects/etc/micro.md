@@ -1,7 +1,7 @@
 ---
 title: microservices for ml
 date: 2018-07-21
-weight: 20
+weight: 45
 timestamp: false
 share: false
 ---

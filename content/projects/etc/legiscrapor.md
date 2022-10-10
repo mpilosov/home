@@ -18,3 +18,8 @@ My contribution was straightforward. I wanted stuff like this to be more easily 
 {{< button href="https://github.com/amrosnik/legiscrapor">}}legiscrapor{{< /button >}}
 
 I hope you can find it useful!
+
+In all honesty, I love small projects such as this one that can be tackled over the course of a couple evenings.
+If you have a tool or set of scripts that you find yourself relying on at work and want to make them publicly available, I would love to help!
+
+{{< relbutton href="/#connect">}}get in touch{{< /relbutton >}}

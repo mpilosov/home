@@ -14,8 +14,8 @@ I would characterize my work as falling into one of three categories:
 - software to support computational science
 
 I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.
-On this page I summarize a selection of projects and provide some context around why I built them.
-If you want, you can [skip to them directly](./etc).
+On this page I discuss a small selection of projects and provide some context around why I built them.
+If you want, you can skip to the [software contributions page](./etc).
 
 ## Motivations
 
@@ -28,7 +28,7 @@ I kept running into certain problems that undermined my productivity, including 
 
 
 These issues led me to adopt tools like containers for setting up a reproducible computational environment, git for tracking versions of my work, and software packaging (including testing) for ensuring the integrity of my contributions.
-I wanted to make it so that other students wouldn't have to trip against the same roadblocks that I did.
+I wanted to make it so that other people wouldn't have to trip against the same roadblocks that I did.
 Furthermore, I noticed that professors who were trying to adopt more computational work into their curriculum were struggling to help students set up an environment on their personal computers that would enable them to do their coursework.
 
 ## Solutions
@@ -40,8 +40,8 @@ Under the name of that Github organization, I also began to publish templates wh
 I also began adopting the use of [mlflow](https://mlflow.org) and advocating for its use in tracking experiments during the research and development lifecycle, so I created a [containerized deployment](./etc/containerized-mlflow) template to help others get started by providing a complete working example.
 
 
-I discuss my research on the [estimation](#estimation) page and provide references to the associated code there.
-However, one of the projects of which I'm most proud was the demonstration of Continuous Integration & Deployment principles in the publication of my doctoral dissertation, which I used to create a [template for others to use](/projects/etc/#dissertation-template).
+I discuss my research on the [estimation](#estimation) page and provide references to the associated code there, as I made all of my results available as open-source Python packages published on PyPi.
+However, one of the projects of which I'm most proud was the demonstration of Continuous Integration & Deployment principles in the publication of my [doctoral dissertation][diss], which I used to create a [template for others to use](/projects/etc/#dissertation-template).
 
 
 {{< relbutton href="./etc" >}}software contributions{{< /relbutton >}}

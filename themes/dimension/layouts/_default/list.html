@@ -8,7 +8,11 @@
             <!-- Header -->
                 <header id="header">
                     <div class="logo">
-                        <a href="{{ "/" | relURL }}">
+                        {{ if .IsHome }}
+                            <a href={{ .Site.Home.RelPermalink }}>
+                        {{ else }}
+                            <a href="../">
+                        {{ end }}
                             <span class="icon">
                                 <img src="{{ .Params.logo | relURL }}">
                             </span>

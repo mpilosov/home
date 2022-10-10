@@ -7,22 +7,22 @@ share: false
 
 I am a Third Generation Artist, Machine Learning Architect, and Scientific Software Engineer.
 
-# I am Michael Pilosov, PhD
+# I am Michael Pilosov
 
 ![portrait](./profile.webp)
 
 I enable people to answer their toughest questions by using mathematics to quantify and reduce uncertainty.
 
-## I write code for people, not machines
+## write code for people, not machines
 
 Developing new software tools or dealing with challenging data can be major barriers to experts in any field; making something that enables reproduciblity, efficiency, and innovation requires different skillsets.
 Using my technical expertise, I build bridges over those barriers, enabling others to do their very best work.
 
 
 
-As an applied mathematician, I created a new statistical technique to reduce uncertainty when determining truth from noisy data.
+For my PhD in Applied Mathematics, I created a new statistical technique to determine truth from noisy data (solve stochastic inverse problems).
 To share this work with anyone else who could benefit from it, I made my research accessible as open-source [software](./projects/#estimation). 
- 
+
 I now use machine learning to make data-driven decisions, predict useful information, and automate time-consuming processes.
 Lines of code are also my favorite media to work with when creating [beautiful things](./projects/#art).
 
@@ -46,4 +46,4 @@ In particular, my background has allowed me to help others by:
 - creating beautiful and informative data visualizations
 - using math, physics, or data to make dynamic and interactive art
 
-{{< button href="/resume.pdf">}}view resume{{< /button >}}
+{{< button href="./resume.pdf?v=20221009">}}view resume{{< /button >}}

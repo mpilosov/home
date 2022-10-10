@@ -4,5 +4,6 @@ description:
 background:
 logo: icons/main.svg
 horizontalNav: true
+particles: true
 ---
 

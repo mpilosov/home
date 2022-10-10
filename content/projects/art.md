@@ -10,39 +10,16 @@ timestamp: true
 
 > I combine art, math, and machines to build wonderful things.
 
-Start with today.
-Show biggest achievement.
+Unfortunately, I have done a bad job of documenting these projects.
 
-How did we get here?
-Probability-Dependent Generative Artwork.
-It was the first experience I had with GUIs, and then the same theme tied together this project. Real-time visualization of randomness, now used to aid in design.
+Please pardon this Work-In-Progress. I promise to fill this page with content shortly.
+My priority was first to document all of the _other_ projects I've done.
 
-I want to find more projects like this.
+In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013.
+I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.
 
-## Description
-Describe your relationship to art.
+My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in both hardware and software development (it started with scripting in Matlab...), and how I found a creative outlet for expression.
 
-## History
-## Moving Pictures
-### summer 2013
-
-History... early
-{{< button href="https://mindthegrow.com" >}}Gallery{{< /button >}}
-{{< button href="https://mindthegrow.com" >}}Project{{< /button >}}
-
-## Probably Art
-context
-{{< button href="https://mindthegrow.com" >}}Project{{< /button >}}
-
-## Present
-code exists [here]() and needs major reorganization. early software.
-
-## Future
-plans to marry the two, clean up the repos, use for education.
-## Generative Architecture
-
-National Jewish Health: Center for 
-
-TK: show images
-
-TK: link to dedicated project page
+To date, my biggest artistic "accomplishment" is that I wrote software that enabled the parametric design of the exterior of a hospital in Denver.
+The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect's CAD software immediately.
+This enabled the automation of part ordering and flexibility in the design (choice of colors and their relative occurrences).

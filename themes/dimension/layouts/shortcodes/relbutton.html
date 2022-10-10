@@ -1,0 +1,5 @@
+{{ $ref := .Get "href" }}
+{{ with .Get "relref" }}
+  {{ $ref = relref $ . }}
+{{ end }}
+<a {{ with $ref }}href="{{.}}" {{ end }} class="button">{{- .Inner | safeHTML -}}</a>

@@ -1,8 +1,5 @@
 {{ $ref := .Get "href" }}
-{{ $target := "" }}
-{{ with $ref }}
-  {{ $target = "_blank" }}
-{{ end }}
+{{ $target := default "_blank" (.Get "target") }}
 {{ with .Get "relref" }}
   {{ $ref = relref $ . }}
 {{ end }}

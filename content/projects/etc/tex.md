@@ -1,7 +1,7 @@
 ---
 title: tex for teachers
 date: 2018-07-21
-weight: 90
+weight: 100
 timestamp: false
 share: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: GPU-Jupyter
 date: 2018-07-21
-weight: 80
+weight: 90
 timestamp: false
 share: false
 ---

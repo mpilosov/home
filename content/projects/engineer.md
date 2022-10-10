@@ -6,7 +6,7 @@ timestamp: false
 share: false
 ---
 
-# Software Contributions
+# Stuff I've Built (& Why)
 I've learned so much from free software, and want to give back by making the things I build available to others.
 I would characterize my work as falling into one of three categories:
 - improving the research & development experience

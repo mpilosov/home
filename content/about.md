@@ -46,4 +46,4 @@ In particular, my background has allowed me to help others by:
 - creating beautiful and informative data visualizations
 - using math, physics, or data to make dynamic and interactive art
 
-{{< button href="/resume.pdf">}}view resume{{< /button >}}
+{{< button href="/resume.pdf?v=2022-10-09">}}view resume{{< /button >}}

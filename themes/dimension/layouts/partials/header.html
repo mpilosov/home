@@ -51,3 +51,8 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
 </head>
+
+
+{{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+{{- template "_internal/google_analytics.html" . }}
+{{- end -}}

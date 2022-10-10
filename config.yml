@@ -2,6 +2,8 @@ baseURL: https://mpilosov.com
 languageCode: en-us
 title: "Mathematical Michael"
 theme: dimension
+googleAnalytics: G-4H9909XFH4
+
 Params:
   author: Michael Pilosov
   url: https://github.com/mathematicalmichael

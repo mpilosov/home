@@ -29,7 +29,7 @@ I kept running into certain problems that undermined my productivity, including 
 
 These issues led me to adopt tools like containers for setting up a reproducible computational environment, git for tracking versions of my work, and software packaging (including testing) for ensuring the integrity of my contributions.
 I wanted to make it so that other students wouldn't have to trip against the same roadblocks that I did.
-Furthermore, I noticed that professors who were trying to adopt more computational work into their curriculum were struggling to help students set up an environment on their personal computers that would enable them to do their homework.
+Furthermore, I noticed that professors who were trying to adopt more computational work into their curriculum were struggling to help students set up an environment on their personal computers that would enable them to do their coursework.
 
 ## Solutions
 I took initiative to solve these problems. In early 2017, set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it.
@@ -41,7 +41,10 @@ I also began adopting the use of [mlflow](https://mlflow.org) and advocating for
 
 
 I discuss my research on the [estimation](#estimation) page and provide references to the associated code there.
-However, one of the projects of which I'm most proud was the demonstration of Continuous Integration & Deployment principles in the publication of my doctoral dissertation, which I used to create a [template for others to use](./etc/#dissertation-template).
+However, one of the projects of which I'm most proud was the demonstration of Continuous Integration & Deployment principles in the publication of my doctoral dissertation, which I used to create a [template for others to use](/projects/etc/#dissertation-template).
+
+
+{{< relbutton href="./etc" >}}software contributions{{< /relbutton >}}
 
 
 [org]: https://github.com/ml-starter-packs

@@ -18,7 +18,7 @@ My priority was first to document all of the _other_ projects I've done.
 In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013.
 I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.
 
-My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in software development (it started with scripting in Matlab...), and found a creative outlet for expression.
+My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in both hardware and software development (it started with scripting in Matlab...), and how I found a creative outlet for expression.
 
 To date, my biggest artistic "accomplishment" is that I wrote software that enabled the parametric design of the exterior of a hospital in Denver.
 The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect's CAD software immediately.

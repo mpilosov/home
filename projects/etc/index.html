@@ -564,7 +564,7 @@ You are seeing a refactored version below.</p>
 <p>A coin is being flipped automatically.<br>
   Heads +1, Tails -1.
   Keep a running sum.</p>
-<i>This webpage is your "hand".</i>
+<i>This webpage is your "hand."</i>
 <p>
   Find some friends and show them how to get a hand of their own. Choose a unit of value with which to gamble (candy,
   dimes, chips, etc.).
@@ -667,7 +667,7 @@ You are seeing a refactored version below.</p>
                                     
                                     
                                     <h1 id="containerized-jupyterhub">Containerized JupyterHub</h1>
-<p>In early 2017, set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it.
+<p>In early 2017, I set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it.
 I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.</p>
 
 
@@ -678,7 +678,6 @@ I created development environments suited to each course and enabled professors 
 Students had the full Python/JupyterLab experience available, but RStudio was also available in a standalone browser tab.</p>
 <p>I eventually began adopting <a href="https://code.visualstudio.com/">VSCode</a> as a development environment since I began leaning more into software engineering, which left me doing a lot of work in JupyterLab&rsquo;s Terminal.
 I discovered that this too was a web-app, one that I could proxy via JupyterHub much the same way I did with RStudio, and so I added VSCode as a development environment available in my default user environment.</p>
-<p>TODO: add some screenshots.</p>
 
                                     
                                     
@@ -717,7 +716,7 @@ I discovered that this too was a web-app, one that I could proxy via JupyterHub 
 <p>I discovered <a href="https://mlflow.org">mlflow</a> while researching experiment management solutions on a client engagement.
 I find it strikes a perfect balance of being flexible enough to be useful in many contexts and deployment configurations, while not doing &ldquo;too much.&rdquo;</p>
 <p>To help myself spin up a containerized mlflow deployment with <code>PostGreSQL</code> and <code>S3</code> backends, I crafted a template project that demonstrated assessments of several natural language processing models.
-In order to answer &ldquo;how does this machine-learning model work for our specific use-case?,&rdquo; assessments such as these have become very common in my consulting work, and mlflow helps a lot with keeping everything tidy and reproducible.</p>
+In order to answer &ldquo;How does this machine-learning model work for our specific use-case?,&rdquo; assessments such as these have become very common in my consulting work, and mlflow helps a lot with keeping everything tidy and reproducible.</p>
 
 
 
@@ -770,12 +769,12 @@ I leveraged <code>Makefiles</code> and self-contained <code>README</code> files 
                                     <h1 id="machine-learning-mono-repo">Machine Learning Mono Repo</h1>
 <p>During one of my consulting engagements, I encountered a client with a situation that I feel plagues many organizations who have embraced micro-service architecture patterns.
 I am an advocate of the principle of separation that this design decision reflects, but I discovered that one of the implications (splitting services out into their own repositories) led to a lot of technical debt.</p>
-<p>Since we were working on a large legacy codebase that was being converted slowly to python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.
+<p>Since we were working on a large legacy codebase that was being converted slowly to Python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.
 The maintenance effort of managing updates in this many co-dependent packages became a major effort, and I took note of this challenge when I went onto my next engagement.
 On my next project, I had significantly more design freedom since the opportunity involved a brand new product without existing code.</p>
 <p>There too, a micro-service approach was appropriate (modules for data pre-processing, training and assessing models have very different dependencies than the model-serving API), but I wanted a better organizational solution.
 In came <a href="https://www.pantsbuild.org/">pants</a>, a build-tool from Twitter for managing mono-repos.
-This made shipping a half-dozen python packages <em>much</em> simpler, and provided a lot of benefits such as intelligent test-caching (only re-run the subset of tests that have dependencies on changed code).</p>
+This made shipping a half-dozen Python packages <em>much</em> simpler, and provided a lot of benefits such as intelligent test-caching (only re-run the subset of tests that have dependencies on changed code).</p>
 <p>In any case, I am not here to advocate for <code>pants</code>, but I do want to highlight the project I created after this engagement ended.
 Along with the help of my colleague <a href="https://www.linkedin.com/in/samirodrigue">Sami Rodrigue</a>, I created an example repository which showcases a minimal &ldquo;Machine-Learning-Oriented&rdquo; project managed with <code>pants</code>, to help make a more complete example that would speak to my peers in consulting.</p>
 
@@ -833,7 +832,7 @@ If you have a tool or set of scripts that you find yourself relying on at work a
 I used an existing dissertation template from a student in the biology program from several years prior to my own writing, and modified it heavily to meet the new publication standards published by the university.
 However, my contributions also included the creation of a development environment that could be used to compile the document, since setting up LaTeX with the right set of extensions can be quite challenging.
 Furthermore, I leveraged <a href="https://github.com/features/actions">Github Actions</a> to check the validity of proposed changes by ensuring the document can be compiled through a prebuilt docker image, and release a PDF as a build artifact.</p>
-<p>Since the story I was telling in my dissertation evolved a lot in the writing and editing process, there was a lot of &ldquo;moving sections around,&rdquo; which created a lot of meaningless <code>git diff</code>s, making pull requests more challenging to review, and attribution of changes (&ldquo;when did I write this section?&rdquo;, &ldquo;whose proposals were these?&rdquo;) nearly impossible.
+<p>Since the story I was telling in my dissertation evolved a lot in the writing and editing process, there was a lot of &ldquo;moving sections around,&rdquo; which created a lot of meaningless <code>git diff</code>s, making pull requests more challenging to review, and attribution of changes (&ldquo;when did I write this section?&rdquo; &ldquo;whose proposals were these?&rdquo;) nearly impossible.
 As paragraphs, examples, and whole sections were added, removed, and modified, I found myself having a hard time ensuring that the &ldquo;latest results&rdquo; were reflected in the paper.
 To facilitate a better writing experience (which in LaTeX can often feel like software engineering), I architected the project to encourage the use of modular sections with self-contained examples.</p>
 

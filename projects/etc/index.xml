@@ -44,7 +44,7 @@ The scope is not some complicated forecasting model based on historical data, bu
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/etc/jhub/</guid>
-      <description>Containerized JupyterHub In early 2017, set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it. I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.
+      <description>Containerized JupyterHub In early 2017, I set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it. I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.
 jupyterhub-deploy-docker To support the statisticians in my department who were using R instead of Python, I built a containerized RStudio + RShiny server that would launch through JupyterHub via an nginx-proxy server.</description>
     </item>
     
@@ -65,7 +65,7 @@ stats-server I was able to also proxy these services through JupyterHub so these
       
       <guid>https://mpilosov.com/projects/etc/mlflow/</guid>
       <description>mlflow reference deployment I discovered mlflow while researching experiment management solutions on a client engagement. I find it strikes a perfect balance of being flexible enough to be useful in many contexts and deployment configurations, while not doing &amp;ldquo;too much.&amp;rdquo;
-To help myself spin up a containerized mlflow deployment with PostGreSQL and S3 backends, I crafted a template project that demonstrated assessments of several natural language processing models. In order to answer &amp;ldquo;how does this machine-learning model work for our specific use-case?</description>
+To help myself spin up a containerized mlflow deployment with PostGreSQL and S3 backends, I crafted a template project that demonstrated assessments of several natural language processing models. In order to answer &amp;ldquo;How does this machine-learning model work for our specific use-case?</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ To help myself spin up a containerized mlflow deployment with PostGreSQL and S3 
       
       <guid>https://mpilosov.com/projects/etc/mono/</guid>
       <description>Machine Learning Mono Repo During one of my consulting engagements, I encountered a client with a situation that I feel plagues many organizations who have embraced micro-service architecture patterns. I am an advocate of the principle of separation that this design decision reflects, but I discovered that one of the implications (splitting services out into their own repositories) led to a lot of technical debt.
-Since we were working on a large legacy codebase that was being converted slowly to python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.</description>
+Since we were working on a large legacy codebase that was being converted slowly to Python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.</description>
     </item>
     
     <item>

@@ -20,4 +20,3 @@ Students had the full Python/JupyterLab experience available, but RStudio was al
 I eventually began adopting [VSCode](https://code.visualstudio.com/) as a development environment since I began leaning more into software engineering, which left me doing a lot of work in JupyterLab's Terminal.
 I discovered that this too was a web-app, one that I could proxy via JupyterHub much the same way I did with RStudio, and so I added VSCode as a development environment available in my default user environment.
 
-TODO: add some screenshots.

@@ -11,7 +11,7 @@ share: false
 During one of my consulting engagements, I encountered a client with a situation that I feel plagues many organizations who have embraced micro-service architecture patterns.
 I am an advocate of the principle of separation that this design decision reflects, but I discovered that one of the implications (splitting services out into their own repositories) led to a lot of technical debt.
 
-Since we were working on a large legacy codebase that was being converted slowly to python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.
+Since we were working on a large legacy codebase that was being converted slowly to Python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.
 The maintenance effort of managing updates in this many co-dependent packages became a major effort, and I took note of this challenge when I went onto my next engagement.
 On my next project, I had significantly more design freedom since the opportunity involved a brand new product without existing code.
 

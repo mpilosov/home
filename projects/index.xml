@@ -27,7 +27,7 @@ In short, I have been making digital art (which occasionally becomes physical) w
       <guid>https://mpilosov.com/projects/research/</guid>
       <description>Research If there&amp;rsquo;s one theme that unifies my research experience, it&amp;rsquo;s estimation.
 Most of my time was spent creating new methods to estimate truth from data, which is polluted by observational noise in the measurement process.
-I developed a new statistical method to estimate model parameters from noisy data (i.e., &amp;ldquo;fitting a model&amp;rdquo;). I used a measure-theoretic framework (developed by my advisor Dr. Troy Butler to solve a stochastic inverse problem, one involving estimation of a true parameter.</description>
+I developed a new statistical method to estimate model parameters from noisy data (i.e., &amp;ldquo;fitting a model&amp;rdquo;). I used a measure-theoretic framework (developed by my advisor Dr. Troy Butler) to solve a stochastic inverse problem, one involving estimation of a true parameter.</description>
     </item>
     
     <item>

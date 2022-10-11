@@ -37,7 +37,7 @@ In short, I have been making digital art (which occasionally becomes physical) w
       <guid>https://mpilosov.com/projects/research/</guid>
       <description>Research If there&amp;rsquo;s one theme that unifies my research experience, it&amp;rsquo;s estimation.
 Most of my time was spent creating new methods to estimate truth from data, which is polluted by observational noise in the measurement process.
-I developed a new statistical method to estimate model parameters from noisy data (i.e., &amp;ldquo;fitting a model&amp;rdquo;). I used a measure-theoretic framework (developed by my advisor Dr. Troy Butler to solve a stochastic inverse problem, one involving estimation of a true parameter.</description>
+I developed a new statistical method to estimate model parameters from noisy data (i.e., &amp;ldquo;fitting a model&amp;rdquo;). I used a measure-theoretic framework (developed by my advisor Dr. Troy Butler) to solve a stochastic inverse problem, one involving estimation of a true parameter.</description>
     </item>
     
     <item>
@@ -138,7 +138,8 @@ To help myself spin up a containerized mlflow deployment with PostGreSQL and S3 
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/etc/mono/</guid>
-      <description>Machine Learning Mono Repo During one of my consulting engagements, I encountered a client with a situation that I feel plagues many organizations who have embraced micro-service architecture patterns. I am an advocate of the principle of separation that this design decision reflects, but I discovered that one of the implications (splitting services out into their own repositories) led to a lot of technical debt. Since we were working on a large legacy codebase that was being converted slowly to python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.</description>
+      <description>Machine Learning Mono Repo During one of my consulting engagements, I encountered a client with a situation that I feel plagues many organizations who have embraced micro-service architecture patterns. I am an advocate of the principle of separation that this design decision reflects, but I discovered that one of the implications (splitting services out into their own repositories) led to a lot of technical debt.
+Since we were working on a large legacy codebase that was being converted slowly to python packages, it often occurred that changes would need to propagate to dozens of individual repos, each of which would need to ship a new release for use in the production system.</description>
     </item>
     
     <item>

@@ -14,7 +14,7 @@ If there's one theme that unifies my research experience, it's _estimation_.
 Most of my time was spent creating new methods to estimate _truth_ from _data_, which is polluted by observational noise in the measurement process.
 
 I developed a new statistical method to estimate model parameters from noisy data (i.e., "fitting a model").
-I used a measure-theoretic framework (developed by my advisor [Dr. Troy Butler](http://math.ucdenver.edu/~tbutler/) to solve a _stochastic inverse problem_, one involving estimation of a true parameter.
+I used a measure-theoretic framework (developed by my advisor [Dr. Troy Butler](http://math.ucdenver.edu/~tbutler/)) to solve a _stochastic inverse problem_, one involving estimation of a true parameter.
 
 > What makes this framework interesting is that you can incorporate your assumptions _without biasing_ your conclusions.
 > 
@@ -45,7 +45,7 @@ In this way, the computer was my laboratory: I experimented with different hypot
 
 ### Addendum
 
-At the end of my time in academia, I was unable to revisit how well it worked on the original problem that I was trying to solve involving subsurface contaminant transport, as the research group had it's funding changed and moved on to other projects.
+At the end of my time in academia, I was unable to revisit how well it worked on the original problem that I was trying to solve involving subsurface contaminant transport, as the research group had its funding changed and moved on to other projects.
 However, the approach has now been thoroughly tested against data from recent hurricane storm surge simulations (involving real data collected from buoys) and is proving extremely promising in providing accurate and precise parameter estimates.
 My work was funded by the NSF and DOE, and is in the process of being incorporated into real prediction systems to inform evacuation decisions during hurricanes (though I have only an advisory role at this point).
 

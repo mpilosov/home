@@ -14,7 +14,7 @@ However, my contributions also included the creation of a development environmen
 Furthermore, I leveraged [Github Actions](https://github.com/features/actions) to check the validity of proposed changes by ensuring the document can be compiled through a prebuilt docker image, and release a PDF as a build artifact.
 
 
-Since the story I was telling in my dissertation evolved a lot in the writing and editing process, there was a lot of "moving sections around," which created a lot of meaningless `git diff`s, making pull requests more challenging to review, and attribution of changes ("when did I write this section?", "whose proposals were these?") nearly impossible.
+Since the story I was telling in my dissertation evolved a lot in the writing and editing process, there was a lot of "moving sections around," which created a lot of meaningless `git diff`s, making pull requests more challenging to review, and attribution of changes ("when did I write this section?" "whose proposals were these?") nearly impossible.
 As paragraphs, examples, and whole sections were added, removed, and modified, I found myself having a hard time ensuring that the "latest results" were reflected in the paper.
 To facilitate a better writing experience (which in LaTeX can often feel like software engineering), I architected the project to encourage the use of modular sections with self-contained examples.
 

@@ -17,7 +17,7 @@ On my next project, I had significantly more design freedom since the opportunit
 
 There too, a micro-service approach was appropriate (modules for data pre-processing, training and assessing models have very different dependencies than the model-serving API), but I wanted a better organizational solution.
 In came [pants][pantsbuild], a build-tool from Twitter for managing mono-repos.
-This made shipping a half-dozen python packages _much_ simpler, and provided a lot of benefits such as intelligent test-caching (only re-run the subset of tests that have dependencies on changed code).
+This made shipping a half-dozen Python packages _much_ simpler, and provided a lot of benefits such as intelligent test-caching (only re-run the subset of tests that have dependencies on changed code).
 
 In any case, I am not here to advocate for `pants`, but I do want to highlight the project I created after this engagement ended.
 Along with the help of my colleague [Sami Rodrigue](https://www.linkedin.com/in/samirodrigue), I created an example repository which showcases a minimal "Machine-Learning-Oriented" project managed with `pants`, to help make a more complete example that would speak to my peers in consulting.

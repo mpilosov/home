@@ -8,7 +8,7 @@ share: false
 
 # Containerized JupyterHub
 
-In early 2017, set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it.
+In early 2017, I set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it.
 I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.
 
 

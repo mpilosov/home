@@ -20,6 +20,10 @@ I suppose it was a bit of a harbinger for my academic career: I wanted to explor
 
 My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in both hardware and software development (it started with scripting in Matlab...), and how I found a creative outlet for expression.
 
+![bldg-ss](../projects/njh/ss.jpg)
+
 To date, my biggest artistic "accomplishment" is that I wrote software that enabled the parametric design of the exterior of a hospital in Denver.
 The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect's CAD software immediately.
 This enabled the automation of part ordering and flexibility in the design (choice of colors and their relative occurrences).
+
+{{< relbutton href="/projects/etc/#actual-architecture" >}}read more about it{{< /relbutton >}}

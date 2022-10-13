@@ -133,6 +133,17 @@ To help myself spin up a containerized mlflow deployment with PostGreSQL and S3 
     </item>
     
     <item>
+      <title>actual architecture</title>
+      <link>https://mpilosov.com/projects/etc/njh/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mpilosov.com/projects/etc/njh/</guid>
+      <description>Actual Architecture A Graphical User Interface was built to assist in the parametric design of the exterior of a new hospital wing in Denver, CO.
+Six colors in varying proportions (three primary colors each with an accent) were sampled at random (with replacement) to define the visual aesthetic of the building.
+It is located at the intersection of Colfax Street &amp;amp; Colorado Boulevard and was open to the public in Spring 2022.</description>
+    </item>
+    
+    <item>
       <title>ml monorepo</title>
       <link>https://mpilosov.com/projects/etc/mono/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>

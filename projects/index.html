@@ -164,8 +164,8 @@ if (!doNotTrack) {
                                         <li>
                                             <a
                                                 class="nav-links__link"
-                                                href="#art"
-                                            >art</a>
+                                                href="#architect-engineer"
+                                            >architect &amp; engineer</a>
                                         </li>
                                     
                                 
@@ -186,8 +186,8 @@ if (!doNotTrack) {
                                         <li>
                                             <a
                                                 class="nav-links__link"
-                                                href="#architect-engineer"
-                                            >architect &amp; engineer</a>
+                                                href="#art"
+                                            >art</a>
                                         </li>
                                     
                                 
@@ -209,65 +209,48 @@ if (!doNotTrack) {
                     
                         
                             
-                                <article id="art">
+                                <article id="architect-engineer">
                                     
                                     
                                     
-                                    <h1 id="probably-art">Probably Art</h1>
-<blockquote>
-<p>I combine art, math, and machines to build wonderful things.</p>
-</blockquote>
-<p>Unfortunately, I have done a bad job of documenting these projects.</p>
-<p>Please pardon this Work-In-Progress. I promise to fill this page with content shortly.
-My priority was first to document all of the <em>other</em> projects I&rsquo;ve done.</p>
-<p>In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013.
-I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</p>
-<p>My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in both hardware and software development (it started with scripting in Matlab&hellip;), and how I found a creative outlet for expression.</p>
-<p><img src="../projects/njh/ss.jpg" alt="bldg-ss"></p>
-<p>To date, my biggest artistic &ldquo;accomplishment&rdquo; is that I wrote software that enabled the parametric design of the exterior of a hospital in Denver.
-The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect&rsquo;s CAD software immediately.
-This enabled the automation of part ordering and flexibility in the design (choice of colors and their relative occurrences).</p>
+                                    <h1 id="stuff-ive-built--why">Stuff I&rsquo;ve Built (&amp; Why)</h1>
+<p>I&rsquo;ve learned so much from free software, and want to give back by making the things I build available to others.
+I would characterize my work as falling into one of three categories:</p>
+<ul>
+<li>improving the research &amp; development experience</li>
+<li>educational resources</li>
+<li>software to support computational science</li>
+</ul>
+<p>I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.
+On this page I provide some context around why I built them.
+If you want, you can skip to the <a href="./etc">software contributions page</a>.</p>
+<h2 id="motivations">Motivations</h2>
+<p>The research I was required to conduct for my doctoral dissertation involved developing new mathematical methods in tandem with writing code that demonstrates its practical utility.
+I kept running into certain problems that undermined my productivity, including but not limited to:</p>
+<ul>
+<li>stuff worked on one machine but not another</li>
+<li>small changes would break large functionality</li>
+<li>missing dependencies (data, images) preventing reproducibility</li>
+<li>trusting my implementations were &ldquo;correct&rdquo; before sharing</li>
+</ul>
+<p>These issues led me to adopt tools like containers for setting up a reproducible computational environment, git for tracking versions of my work, and software packaging (including testing) for ensuring the integrity of my contributions.
+I wanted to make it so that other people wouldn&rsquo;t have to trip against the same roadblocks that I did.
+Furthermore, I noticed that professors who were trying to adopt more computational work into their curriculum were struggling to help students set up an environment on their personal computers that would enable them to do their coursework.</p>
+<h2 id="solutions">Solutions</h2>
+<p>I took initiative to solve these problems.
+I set up <a href="/projects/etc/#containerized-jupyterhub">JupyterHub</a> at CU Denver and onboarded much of my math department to a browser-based development workflow.
+I maintained this deployment for many years with upgrades on a fork of a Project Jupyter <a href="https://github.com/jupyterhub/jupyterhub-deploy-docker">reference deployment</a>, and eventually published a &ldquo;template&rdquo; under the <a href="https://github.com/ml-starter-packs">ml-starter-packs</a> organization after using it years post-graduation (including with clients).</p>
+<p>Under the name of that Github organization, I also began to publish templates when teaching internal workshops on the <a href="./etc/#microservices-for-ml">deployment of machine-learning models</a> and exposing their functionality through APIs.
+I also began adopting the use of <a href="https://mlflow.org">mlflow</a> and advocating for its use in tracking experiments during the research and development lifecycle, so I created a <a href="/projects/etc/#mlflow-example">containerized deployment</a> template to help others get started by providing a complete working example.</p>
+<p>I discuss software related to my research on the <a href="#estimation">estimation</a> page and provide references to the associated code there, as I made all of my results available as open-source Python packages published on PyPi.
+However, one of the projects of which I&rsquo;m most proud was the demonstration of Continuous Integration &amp; Deployment principles in the publication of my <a href="https://github.com/mathematicalmichael/thesis">doctoral dissertation</a>, which I used to create a <a href="/projects/etc/#dissertation-template">template for others to use</a>.</p>
 
 
-<a href="/projects/etc/#actual-architecture"  class="button">read more about it</a>
+<a href="/projects/etc"  class="button">software contributions</a>
 
 
                                     
                                     
-
-<div class="social-icons">
-  <a class="twitter" href="https://twitter.com/intent/tweet?text=art&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f"
-    target="_blank" rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path
-        d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z">
-      </path>
-    </svg>
-  </a>
-  <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f" target="_blank"
-    rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="currentColor">
-      <path
-        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-    </svg>
-  </a>
-  <a class="linkedin"
-    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f&amp;title=art"
-    target="_blank" rel="noopener">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
-      <path
-        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-      </svg>
-  </a>
-  <a class="email" href="mailto:?subject=art&amp;body=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
-      <path
-        d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z" />
-    </svg>
-  </a>
-</div>
-
                                 </article>
                             
                         
@@ -379,48 +362,65 @@ I combined these two things and built many versions of what eventually became Th
                     
                         
                             
-                                <article id="architect-engineer">
+                                <article id="art">
                                     
                                     
                                     
-                                    <h1 id="stuff-ive-built--why">Stuff I&rsquo;ve Built (&amp; Why)</h1>
-<p>I&rsquo;ve learned so much from free software, and want to give back by making the things I build available to others.
-I would characterize my work as falling into one of three categories:</p>
-<ul>
-<li>improving the research &amp; development experience</li>
-<li>educational resources</li>
-<li>software to support computational science</li>
-</ul>
-<p>I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.
-On this page I provide some context around why I built them.
-If you want, you can skip to the <a href="./etc">software contributions page</a>.</p>
-<h2 id="motivations">Motivations</h2>
-<p>The research I was required to conduct for my doctoral dissertation involved developing new mathematical methods in tandem with writing code that demonstrates its practical utility.
-I kept running into certain problems that undermined my productivity, including but not limited to:</p>
-<ul>
-<li>stuff worked on one machine but not another</li>
-<li>small changes would break large functionality</li>
-<li>missing dependencies (data, images) preventing reproducibility</li>
-<li>trusting my implementations were &ldquo;correct&rdquo; before sharing</li>
-</ul>
-<p>These issues led me to adopt tools like containers for setting up a reproducible computational environment, git for tracking versions of my work, and software packaging (including testing) for ensuring the integrity of my contributions.
-I wanted to make it so that other people wouldn&rsquo;t have to trip against the same roadblocks that I did.
-Furthermore, I noticed that professors who were trying to adopt more computational work into their curriculum were struggling to help students set up an environment on their personal computers that would enable them to do their coursework.</p>
-<h2 id="solutions">Solutions</h2>
-<p>I took initiative to solve these problems.
-I set up <a href="/projects/etc/#jupyterhub-deploy-docker">JupyterHub</a> at CU Denver and onboarded much of my math department to a browser-based development workflow.
-I maintained this deployment for many years with upgrades on a fork of a Project Jupyter <a href="https://github.com/jupyter/jupyterhub-deploy-docker">reference deployment</a>, and eventually published a &ldquo;template&rdquo; under the <a href="https://github.com/ml-starter-packs">ml-starter-packs</a> organization after using it years post-graduation (including with clients).</p>
-<p>Under the name of that Github organization, I also began to publish templates when teaching internal workshops on the <a href="./etc/#microservices-for-ml">deployment of machine-learning models</a> and exposing their functionality through APIs.
-I also began adopting the use of <a href="https://mlflow.org">mlflow</a> and advocating for its use in tracking experiments during the research and development lifecycle, so I created a <a href="/projects/etc/#mlflow-example">containerized deployment</a> template to help others get started by providing a complete working example.</p>
-<p>I discuss software related to my research on the <a href="#estimation">estimation</a> page and provide references to the associated code there, as I made all of my results available as open-source Python packages published on PyPi.
-However, one of the projects of which I&rsquo;m most proud was the demonstration of Continuous Integration &amp; Deployment principles in the publication of my <a href="https://github.com/mathematicalmichael/thesis">doctoral dissertation</a>, which I used to create a <a href="/projects/etc/#dissertation-template">template for others to use</a>.</p>
+                                    <h1 id="probably-art">Probably Art</h1>
+<blockquote>
+<p>I combine art, math, and machines to build wonderful things.</p>
+</blockquote>
+<p>Unfortunately, I have done a bad job of documenting these projects.</p>
+<p>Please pardon this Work-In-Progress. I promise to fill this page with content shortly.
+My priority was first to document all of the <em>other</em> projects I&rsquo;ve done.</p>
+<p>In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013.
+I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</p>
+<p>My art projects were actually how I learned to program, they were how I pushed the boundaries of my knowledge in both hardware and software development (it started with scripting in Matlab&hellip;), and how I found a creative outlet for expression.</p>
+<p><img src="../projects/njh/ss.jpg" alt="bldg-ss"></p>
+<p>To date, my biggest artistic &ldquo;accomplishment&rdquo; is that I wrote software that enabled the parametric design of the exterior of a hospital in Denver.
+The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect&rsquo;s CAD software immediately.
+This enabled the automation of part ordering and flexibility in the design (choice of colors and their relative occurrences).</p>
 
 
-<a href="/projects/etc"  class="button">software contributions</a>
+<a href="/projects/etc/#actual-architecture"  class="button">read more about it</a>
 
 
                                     
                                     
+
+<div class="social-icons">
+  <a class="twitter" href="https://twitter.com/intent/tweet?text=art&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f"
+    target="_blank" rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path
+        d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z">
+      </path>
+    </svg>
+  </a>
+  <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f" target="_blank"
+    rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="currentColor">
+      <path
+        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+    </svg>
+  </a>
+  <a class="linkedin"
+    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f&amp;title=art"
+    target="_blank" rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+      <path
+        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+      </svg>
+  </a>
+  <a class="email" href="mailto:?subject=art&amp;body=https%3a%2f%2fmpilosov.com%2fprojects%2fart%2f">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+      <path
+        d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z" />
+    </svg>
+  </a>
+</div>
+
                                 </article>
                             
                         

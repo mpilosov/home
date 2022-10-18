@@ -8,15 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mpilosov.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>art</title>
-      <link>https://mpilosov.com/projects/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>architect &amp; engineer</title>
+      <link>https://mpilosov.com/projects/engineer/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mpilosov.com/projects/art/</guid>
-      <description>Probably Art I combine art, math, and machines to build wonderful things.
-Unfortunately, I have done a bad job of documenting these projects.
-Please pardon this Work-In-Progress. I promise to fill this page with content shortly. My priority was first to document all of the other projects I&amp;rsquo;ve done.
-In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013. I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</description>
+      <guid>https://mpilosov.com/projects/engineer/</guid>
+      <description>Stuff I&amp;rsquo;ve Built (&amp;amp; Why) I&amp;rsquo;ve learned so much from free software, and want to give back by making the things I build available to others. I would characterize my work as falling into one of three categories:
+improving the research &amp;amp; development experience educational resources software to support computational science I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.</description>
     </item>
     
     <item>
@@ -31,13 +29,15 @@ I developed a new statistical method to estimate model parameters from noisy dat
     </item>
     
     <item>
-      <title>architect &amp; engineer</title>
-      <link>https://mpilosov.com/projects/engineer/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      <title>art</title>
+      <link>https://mpilosov.com/projects/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mpilosov.com/projects/engineer/</guid>
-      <description>Stuff I&amp;rsquo;ve Built (&amp;amp; Why) I&amp;rsquo;ve learned so much from free software, and want to give back by making the things I build available to others. I would characterize my work as falling into one of three categories:
-improving the research &amp;amp; development experience educational resources software to support computational science I believe in making complicated things easier for people to digest, and I often feel that software helps achieve that goal.</description>
+      <guid>https://mpilosov.com/projects/art/</guid>
+      <description>Probably Art I combine art, math, and machines to build wonderful things.
+Unfortunately, I have done a bad job of documenting these projects.
+Please pardon this Work-In-Progress. I promise to fill this page with content shortly. My priority was first to document all of the other projects I&amp;rsquo;ve done.
+In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013. I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</description>
     </item>
     
   </channel>

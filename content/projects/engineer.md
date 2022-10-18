@@ -1,7 +1,7 @@
 ---
 title: architect & engineer
 date: 2018-07-21
-weight: 20
+weight: 1
 timestamp: false
 share: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: architect & engineer
 date: 2018-07-21
-weight: 20
+weight: 1
 timestamp: false
 share: false
 ---
@@ -33,7 +33,7 @@ Furthermore, I noticed that professors who were trying to adopt more computation
 
 ## Solutions
 I took initiative to solve these problems. 
-I set up [JupyterHub](/projects/etc/#jupyterhub-deploy-docker) at CU Denver and onboarded much of my math department to a browser-based development workflow.
+I set up [JupyterHub](/projects/etc/#containerized-jupyterhub) at CU Denver and onboarded much of my math department to a browser-based development workflow.
 I maintained this deployment for many years with upgrades on a fork of a Project Jupyter [reference deployment][jdd-orig], and eventually published a "template" under the [ml-starter-packs][org] organization after using it years post-graduation (including with clients).
 
 Under the name of that Github organization, I also began to publish templates when teaching internal workshops on the [deployment of machine-learning models](./etc/#microservices-for-ml) and exposing their functionality through APIs.
@@ -48,7 +48,7 @@ However, one of the projects of which I'm most proud was the demonstration of Co
 
 
 [org]: https://github.com/ml-starter-packs
-[jdd-orig]: https://github.com/jupyter/jupyterhub-deploy-docker
+[jdd-orig]: https://github.com/jupyterhub/jupyterhub-deploy-docker
 [jhub]: https://github.com/jupyter/jupyterhub
 
 [jdd]: https://github.com/ml-starter-packs/jupyterhub-deploy-docker

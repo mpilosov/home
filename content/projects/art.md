@@ -1,6 +1,6 @@
 ---
 title: art
-weight: 01
+weight: 30
 # date: 2013-09-21
 # image: ../bg/notes.jpg
 timestamp: true

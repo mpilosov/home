@@ -19,5 +19,5 @@ I am now a somewhat-active maintainer of the project, in large part because I pe
 
 
 [gpus]: https://github.com/iot-salzburg/gpu-jupyter
-[stacks]: https://github.com/jupyter/jupyter-docker-stacks
+[stacks]: https://github.com/jupyter/docker-stacks
 [actions]: https://github.com/features/actions

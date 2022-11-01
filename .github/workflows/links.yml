@@ -12,14 +12,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
+      - name: create .lycheeignore
+        run: |
+          echo "*.jpg" >> .lycheeignore
+          echo "*.png" >> .lycheeignore
+          echo "*.pdf" >> .lycheeignore
+          echo "*.webp" >> .lycheeignore
+          echo "*formspree.io*" >> .lycheeignore
+          echo "*mindthemath.com*" >> .lycheeignore
 
-      - name: Lychee Link Checker
+      - name: cheeck links
         id: lychee
         uses: lycheeverse/lychee-action@v1.5.1
+        with:
+          args: --verbose './**/*.md'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Create Issue From File
+      - name: create issue
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v4
         with:

@@ -6,15 +6,22 @@ social: true
 share: false
 ---
 
- # get in touch
+# get in touch
 Let’s work together! Do you need me to:
 - Teach a workshop?
-- Help improve your developer experience (both cloud and workstation)?
+- Help improve your developer experience?
 - Modernize your Python packaging process? 
 - Build a software products?  
 
 _Something else?_  
 
+{{< button href="https://calendly.com/pilosov/20min">}}Schedule a Call{{< /button >}}
+
+{{< rawhtml >}}
+<center>
+OR
+</center>
+{{< /rawhtml >}}
 
 {{< rawhtml >}}
 <form

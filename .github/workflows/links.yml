@@ -15,12 +15,12 @@ jobs:
       
       - name: create .lycheeignore
         run: |
-          echo "*.jpg" >> .lycheeignore
-          echo "*.png" >> .lycheeignore
-          echo "*.pdf" >> .lycheeignore
-          echo "*.webp" >> .lycheeignore
-          echo "*formspree.io*" >> .lycheeignore
-          echo "*mindthemath.com*" >> .lycheeignore
+          echo "[a-zA-Z]*[0-9]*.jpg" >> .lycheeignore
+          echo "[a-zA-Z]*[0-9]*.png" >> .lycheeignore
+          echo "[a-zA-Z]*[0-9]*.pdf" >> .lycheeignore
+          echo "[a-zA-Z]*[0-9]*.webp" >> .lycheeignore
+          echo "https://formspree.io[a-zA-Z]*[0-9]*" >> .lycheeignore
+          echo "https://mindthemath.com[a-zA-Z]*[0-9]*" >> .lycheeignore
 
       - name: cheeck links
         id: lychee

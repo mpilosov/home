@@ -20,9 +20,10 @@ jobs:
           echo "[a-zA-Z]*[0-9]*.pdf" >> .lycheeignore
           echo "[a-zA-Z]*[0-9]*.webp" >> .lycheeignore
           echo "https://formspree.io[a-zA-Z]*[0-9]*" >> .lycheeignore
+          echo "https://www.linkedin.com/in/[a-zA-Z]*[0-9]*" >> .lycheeignore
           echo "https://mindthemath.com[a-zA-Z]*[0-9]*" >> .lycheeignore
 
-      - name: cheeck links
+      - name: check links
         id: lychee
         uses: lycheeverse/lychee-action@v1.5.1
         with:

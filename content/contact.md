@@ -11,7 +11,7 @@ Let’s work together! Do you need me to:
 - Teach a workshop?
 - Help improve your developer experience?
 - Modernize your Python packaging process? 
-- Build a software products?  
+- Build a software product?  
 
 _Something else?_  
 
@@ -25,7 +25,7 @@ OR
 
 {{< rawhtml >}}
 <form
-  action="https://formspree.io/f/mpilosov@gmail.com"
+  action="https://formspree.io/f/mpznonag"
   method="POST"
 >
   <label>

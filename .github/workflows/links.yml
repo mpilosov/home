@@ -2,7 +2,7 @@ name: check links
 
 on:
   schedule:
-    - cron: '42 04 * * *'
+    - cron: '42 04 */4 * *'
   pull_request:
     branches:
       - "*"

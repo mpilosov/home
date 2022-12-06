@@ -9,7 +9,7 @@ I am a Third Generation Artist, Machine Learning Architect, and Scientific Softw
 
 # I am Michael Pilosov
 
-![portrait](./profile.webp)
+![](./profile.webp)
 
 I enable people to answer their toughest questions by using mathematics to quantify and reduce uncertainty.
 

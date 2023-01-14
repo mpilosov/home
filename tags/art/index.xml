@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>art on Mathematical Michael</title>
+    <link>https://mpilosov.com/tags/art/</link>
+    <description>Recent content in art on Mathematical Michael</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mpilosov.com/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>art</title>
+      <link>https://mpilosov.com/projects/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mpilosov.com/projects/art/</guid>
+      <description>Probably Art I combine art, math, and machines to build wonderful things.
+Unfortunately, I have done a bad job of documenting these projects.
+Please pardon this Work-In-Progress. I promise to fill this page with content shortly. My priority was first to document all of the other projects I&amp;rsquo;ve done.
+In short, I have been making digital art (which occasionally becomes physical) with the use of randomness since 2013. I suppose it was a bit of a harbinger for my academic career: I wanted to explore the impact of probability distributions on some (here, visual) outcome through the use of software built and run on computers.</description>
+    </item>
+    
+  </channel>
+</rss>

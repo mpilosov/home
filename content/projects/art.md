@@ -4,6 +4,7 @@ weight: 30
 # date: 2013-09-21
 # image: ../bg/notes.jpg
 timestamp: true
+tags: ["art"]
 ---
 
 # Probably Art

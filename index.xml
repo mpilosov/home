@@ -87,7 +87,7 @@ Schedule a Call </description>
       <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mpilosov.com/projects/etc/jhub/</guid>
-      <description>Containerized JupyterHub In early 2017, I set up a docker-based deployment of [JupyterHub][jhub] on a server in my academic department and onboarded almost every professor using Python to use it. I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.
+      <description>Containerized JupyterHub In early 2017, I set up a docker-based deployment of JupyterHub on a server in my academic department and onboarded almost every professor using Python to use it. I created development environments suited to each course and enabled professors to give their students a browser-based development environment which allowed them to be productive from day one, no setup required.
 jupyterhub-deploy-docker To support the statisticians in my department who were using R instead of Python, I built a containerized RStudio + RShiny server that would launch through JupyterHub via an nginx-proxy server.</description>
     </item>
     

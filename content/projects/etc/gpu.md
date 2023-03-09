@@ -13,7 +13,7 @@ This presented me with a new problem: none of my existing containerized developm
 
 In comes [gpu-jupyter][gpus], a project which provided Dockerfiles that mirrored the [jupyter-docker-stacks][stacks] but built on Nvidia-published base-images.
 I found this repository _almost_ worked for me, so I began contributing fixes and improvements to it regularly, including the automation of building and publishing images with [Github Actions][actions].
-I am now a somewhat-active maintainer of the project, in large part because I personally depend on for my own JupyterHub deployment, and like to keep things up-to-date.
+I am now a somewhat-active maintainer of the project, in large part because I personally depend on it for my own JupyterHub deployment, and like to keep things up-to-date.
 
 {{< button href="https://github.com/iot-salzburg/gpu-jupyter">}}gpu-jupyter{{< /button >}}
 

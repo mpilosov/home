@@ -31,7 +31,6 @@ Lines of code are also my favorite media to work with when creating [beautiful t
 
 As much as I enjoy [software engineering](./projects/#architect-engineer), I also love teaching people how to use the tools I build, and even how to build new tools on their own. I'm passionate about making complex concepts approachable to the curious-minded. 
 
-I am also available for [consulting](./#connect) of various kinds.
 
 {{< rawhtml >}}
 <p style="margin-bottom:0.5rem">

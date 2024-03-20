@@ -65,4 +65,3 @@ However, one of the projects of which I'm most proud was the demonstration of Co
 [mudex]: https://github.com/mathematicalmichael/mud-examples
 [diss-temp]: https://github.com/mathematicalmichael/dissertation-template
 [diss]: https://github.com/mathematicalmichael/thesis
-[mtg]: https://github.com/mindthegrow/

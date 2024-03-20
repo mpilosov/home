@@ -18,13 +18,13 @@ I worked to develop new ways of quantifying and reducing uncertainty.
 ## Mind the Grow
 here I [embed][site] a link in a sentence to give context
 
-{{< button href="https://mindthegrow.com" >}}Code{{< /button >}}
+{{< button href="https://mlden.com" >}}Code{{< /button >}}
 <br>
 
 
 ## Math Club
-{{< button href="https://mindthegrow.com" >}}Repository{{< /button >}}
-{{< button href="https://mindthegrow.com" >}}Archive{{< /button >}}
+{{< button href="https://mlden.com" >}}Repository{{< /button >}}
+{{< button href="https://mlden.com" >}}Archive{{< /button >}}
 
 
 ## Twitterbots

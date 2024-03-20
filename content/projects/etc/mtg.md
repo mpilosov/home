@@ -4,6 +4,7 @@ date: 2018-07-21
 weight: 25
 timestamp: false
 share: false
+draft: true
 ---
 
 # Mind the Grow

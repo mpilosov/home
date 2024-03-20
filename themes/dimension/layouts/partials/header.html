@@ -25,7 +25,7 @@
     <script defer src={{ "assets/js/util.js" | relURL }}></script>
     <script defer src="{{ "assets/js/main.js" | relURL }}?v={{ .Site.Params.version }}"></script>
 
-    {{ if .Page.Params.particles }}
+    {{ if not .Page.Params.hideParticles }}
         {{ $particlesJs := resources.Get "js/particles.js" | resources.Minify | resources.Fingerprint "sha512" }}
         {{ $particlesConfig := resources.Get "js/particles.json" | resources.Minify | resources.Fingerprint "sha512" }}
         <script type="module">

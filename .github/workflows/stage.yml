@@ -64,6 +64,7 @@ jobs:
       - name: build stage
         run: hugo --baseURL=http://clfx.cc/mm/${{ steps.vars.outputs.branch }}
 
+      # ~/out is bind-mounted to the drive hosting the staging site
       - name: deploy stage
         run: |
           rm -rf ~/out/mm/${{ steps.vars.outputs.branch }}

@@ -72,16 +72,6 @@ Heads +1, Tails -1. Keep a running sum.</description>
     </item>
     
     <item>
-      <title>Cafelytics</title>
-      <link>https://mpilosov.com/projects/etc/mtg/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mpilosov.com/projects/etc/mtg/</guid>
-      <description>Mind the Grow Mind the Grow was a company I started with the hopes of writing and supporting software to help with agricultural planning.
-The scope is not some complicated forecasting model based on historical data, but rather a decision-making toolbox (&amp;ldquo;should I buy more land?&amp;rdquo;, &amp;ldquo;what mix of crops should I plant?&amp;rdquo;, &amp;ldquo;how should I plan crop rotations?&amp;rdquo;, etc), focused on solving a set of problems I encountered when volunteering with a coffee cooperative in 2012.</description>
-    </item>
-    
-    <item>
       <title>connect</title>
       <link>https://mpilosov.com/contact/</link>
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>

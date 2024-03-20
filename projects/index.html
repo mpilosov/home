@@ -26,6 +26,17 @@
     <script defer src="/assets/js/main.js?v=2"></script>
 
     
+        
+        
+        <script type="module">
+            setTimeout(async () => {
+                await import("/js/particles.min.b51a2793044ee9590aa7907d29fdbc5597dca54ac5aa828409ad165d5ce6b1e50ab32c00139b4b59494600907ddd9417ed732fae4ebea7c6c0baeadaaa412f60.js");
+                particlesJS.load('wrapper', "/js/particles.min.0564d1a0aa5610e88baafce1a20af3de5c5be2266615ef65165367474d702420c510bfa0276a79fc5f58f2884ff79b86149e6cc48e7f5de025deff6873ce7b2b.json", function() {
+                    console.log('callback - particles.js config loaded');
+                });
+            }, 1500);
+        </script>
+    
 
     <link rel="canonical" href="https://mpilosov.com/projects/">
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css"/></noscript>
@@ -302,7 +313,7 @@ However, one of the projects of which I&rsquo;m most proud was the demonstration
 <p>If there&rsquo;s one theme that unifies my research experience, it&rsquo;s <em>estimation</em>.</p>
 <p>Most of my time was spent creating new methods to estimate <em>truth</em> from <em>data</em>, which is polluted by observational noise in the measurement process.</p>
 <p>I developed a new statistical method to estimate model parameters from noisy data (i.e., &ldquo;fitting a model&rdquo;).
-I used a measure-theoretic framework (developed by my advisor <a href="http://math.ucdenver.edu/~tbutler/">Dr. Troy Butler</a>) to solve a <em>stochastic inverse problem</em>, one involving estimation of a true parameter.</p>
+I used a measure-theoretic framework (developed by my advisor <a href="https://clas.ucdenver.edu/mathematical-and-statistical-sciences/troy-butler">Dr. Troy Butler</a>) to solve a <em>stochastic inverse problem</em>, one involving estimation of a true parameter.</p>
 <blockquote>
 <p>What makes this framework interesting is that you can incorporate your assumptions <em>without biasing</em> your conclusions.</p>
 <p>This is accomplished by the construction of a <em>specialized regularization term</em> by solving an associated <em>stochastic forward problem</em>.</p>

@@ -14,7 +14,7 @@ If there's one theme that unifies my research experience, it's _estimation_.
 Most of my time was spent creating new methods to estimate _truth_ from _data_, which is polluted by observational noise in the measurement process.
 
 I developed a new statistical method to estimate model parameters from noisy data (i.e., "fitting a model").
-I used a measure-theoretic framework (developed by my advisor [Dr. Troy Butler](http://math.ucdenver.edu/~tbutler/)) to solve a _stochastic inverse problem_, one involving estimation of a true parameter.
+I used a measure-theoretic framework (developed by my advisor [Dr. Troy Butler](https://clas.ucdenver.edu/mathematical-and-statistical-sciences/troy-butler)) to solve a _stochastic inverse problem_, one involving estimation of a true parameter.
 
 > What makes this framework interesting is that you can incorporate your assumptions _without biasing_ your conclusions.
 > 

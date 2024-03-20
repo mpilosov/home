@@ -96,4 +96,3 @@ Some information about it:
 [mudex]: https://github.com/mathematicalmichael/mud-examples
 [diss-temp]: https://github.com/mathematicalmichael/dissertation-template
 [diss]: https://github.com/mathematicalmichael/thesis
-[mtg]: https://github.com/mindthegrow/

@@ -1532,7 +1532,7 @@ window.particlesJS = function (tag_id, params) {
 
   /* set size canvas */
   canvas_el.style.width = "100%";
-  canvas_el.style.height = "100%";
+  canvas_el.style.height = "50em";
 
   /* append canvas */
   var canvas = document

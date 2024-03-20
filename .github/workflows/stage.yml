@@ -58,17 +58,18 @@ jobs:
 
       - name: deploy hash
         run: |
-          mkdir -p /tmp/out/mm/${{ steps.vars.outputs.sha_short }}
-          cp -R public/* /tmp/out/mm/${{ steps.vars.outputs.sha_short }}/
+          mkdir -p ~/out/mm/${{ steps.vars.outputs.sha_short }}
+          cp -R public/* ~/out/mm/${{ steps.vars.outputs.sha_short }}/
 
       - name: build stage
         run: hugo --baseURL=http://clfx.cc/mm/${{ steps.vars.outputs.branch }}
 
+      # ~/out is bind-mounted to the drive hosting the staging site
       - name: deploy stage
         run: |
-          rm -rf /tmp/out/mm/${{ steps.vars.outputs.branch }}
-          mkdir -p /tmp/out/mm/${{ steps.vars.outputs.branch }}
-          cp -R public/* /tmp/out/mm/${{ steps.vars.outputs.branch }}
+          rm -rf ~/out/mm/${{ steps.vars.outputs.branch }}
+          mkdir -p ~/out/mm/${{ steps.vars.outputs.branch }}
+          cp -R public/* ~/out/mm/${{ steps.vars.outputs.branch }}
 
       - name: find staging comment
         uses: peter-evans/find-comment@v2

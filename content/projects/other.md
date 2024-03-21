@@ -33,7 +33,7 @@ here I [embed][site] a link in a sentence to give context
 <br>
 
 ## Consulting
-{{< button href="https://mindthemath.com/resources" >}}Visit Website{{< /button >}}
+{{< button href="https://mindthemath.com" >}}Visit Website{{< /button >}}
 
 [site-2]: https://oracle.math.computer
 [site]: https://oracle.math.computer

@@ -21,7 +21,7 @@ jobs:
           echo "[a-zA-Z]*[0-9]*.webp" >> .lycheeignore
           echo "https://formspree.io[a-zA-Z]*[0-9]*" >> .lycheeignore
           echo "https://www.linkedin.com/in/[a-zA-Z]*[0-9]*" >> .lycheeignore
-          echo "https://mindthegrow.com[a-zA-Z]*[0-9]*" >> .lycheeignore
+          echo "https://www.mindthegrow.com/[a-zA-Z]*[0-9]*" >> .lycheeignore
 
       - name: check links
         id: lychee

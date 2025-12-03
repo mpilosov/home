@@ -17,9 +17,17 @@ It is located at the intersection of Colfax Street & Colorado Boulevard and was 
 
 The work was primarily carried out in late 2019, early 2020.
 
+![entrance](../../projects/njh/entrance.avif)
+![bridge](../../projects/njh/bridge.avif)
+![side](../../projects/njh/side.avif)
+![interior](../../projects/njh/interior.avif)
+
 Tools used:
 - `grasshopper` via Python
 - `C#` for bindings to AutoCAD
+
+![workflow-zoom](../../projects/njh/grasshopper-zoom.avif)
+![workflow](../../projects/njh/workflow.avif)
 
 In collaboration with:
 - Ron Bailie

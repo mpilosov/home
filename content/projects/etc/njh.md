@@ -28,6 +28,8 @@ Tools used:
 
 ![workflow-zoom](../../projects/njh/grasshopper-zoom.avif)
 ![workflow](../../projects/njh/workflow.avif)
+![workflow](../../projects/njh/workflow1.avif)
+![workflow](../../projects/njh/workflow2.avif)
 
 In collaboration with:
 - Ron Bailie

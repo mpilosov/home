@@ -42,15 +42,15 @@ jobs:
         shell: bash
         run: |
           if [ ${{github.event_name}} == 'pull_request' ]; then
-            echo "::set-output name=sha_short::$(git rev-parse --short HEAD^2)"
+            echo "sha_short=$(git rev-parse --short HEAD^2)" >> $GITHUB_OUTPUT
             TARGET_BRANCH=${{ github.event.pull_request.head.ref }}
             MERGE_REQUEST=$(git describe --all | sed -s 's/remotes\///g' | sed -s 's/\/merge//g')
-            echo "::set-output name=branch::${MERGE_REQUEST:=${TARGET_BRANCH}}"
+            echo "branch=${MERGE_REQUEST:=${TARGET_BRANCH}}" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+            echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
             DEFAULT_BRANCH=${{ github.ref_name }}
             EXTRACT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-            echo "::set-output name=branch::${EXTRACT_BRANCH:=${DEFAULT_BRANCH}}"
+            echo "branch=${EXTRACT_BRANCH:=${DEFAULT_BRANCH}}" >> $GITHUB_OUTPUT
           fi
 
       - name: build hash

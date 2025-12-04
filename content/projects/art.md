@@ -33,4 +33,4 @@ To date, my biggest artistic "accomplishment" is that I wrote software that enab
 The colors of the glass windows were chosen at random through simulation in proportions that could be changed interactively and show up in the Architect's CAD software immediately.
 This enabled the automation of part ordering and flexibility in the design (choice of colors and their relative occurrences).
 
-{{< relbutton href="/projects/etc/#actual-architecture" >}}read more about it{{< /relbutton >}}
+{{< relbutton href="./etc/#actual-architecture" >}}read more about it{{< /relbutton >}}

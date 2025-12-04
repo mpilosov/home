@@ -44,7 +44,7 @@ I discuss software related to my research on the [estimation](#estimation) page 
 However, one of the projects of which I'm most proud was the demonstration of Continuous Integration & Deployment principles in the publication of my [doctoral dissertation][diss], which I used to create a [template for others to use](/projects/etc/#dissertation-template).
 
 
-{{< relbutton href="/projects/etc" >}}software contributions{{< /relbutton >}}
+{{< relbutton href="./etc" >}}software contributions{{< /relbutton >}}
 
 
 [org]: https://github.com/ml-starter-packs

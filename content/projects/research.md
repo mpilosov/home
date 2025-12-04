@@ -60,7 +60,7 @@ I combined these two things and built many versions of what eventually became Th
 
 [The Oracle](https://oracle.math.computer) is a web app I built to help me make quick estimates without keeping them in my head (and then share them!).
 
-{{< relbutton href="/projects/etc/#the-oracle">}}Read More{{< /relbutton >}}
+{{< relbutton href="./etc/#the-oracle">}}Read More{{< /relbutton >}}
 
 
 ## MUD

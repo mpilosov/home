@@ -21,7 +21,7 @@ My art projects were actually how I learned to program, they were how I pushed t
 ## Hues of Intelligence
 In 2024, I launched "Hues of Intelligence," a conceptual project that asked the questions "can machines discover the rainbow?"
 
-![hue](https://fs.clfx.cc/i/h/hsv.png)
+![hue](https://data.math.computer/hsv.png)
 
 {{< button href="https://hues.mpilosov.com" >}}visit project site{{< /button >}}
 
